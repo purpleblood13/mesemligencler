@@ -1,0 +1,21 @@
+/* Bize ulaş: kısa iletişim formu. */
+.contact { width: min(100% - 2rem, 32rem); margin-inline: auto; }
+.contact-form { display: grid; gap: 1.25rem; }
+.field { display: grid; gap: .45rem; }
+.field label { font-weight: 600; }
+.field small { color: var(--muted); font-size: .88rem; }
+.field input {
+  min-height: 52px; padding: 0 1rem; font: inherit; font-size: 1.05rem; color: var(--ink);
+  background: var(--surface); border: 1px solid var(--line-strong); border-radius: 12px;
+}
+.field input:focus-visible { outline: 2px solid var(--c1); outline-offset: 2px; }
+.field input[aria-invalid="true"] { border-color: var(--c1); }
+.field .error { color: #ff8a77; font-size: .92rem; min-height: 0; }
+.contact-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.contact-form .btn { width: 100%; min-height: 54px; font-size: 1.05rem; border: 0; cursor: pointer; font-family: inherit; }
+.contact-form .btn:disabled { opacity: .6; cursor: progress; }
+.contact-note { color: var(--muted); font-size: .92rem; margin: 0; }
+.contact-status { padding: 1rem 1.1rem; border-radius: 14px; background: var(--surface); line-height: 1.5; }
+.contact-status[hidden] { display: none; }
+.contact-status--ok { border: 1px solid var(--c3); }
+.contact-status--error { border: 1px solid var(--c1); }

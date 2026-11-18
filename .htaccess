@@ -1,0 +1,4 @@
+# voltran.space/mesemli-gencler: yalnızca bu klasörü etkiler.
+# Kök dizindeki .htaccess'e dokunulmaz (SPA yönlendirmesi ve güvenlik başlıkları orada).
+Options -Indexes
+DirectoryIndex index.html

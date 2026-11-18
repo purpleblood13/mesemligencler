@@ -1,0 +1,140 @@
+/* Akış sayfaları (haberler, önergeler): tek sütunlu, sosyal medya gibi kayan kartlar.
+   Önerge kartları Emek Partisi'nin "SORU ÖNERGESİ" Instagram şablonunu izler. */
+
+.wrap--feed { width: min(100% - 2rem, 37.5rem); margin-inline: auto; }
+
+/* ---------- Süzgeç çubuğu ---------- */
+.feed-controls {
+  position: sticky; top: var(--header-h); z-index: 20;
+  margin-inline: -1rem; padding: .75rem 1rem .5rem;
+  background: color-mix(in oklab, var(--bg) 88%, transparent);
+  backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+}
+/* Dar ekranda arama ve süzgeç sayfada durmaz. Header'daki düğmeyle açılınca, sayfada nereye kaydırdıysan
+   başlığın hemen altına iner; düğmeye tekrar basınca kapanır. */
+@media (max-width: 1160px) {
+  .feed-controls {
+    position: fixed; top: var(--header-h); left: 0; right: 0; z-index: 30; margin: 0; display: none;
+    padding: .9rem max(1rem, calc((100% - 37.5rem) / 2)) .8rem;
+    background: color-mix(in oklab, var(--bg) 96%, transparent);
+    backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+    border-bottom: 1px solid var(--line); box-shadow: 0 14px 28px rgb(0 0 0 / .45);
+  }
+  .feed-controls.is-open { display: block; animation: feed-controls-in .22s cubic-bezier(.16, 1, .3, 1); }
+  .feed-controls .filters { margin: 0; padding: 0 0 .25rem; }
+}
+@keyframes feed-controls-in { from { opacity: 0; transform: translateY(-8px); } }
+@media (prefers-reduced-motion: reduce) { .feed-controls.is-open { animation: none; } }
+.feed-controls .search { max-width: none; margin-bottom: .6rem; }
+.feed-controls .filters {
+  flex-wrap: nowrap; overflow-x: auto; margin: 0 -1rem; padding: 0 1rem .25rem;
+  scrollbar-width: none; overscroll-behavior-x: contain;
+}
+.feed-controls .filters::-webkit-scrollbar { display: none; }
+.feed-controls .chip { flex: none; }
+.feed-list { margin-top: 1.25rem; }
+
+/* ---------- Gün başlığı ---------- */
+.day { display: flex; flex-direction: column; gap: .3rem; margin: 3.25rem 0 1.25rem; font-size: clamp(1.45rem, 3.6vw, 1.85rem); line-height: 1.15; }
+.day small { font-family: var(--font-body); font-size: .95rem; font-weight: 500; letter-spacing: 0; color: var(--muted); }
+.feed-list > .day:first-child { margin-top: 1.75rem; }
+
+/* ---------- Kart ---------- */
+.post { position: relative; padding: 0 0 1.75rem; margin-bottom: 1.75rem; border-bottom: 1px solid var(--line); }
+.post__head { display: flex; align-items: center; gap: .7rem; margin-bottom: .75rem; }
+.avatar {
+  flex: none; width: 38px; height: 38px; border-radius: 50%;
+  display: grid; place-items: center; background: var(--surface-2); color: var(--ink);
+  font-family: var(--font-display); font-weight: 700; font-size: .82rem; letter-spacing: -0.02em;
+}
+.avatar--party { background: var(--party); color: #fff; font-size: .7rem; box-shadow: 0 0 0 2px var(--bg), 0 0 0 3.5px var(--party); }
+.avatar--logo { background: #fff; overflow: hidden; }
+.avatar--logo img { width: 100%; height: 100%; object-fit: cover; }
+.post__who { display: flex; flex-direction: column; line-height: 1.25; min-width: 0; }
+.post__who b { font-weight: 650; font-size: .98rem; }
+.post__who span { color: var(--muted); font-size: .86rem; }
+.post__time { margin-left: auto; color: var(--muted); font-size: .86rem; white-space: nowrap; }
+
+.post__media { border-radius: 14px; overflow: hidden; background: var(--surface); margin-bottom: 1rem; aspect-ratio: 1.91 / 1; }
+.post__media img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s cubic-bezier(.16, 1, .3, 1); }
+.post:hover .post__media img { transform: scale(1.025); }
+
+.post__body h3 { font-family: var(--font-display); font-size: 1.32rem; font-weight: 650; line-height: 1.2; letter-spacing: -0.015em; }
+.post--text .post__body h3 { font-size: 1.6rem; }
+.post__link { text-decoration: none; }
+.post__link::after { content: ""; position: absolute; inset: 0; z-index: 1; }
+.post:hover .post__link { color: var(--c1); }
+.post__link:focus-visible { outline: none; }
+.post:has(.post__link:focus-visible) { outline: 2px solid var(--c1); outline-offset: 6px; border-radius: 12px; }
+.post__body p { color: var(--muted); margin: .55rem 0 0; }
+.post__body p b { color: var(--ink); font-weight: 650; margin-right: .3rem; }
+.post__more { display: inline-block; margin-top: .7rem; color: var(--c1); font-weight: 600; font-size: .95rem; text-decoration: none; position: relative; z-index: 2; }
+a.post__more:hover { text-decoration: underline; }
+
+/* ---------- Önerge şablonu ---------- */
+.post__media--tpl { aspect-ratio: 4 / 5; border-radius: 6px; background: #161111; container-type: inline-size; }
+.post--motion .carousel__count { display: none; }
+.tpl { position: relative; overflow: hidden; font-family: "Poppins", var(--font-body); }
+
+.tpl--cover {
+  color: #fff;
+  background:
+    radial-gradient(ellipse 90% 55% at 50% 112%, rgb(239 90 67 / .42), transparent 70%),
+    radial-gradient(rgb(255 255 255 / .09) 1px, transparent 1.6px) 0 0 / 4.4cqw 4.4cqw,
+    linear-gradient(#1d1615, #120e0d);
+}
+.tpl__label {
+  position: absolute; top: 7.5cqw; left: 8cqw; background: #fff; color: #111;
+  font-weight: 700; font-size: 2.5cqw; line-height: 1; padding: 1.1cqw 1.5cqw; letter-spacing: .01em;
+}
+.tpl__handle { position: absolute; top: 7.5cqw; right: 8cqw; font-size: 2.4cqw; font-weight: 500; letter-spacing: .06em; opacity: .9; }
+.tpl__center {
+  position: absolute; inset: 0; padding: 0 8cqw;
+  display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3.2cqw;
+}
+.tpl__ribbon {
+  background: #fff; color: #d0202a; font-weight: 800; font-size: 3.5cqw; line-height: 1.15;
+  padding: 1.6cqw 2.8cqw; text-align: center; rotate: -1.5deg; max-width: 92%;
+  box-shadow: 0 1.2cqw 3cqw rgb(0 0 0 / .45);
+}
+.tpl__party {
+  position: absolute; left: 50%; bottom: 6.5cqw; translate: -50% 0;
+  display: flex; align-items: center; gap: 2.2cqw; color: #fff; font-weight: 700; font-size: 3cqw; letter-spacing: .04em;
+}
+.tpl__party img { width: 10cqw; height: 10cqw; border-radius: 50%; background: #fff; object-fit: cover; box-shadow: 0 1cqw 3cqw rgb(0 0 0 / .5); }
+.tpl__ribbon small { display: block; color: #3a3434; font-size: .62em; font-weight: 700; letter-spacing: .04em; margin-top: .3cqw; }
+.tpl__panel {
+  margin: 0; background: rgb(84 46 40 / .82); color: #fff; text-align: center;
+  font-weight: 700; font-size: 4.9cqw; line-height: 1.22; letter-spacing: -0.01em;
+  padding: 4cqw 5cqw; text-wrap: balance; box-shadow: 0 1.5cqw 5cqw rgb(0 0 0 / .4);
+}
+
+.tpl--paper {
+  background: #f6f4f2; color: #383434;
+  display: flex; flex-direction: column; justify-content: center; gap: 2.6cqw;
+  padding: 9cqw 9cqw 18cqw; text-align: center;
+}
+.tpl--paper p { margin: 0; font-size: 3.25cqw; font-weight: 500; line-height: 1.5; text-wrap: pretty; }
+.tpl__title { margin: 0 0 1cqw; color: #d0202a; font-family: inherit; font-weight: 800; font-size: 4.5cqw; line-height: 1.15; letter-spacing: -0.005em; text-wrap: balance; }
+.tpl__foot {
+  position: absolute; inset: auto 0 0; height: 22cqw;
+  background:
+    radial-gradient(rgb(208 32 42 / .55) 1.1px, transparent 1.7px) 0 0 / 3.6cqw 3.6cqw,
+    linear-gradient(transparent, rgb(208 32 42 / .16));
+  mask-image: linear-gradient(transparent, #000 70%);
+  -webkit-mask-image: linear-gradient(transparent, #000 70%);
+}
+.tpl--info dl { margin: 0; display: grid; gap: 2.4cqw; }
+.tpl--info dt { color: #d0202a; font-size: 2.5cqw; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.tpl--info dd { margin: .4cqw 0 0; font-size: 3.5cqw; font-weight: 600; color: #262222; line-height: 1.3; }
+.tpl__sign {
+  position: absolute; bottom: 7cqw; left: 50%; translate: -50% 0;
+  display: flex; align-items: center; gap: 2cqw; font-weight: 700; font-size: 2.8cqw; color: #262222; white-space: nowrap;
+}
+.tpl__sign img { width: 8cqw; height: 8cqw; border-radius: 50%; }
+
+@media (max-width: 640px) {
+  .post__media { border-radius: 10px; }
+  .post__media--tpl { border-radius: 4px; margin-inline: -1rem; }
+  .day { margin-top: 2.5rem; }
+}

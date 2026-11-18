@@ -1,0 +1,68 @@
+{
+  "evrensel": {
+    "ad": "Evrensel",
+    "tur": "gazete",
+    "hesap": "@evrenselgzt",
+    "dosya": "assets/logos/evrensel.webp"
+  },
+  "birgun": {
+    "ad": "BirGün",
+    "tur": "gazete",
+    "hesap": "@birgungazetesi",
+    "dosya": "assets/logos/birgun.webp"
+  },
+  "bianet": {
+    "ad": "bianet",
+    "tur": "gazete",
+    "hesap": "@bianetorg",
+    "dosya": "assets/logos/bianet.webp"
+  },
+  "chp": {
+    "ad": "CHP",
+    "tur": "parti",
+    "hesap": "@chp",
+    "dosya": "assets/logos/chp.webp"
+  },
+  "emep": {
+    "ad": "Emek Partisi",
+    "tur": "parti",
+    "hesap": "@emekpartisi",
+    "dosya": "assets/logos/emep.webp"
+  },
+  "tip": {
+    "ad": "Türkiye İşçi Partisi",
+    "tur": "parti",
+    "hesap": "@tipgenelmerkez",
+    "dosya": "assets/logos/tip.webp"
+  },
+  "genc-hayat": {
+    "ad": "Genç Hayat",
+    "tur": "gazete",
+    "hesap": "@genc_hayat_",
+    "dosya": "assets/logos/genc-hayat.webp"
+  },
+  "saadet": {
+    "ad": "Saadet Partisi",
+    "tur": "parti",
+    "hesap": "@saadetpartisi",
+    "dosya": "assets/logos/saadet.webp"
+  },
+  "deva": {
+    "ad": "DEVA Partisi",
+    "tur": "parti",
+    "hesap": "@devapartisi",
+    "dosya": "assets/logos/deva.webp"
+  },
+  "dem-parti": {
+    "ad": "DEM Parti",
+    "tur": "parti",
+    "hesap": "@dempartiresmi",
+    "dosya": "assets/logos/dem-parti.webp"
+  },
+  "t24": {
+    "ad": "T24",
+    "tur": "gazete",
+    "hesap": "@t24comtr",
+    "dosya": "assets/logos/t24.webp"
+  }
+}

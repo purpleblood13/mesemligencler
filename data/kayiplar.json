@@ -1,0 +1,5093 @@
+{
+ "kaynakNotu": "Ana kaynak: bircocukeksik.org (Öğrenci Sendikası MESEM Meclisleri'nin çocuk işçi ölümleri arşivi; sitenin kendi /api/cocuklar uç noktasından, 500 kayıt, 2016-2026, son kayıt 2026-10-19). Her kaydın kaynakUrl alanı sitenin gösterdiği haber/İSİG paylaşımı bağlantısıdır. \"mesem\" alanı sitedeki is_mesem işaretidir. Sıralama: her yılda önce MESEM kayıtları, sonra diğerleri, yeniden eskiye. Veriler yalnızca kaynakta yazanlardır; \"not\" alanı belirsizlikleri belirtir. Henüz isigmeclisi.org raporlarıyla tek tek karşılaştırılmadı.",
+ "yillar": [
+  {
+   "yil": 2026,
+   "kisiler": [
+    {
+     "ad": "Umut Emin Kaya",
+     "yas": 14,
+     "il": "Sivas",
+     "tarih": "2026-10-17",
+     "isKolu": null,
+     "olay": "Çalıştırıldığı işyerine ait aracın devrilmesi sonucu hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://haber.sol.org.tr/haber/mesemde-bir-olum-daha-isyeri-araci-devrildi-14-yasindaki-umut-emin-kaya-yasamini-yitirdi"
+    },
+    {
+     "ad": "Yiğit Söyler",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2026-09-27",
+     "isKolu": "hizmet",
+     "olay": "Kuryelik yaparken yolda duran, kayıtsız bir forkliftin demirine çarparak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.facebook.com/isigmeclisi/posts/bu-y%C4%B1l-tespit-edebildi%C4%9Fimiz-63-%C3%A7ocuk-i%C5%9F%C3%A7i-%C3%B6l%C3%BCm%C3%BCyi%C4%9Fit-s%C3%B6yler17-ya%C5%9F%C4%B1nda-moto-kurye/1406739131643606/"
+    },
+    {
+     "ad": "Eren Gündoğdu",
+     "yas": 15,
+     "il": "Tekirdağ",
+     "tarih": "2026-08-25",
+     "isKolu": "sanayi/atölye",
+     "olay": "İnşaatta kablo çekerken elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://sendika.org/2026/08/15-yasindaki-mesem-ogrencisi-eren-calistigi-insaatta-elektrik-akimina-kapilarak-yasamini-yitirdi-752356"
+    },
+    {
+     "ad": "Fatih Gül",
+     "yas": 17,
+     "il": "Kastamonu",
+     "tarih": "2026-08-19",
+     "isKolu": null,
+     "olay": "Televizyon anteni tamiri için çıktığı çatıda epilepsi nöbeti geçirip merdivenden düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.emo.org.tr/genel/bizden_detay.php?kod=152356&tipi=2&sube="
+    },
+    {
+     "ad": "Hamza Akbulut",
+     "yas": 15,
+     "il": "Giresun",
+     "tarih": "2026-08-03",
+     "isKolu": null,
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://bircocukeksik.org/kayit/690",
+     "not": "MESEM işareti bircocukeksik.org kaydından alındı; kayıt metninde MESEM ibaresi geçmiyor; Orijinal haber kaynağı yok; bağlantı bircocukeksik.org kaydıdır"
+    },
+    {
+     "ad": "Muhammed Salih Gövdetaşan",
+     "yas": 15,
+     "il": "Konya",
+     "tarih": "2026-07-30",
+     "isKolu": "sanayi/atölye",
+     "olay": "Staj yaptığı tamirhanede geri manevra yapan kamyonet ile duvar arasında sıkışarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.konhaber.com/3-sayfa/konya_da_15_yasindaki_muhammed_in_olumune_neden_olmustu_bir_canin_bedeli_20_taksitle_76_bin_tl-2005665h",
+     "not": "MESEM işareti bircocukeksik.org kaydından alındı; kayıt metninde MESEM ibaresi geçmiyor"
+    },
+    {
+     "ad": "Yiğit Kesme",
+     "yas": 16,
+     "il": "Osmaniye",
+     "tarih": "2026-07-10",
+     "isKolu": "sanayi/atölye",
+     "olay": "Traktör tamir atölyesinde çalışırken traktörün hidrolik aksamına sıkışarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.birgun.net/haber/traktor-tamir-ettirilen-mesem-ogrencisi-hayatini-kaybetti-723323"
+    },
+    {
+     "ad": "Mahir Buğra Karaön",
+     "yas": 16,
+     "il": "Hatay",
+     "tarih": "2026-05-01",
+     "isKolu": null,
+     "olay": "Çalıştırıldığı sırada elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2050316381443219666?s=20",
+     "not": "MESEM işareti bircocukeksik.org kaydından alındı; kayıt metninde MESEM ibaresi geçmiyor"
+    },
+    {
+     "ad": "Engin Tuncay",
+     "yas": 17,
+     "il": "Malatya",
+     "tarih": "2026-04-18",
+     "isKolu": "inşaat",
+     "olay": "Çalıştırıldığı inşaattan düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2045481299750609263?s=20",
+     "not": "MESEM işareti bircocukeksik.org kaydından alındı; kayıt metninde MESEM ibaresi geçmiyor"
+    },
+    {
+     "ad": "Muhammed Mehdi Dinler",
+     "yas": 14,
+     "il": "Van",
+     "tarih": "2026-10-19",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.vanhabergazetesi.com/vanda-kahreden-olum-14-yasindaki-cocuga-yildirim-carpti"
+    },
+    {
+     "ad": "Kadir Sevlilgen",
+     "yas": 15,
+     "il": "Antalya",
+     "tarih": "2026-10-10",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makineye veya iki yüzey arasına sıkışarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.dha.com.tr/gundem/is-kazasinda-yaralanan-kadir-3-gun-sonra-yasamini-yitirdi-2960059"
+    },
+    {
+     "ad": "Umut Ayan",
+     "yas": 17,
+     "il": "Balıkesir",
+     "tarih": "2026-10-05",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/DeEXTREMkgO/"
+    },
+    {
+     "ad": "Halil İbrahim Yağız",
+     "yas": 17,
+     "il": "Gaziantep",
+     "tarih": "2026-09-28",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.urfanatik.com/gaziantepte-insaatin-6nci-katindan-dusen-17-yasindaki-isci-hayatini-kaybetti"
+    },
+    {
+     "ad": "Halime Okkalı",
+     "yas": 6,
+     "il": "Şanlıurfa",
+     "tarih": "2026-09-27",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makineye veya iki yüzey arasına sıkışarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/6002352/6-yasindaki-cocuk-fistik-fabrikasinda-hayatini-kaybetti"
+    },
+    {
+     "ad": "Abdullah Omar Alobid",
+     "yas": 16,
+     "il": "Gaziantep",
+     "tarih": "2026-09-15",
+     "isKolu": "sanayi/atölye",
+     "olay": "Gaz zehirlenmesi sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2099986546170511605"
+    },
+    {
+     "ad": "Mehmet Doğan Cebe",
+     "yas": 10,
+     "il": "Düzce",
+     "tarih": "2026-09-10",
+     "isKolu": "tarım",
+     "olay": "Ezilerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/5999711/duzcede-traktor-devrildi-10-yasindaki-cocuk-yasamini-yitirdi"
+    },
+    {
+     "ad": "Tunç Çam",
+     "yas": 13,
+     "il": "Hatay",
+     "tarih": "2026-09-08",
+     "isKolu": "sanayi/atölye",
+     "olay": "Patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://t24.com.tr/gundem/is-cinayeti-13-yasindaki-cirak-tunc-cam-oto-tamirhanesindeki-patlamada-hayatini-kaybetti,1346871?_t=1789037591639",
+     "not": "Metinde çırak/staj geçiyor ancak sitede MESEM işaretli değil; MESEM olup olmadığı doğrulanmalı"
+    },
+    {
+     "ad": "Yusuf Kesen",
+     "yas": 12,
+     "il": "Sakarya",
+     "tarih": "2026-09-03",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://medyabar.com/haber/28630876/findik-toplamak-icin-mardinden-gelmisti-denize-gitmek-isteyen-yusufun-yolculugu-faciayla-bitti"
+    },
+    {
+     "ad": "Yunus Emre Ömeroğlu",
+     "yas": 13,
+     "il": "Ordu",
+     "tarih": "2026-08-26",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://bircocukeksik.org/kayit/687",
+     "not": "Orijinal haber kaynağı yok; bağlantı bircocukeksik.org kaydıdır"
+    },
+    {
+     "ad": "Ali Şihap",
+     "yas": 14,
+     "il": "Adana",
+     "tarih": "2026-08-21",
+     "isKolu": null,
+     "olay": "Silahlı saldırıda hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://bianet.org/haber/14-yasindaki-suriyeli-ali-sihap-adanada-calistigi-hurdacida-olduruldu-322849"
+    },
+    {
+     "ad": "İbrahim Ataş",
+     "yas": 17,
+     "il": "Gaziantep",
+     "tarih": "2026-08-17",
+     "isKolu": "inşaat",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.facebook.com/isigmeclisi/posts/bu-y%C4%B1l-tespit-edebildi%C4%9Fimiz-47-%C3%A7ocuk-i%C5%9F%C3%A7i-%C3%B6l%C3%BCm%C3%BCibrahim-ata%C5%9F17-ya%C5%9F%C4%B1nda-suriyeli-i/1371797728471080/"
+    },
+    {
+     "ad": "Berat Yücel",
+     "yas": 15,
+     "il": "Ankara",
+     "tarih": "2026-08-15",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.hurriyet.com.tr/gundem/ankarada-kahreden-olay-kopekten-korkan-cocuk-sirt-ustu-dusup-hayatini-kaybetti-43280550"
+    },
+    {
+     "ad": "Ahmed Touto",
+     "yas": 15,
+     "il": "Bursa",
+     "tarih": "2026-08-15",
+     "isKolu": "sanayi/atölye",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.nefes.com.tr/15-yasindaki-cocuk-elektrik-akimina-kapilip-oldu-145286"
+    },
+    {
+     "ad": "Ersin Özariş",
+     "yas": 17,
+     "il": "Ordu",
+     "tarih": "2026-08-12",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://sendika.org/2026/08/17-yasindaki-tarim-iscisi-ersin-serinlemek-icin-girdigi-suda-yasamini-yitirdi-751904"
+    },
+    {
+     "ad": "Halil Yalaz",
+     "yas": 17,
+     "il": "Adana",
+     "tarih": "2026-08-12",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/solcugazete60/status/2087557723407647105"
+    },
+    {
+     "ad": "İbrahim Karabaş",
+     "yas": 16,
+     "il": "Manisa",
+     "tarih": "2026-08-12",
+     "isKolu": null,
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.ahaber.com.tr/yasam/2026/08/14/manisada-dere-dehseti-16-yasindaki-ibrahimin-aci-sonu"
+    },
+    {
+     "ad": "Muhammet Ögeday",
+     "yas": 13,
+     "il": "Muş",
+     "tarih": "2026-08-10",
+     "isKolu": "tarım",
+     "olay": "Ezilerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.alparslandiyari.com/haber/malazgirt-te-feci-traktor-kazasi-15-yasindaki-genc-hayatini-kaybetti_69155/"
+    },
+    {
+     "ad": "Mehmet Eltutan",
+     "yas": 15,
+     "il": "Kastamonu",
+     "tarih": "2026-08-06",
+     "isKolu": "sanayi/atölye",
+     "olay": "Araçtan düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/5995332/marasta-cocuk-isci-cinayeti-15-yasindaki-mehmet-eltutan-hayatini-kaybetti"
+    },
+    {
+     "ad": "Mehmet Yalçınkaya",
+     "yas": 12,
+     "il": "Antalya",
+     "tarih": "2026-07-26",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.odatv.com/guncel/sanliurfadan-calismaya-gelmisti-12-yasindaki-mehmetten-kahreden-haber-120156334"
+    },
+    {
+     "ad": "Eymen Enes Aygece",
+     "yas": 16,
+     "il": "Antalya",
+     "tarih": "2026-07-18",
+     "isKolu": "hizmet",
+     "olay": "Yangında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.sabah.com.tr/yasam/staj-yaptiklari-otel-sonlari-oldu-iki-lise-ogrencisi-hayatini-kaybetti-7624854",
+     "not": "Metinde çırak/staj geçiyor ancak sitede MESEM işaretli değil; MESEM olup olmadığı doğrulanmalı"
+    },
+    {
+     "ad": "Süleyman Tuna Egüler",
+     "yas": 16,
+     "il": "Antalya",
+     "tarih": "2026-07-18",
+     "isKolu": "hizmet",
+     "olay": "Yangında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.sabah.com.tr/yasam/staj-yaptiklari-otel-sonlari-oldu-iki-lise-ogrencisi-hayatini-kaybetti-7624854",
+     "not": "Metinde çırak/staj geçiyor ancak sitede MESEM işaretli değil; MESEM olup olmadığı doğrulanmalı"
+    },
+    {
+     "ad": "Emirhan Sarısu",
+     "yas": 14,
+     "il": "Kocaeli",
+     "tarih": "2026-07-18",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.cumhuriyet.com.tr/turkiye/bu-yil-en-az-37-cocuk-calisirken-oldu-14-yasindaki-emirhan-calistigi-insaattan-duserek-hayatini-kaybetti-2521974"
+    },
+    {
+     "ad": "Şeyhmus Tazecan",
+     "yas": 17,
+     "il": "Mersin",
+     "tarih": "2026-07-07",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://bircocukeksik.org/kayit/693",
+     "not": "Orijinal haber kaynağı yok; bağlantı bircocukeksik.org kaydıdır"
+    },
+    {
+     "ad": "Beytullah Şahin",
+     "yas": 14,
+     "il": "Kahramanmaraş",
+     "tarih": "2026-07-02",
+     "isKolu": "sanayi/atölye",
+     "olay": "İş makinesinin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.haber46.com.tr/kahramanmarasta-yurek-burkan-kaza-14-yasindaki-isci-can-verdi"
+    },
+    {
+     "ad": "Zerda Şahin",
+     "yas": 13,
+     "il": "Sivas",
+     "tarih": "2026-07-02",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.odatv.com/guncel/kizilirmakta-aci-olay-uc-kardes-akintiya-kapildi-zerda-sahin-hayatini-kaybetti-gulseren-sahin-hala-kayip-120153396"
+    },
+    {
+     "ad": "Gülseren Şahin",
+     "yas": 15,
+     "il": "Sivas",
+     "tarih": "2026-07-02",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.aksutvhaber.net/5-gundur-araniyordu-akintiya-kapilan-gulseren-sahinin-cansiz-bedenine-ulasildi/amp"
+    },
+    {
+     "ad": "Muhammed Ali Tazegün",
+     "yas": 16,
+     "il": "Iğdır",
+     "tarih": "2026-06-28",
+     "isKolu": "tarım",
+     "olay": "Hayvanın boynuz darbeleri sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2071255578685350186?s=20"
+    },
+    {
+     "ad": "Yasir Metin",
+     "yas": 16,
+     "il": "Çankırı",
+     "tarih": "2026-06-24",
+     "isKolu": "sanayi/atölye",
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "https://www.hurriyet.com.tr/gundem/cay-kazaninin-kablolarina-takilip-hayatini-kaybetti-43217444"
+    },
+    {
+     "ad": "Okan Koç",
+     "yas": 17,
+     "il": "Erzurum",
+     "tarih": "2026-06-16",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2066828965918937480?s=20"
+    },
+    {
+     "ad": "Tunahan Kaya",
+     "yas": 16,
+     "il": "Ağrı",
+     "tarih": "2026-06-08",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2063970118367895636?s=20"
+    },
+    {
+     "ad": "Ferhat Söyü",
+     "yas": 17,
+     "il": "Manisa",
+     "tarih": "2026-06-05",
+     "isKolu": "sanayi/atölye",
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2062987743534145887?s=20"
+    },
+    {
+     "ad": "İbrahim El Sefer",
+     "yas": 17,
+     "il": "Muş",
+     "tarih": "2026-05-23",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2063554305240506758?s=20"
+    },
+    {
+     "ad": "Fırat Üzüm",
+     "yas": 17,
+     "il": "Siirt",
+     "tarih": "2026-05-20",
+     "isKolu": null,
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2057127201158443428?s=20"
+    },
+    {
+     "ad": "Fırat Güneş",
+     "yas": 15,
+     "il": "Siirt",
+     "tarih": "2026-05-16",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.hurriyet.com.tr/gundem/traktorun-altinda-kalan-kuzenler-feci-sekilde-can-verdi-43175833"
+    },
+    {
+     "ad": "Mehmet Daniş",
+     "yas": 13,
+     "il": "Ankara",
+     "tarih": "2026-05-11",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2053745284614619504?s=20"
+    },
+    {
+     "ad": "Yiğit Hikmet Keskinsoy",
+     "yas": 15,
+     "il": "Samsun",
+     "tarih": "2026-05-11",
+     "isKolu": "sanayi/atölye",
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2053857230932340862?s=20"
+    },
+    {
+     "ad": "Kudret Ahmedi",
+     "yas": 15,
+     "il": "Kars",
+     "tarih": "2026-04-30",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2049796700752027980?s=20"
+    },
+    {
+     "ad": "Serkan Yıldırım",
+     "yas": 13,
+     "il": "Diyarbakır",
+     "tarih": "2026-04-18",
+     "isKolu": null,
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2045453673497579539?s=20"
+    },
+    {
+     "ad": "Kasım Yıldırım",
+     "yas": 14,
+     "il": "Diyarbakır",
+     "tarih": "2026-04-18",
+     "isKolu": null,
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2045453673497579539?s=20"
+    },
+    {
+     "ad": "Miran Tutar",
+     "yas": 12,
+     "il": "Batman",
+     "tarih": "2026-04-06",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2041094364869308792?s=20"
+    },
+    {
+     "ad": "Medine Yavuz",
+     "yas": 16,
+     "il": "Mardin",
+     "tarih": "2026-03-21",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2035112555576746478?s=20"
+    },
+    {
+     "ad": "Mehmet Dönmez",
+     "yas": 11,
+     "il": "İzmir",
+     "tarih": "2026-03-20",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2034925802198843563?s=20"
+    },
+    {
+     "ad": "Muna Ahmet",
+     "yas": 9,
+     "il": "Antalya",
+     "tarih": "2026-03-20",
+     "isKolu": "tarım",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2038555914534375717?s=20"
+    },
+    {
+     "ad": "Fatma Ahmed",
+     "yas": 8,
+     "il": "Antalya",
+     "tarih": "2026-03-20",
+     "isKolu": "tarım",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2038555914534375717?s=20"
+    },
+    {
+     "ad": "Hayat Ahmed",
+     "yas": 7,
+     "il": "Antalya",
+     "tarih": "2026-03-20",
+     "isKolu": "tarım",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2038555914534375717?s=20"
+    },
+    {
+     "ad": "Iman Ahmed",
+     "yas": 5,
+     "il": "Antalya",
+     "tarih": "2026-03-20",
+     "isKolu": "tarım",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2038555914534375717?s=20"
+    },
+    {
+     "ad": "Mahmud Ahmed",
+     "yas": 4,
+     "il": "Antalya",
+     "tarih": "2026-03-20",
+     "isKolu": "tarım",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2038555914534375717?s=20"
+    },
+    {
+     "ad": "Yusuf El İsa",
+     "yas": 16,
+     "il": "Gaziantep",
+     "tarih": "2026-03-10",
+     "isKolu": null,
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2031411315374281214?s=20"
+    },
+    {
+     "ad": "Tahir El Cafer",
+     "yas": 17,
+     "il": "Ankara",
+     "tarih": "2026-01-31",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "Bilinmiyor"
+    },
+    {
+     "ad": "Yiğit Efe Akpınar",
+     "yas": 17,
+     "il": "Bursa",
+     "tarih": "2026-01-28",
+     "isKolu": null,
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2016493359829786864?s=20"
+    },
+    {
+     "ad": "Bedat Kılınç",
+     "yas": 15,
+     "il": "Diyarbakır",
+     "tarih": "2026-01-15",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2011778749373571532?s=20"
+    },
+    {
+     "ad": "İsmail Günal",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2026-01-14",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2011354327017808286?s=20"
+    }
+   ]
+  },
+  {
+   "yil": 2025,
+   "kisiler": [
+    {
+     "ad": "Buğrahan Sağdıç",
+     "yas": 17,
+     "il": "Malatya",
+     "tarih": "2025-12-19",
+     "isKolu": "sanayi/atölye",
+     "olay": "İşyerine giderken trenin çarpması sonucu hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2002076588004028911?s=20"
+    },
+    {
+     "ad": "Berk İvacık",
+     "yas": 15,
+     "il": "Konya",
+     "tarih": "2025-11-26",
+     "isKolu": null,
+     "olay": "İşyerinden çıktıktan sonra hayatına son verdi",
+     "mesem": true,
+     "kaynakUrl": "https://www.milliyet.com.tr/gundem/5-gundur-araniyordu-15-yasindaki-berk-olu-bulundu-7493620"
+    },
+    {
+     "ad": "Muhammet Kendirci",
+     "yas": 15,
+     "il": "Şanlıurfa",
+     "tarih": "2025-11-19",
+     "isKolu": "sanayi/atölye",
+     "olay": "Çalıştığı atölyede uğradığı işkence sonucu hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://bianet.org/haber/urfa-da-isyerinde-iskenceyle-oldurulen-cocugun-dosyasina-gizlilik-karari-getirildi-313805"
+    },
+    {
+     "ad": "Alperen Uygun",
+     "yas": 16,
+     "il": "Mersin",
+     "tarih": "2025-11-12",
+     "isKolu": "inşaat",
+     "olay": "İnşaatta asansör boşluğuna düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://sendika.org/2025/11/2025in-78-cocuk-isci-olumu-16-yasindaki-alperen-mesem-projesi-kapsaminda-yasamini-yitirdi-737119"
+    },
+    {
+     "ad": "Yağız Yıldız",
+     "yas": 17,
+     "il": "Karabük",
+     "tarih": "2025-09-06",
+     "isKolu": "sanayi/atölye",
+     "olay": "Karabük Demir ve Çelik Fabrikaları'nda iş kazası sonucu hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://medyascope.tv/2025/09/06/kardemirde-staj-yapan-17-yasindaki-stajyer-ogrenci-is-kazasinda-hayatini-kaybetti/"
+    },
+    {
+     "ad": "Esma Nur Aydın",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2025-08-08",
+     "isKolu": null,
+     "olay": "Çalıştırıldığı sırada geçirdiği trafik kazasında hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1953760755859231159?s=20"
+    },
+    {
+     "ad": "Mehmet Dallı",
+     "yas": 17,
+     "il": "Kütahya",
+     "tarih": "2025-07-07",
+     "isKolu": "inşaat",
+     "olay": "Çalıştırıldığı inşaattan düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.hurriyet.com.tr/gundem/aci-haber-insattan-dusen-stajyer-ogrenci-yasam-mucadelesini-kaybetti-42869034"
+    },
+    {
+     "ad": "Tunahan Karabulut",
+     "yas": 16,
+     "il": "Isparta",
+     "tarih": "2025-06-30",
+     "isKolu": "sanayi/atölye",
+     "olay": "Onardığı traktörün parçaları arasında sıkışarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.isteisparta.com/newsdetails.asp?id=39241",
+     "not": "MESEM işareti bircocukeksik.org kaydından alındı; kayıt metninde MESEM ibaresi geçmiyor"
+    },
+    {
+     "ad": "Utku Okan Saylan",
+     "yas": 16,
+     "il": "Mersin",
+     "tarih": "2025-05-28",
+     "isKolu": "sanayi/atölye",
+     "olay": "Çalıştırıldığı sırada geçirdiği trafik kazasında hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1927793342248567259?s=20"
+    },
+    {
+     "ad": "Necip Fazıl Çırak",
+     "yas": 17,
+     "il": "Samsun",
+     "tarih": "2025-04-18",
+     "isKolu": "inşaat",
+     "olay": "Elektrik işi yapılan inşaattan düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.facebook.com/isigmeclisi/posts/17-yaşındaki-necip-fazıl-çırakın-fotoğrafılise-son-sınıf-elektrik-elektronik-böl/987095520274638/"
+    },
+    {
+     "ad": "Arda Silahlı",
+     "yas": 17,
+     "il": "Sakarya",
+     "tarih": "2025-03-07",
+     "isKolu": null,
+     "olay": "Çalıştığı işyerinde hayatına son verdi",
+     "mesem": true,
+     "kaynakUrl": "https://www.evrensel.net/haber/545503/staj-carki-cocuklari-olduruyor-meslek-liseli-arda-is-yerinde-yasamina-son-verdi"
+    },
+    {
+     "ad": "Zehra",
+     "yas": 17,
+     "il": "Karaman",
+     "tarih": "2025-12-22",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2003020882864898361"
+    },
+    {
+     "ad": "Emre Filik",
+     "yas": 17,
+     "il": "Manisa",
+     "tarih": "2025-12-14",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.sondakika.com/haber/haber-traktor-devrildi-17-yasindaki-genc-hayatini-kaybet-19356305/"
+    },
+    {
+     "ad": "Alperen Karaçengel",
+     "yas": 16,
+     "il": "İstanbul",
+     "tarih": "2025-12-12",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://bianet.org/haber/16-yasindaki-alperen-karacengel-calistirildigi-fabrikada-oldu-314458"
+    },
+    {
+     "ad": "Miraç Köse",
+     "yas": 10,
+     "il": "Samsun",
+     "tarih": "2025-12-10",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.milliyet.com.tr/gundem/samsunda-feci-olay-babasi-fark-etti-ama-10-yasindaki-mirac-hayatini-kaybetti-7499546"
+    },
+    {
+     "ad": "İsa Şimşek",
+     "yas": 9,
+     "il": "Batman",
+     "tarih": "2025-12-01",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://bianet.org/haber/bu-yilin-85-inci-cocuk-isci-olumu-9-yasindaki-isa-simsek-hayatini-kaybetti-314032"
+    },
+    {
+     "ad": "Metehan Akarsu",
+     "yas": 14,
+     "il": "Niğde",
+     "tarih": "2025-11-21",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://sendika.org/2025/11/bu-yilin-84-cocuk-isci-cinayeti-nigdede-traktorun-altinda-kalan-14-yasindaki-metehan-hayatini-kaybetti-737645"
+    },
+    {
+     "ad": "Onur Sayıloğlu",
+     "yas": 17,
+     "il": "Mersin",
+     "tarih": "2025-11-20",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1991484595976433879?s=20"
+    },
+    {
+     "ad": "Sedat Kurt",
+     "yas": 15,
+     "il": "Şanlıurfa",
+     "tarih": "2025-11-17",
+     "isKolu": "inşaat",
+     "olay": "Göçük altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1990352533840404961?s=20"
+    },
+    {
+     "ad": "Yakup Güneş",
+     "yas": 16,
+     "il": "Şanlıurfa",
+     "tarih": "2025-11-17",
+     "isKolu": "inşaat",
+     "olay": "Göçük altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1990352533840404961?s=20"
+    },
+    {
+     "ad": "Hikmet Sarıoğlu",
+     "yas": 16,
+     "il": "Hatay",
+     "tarih": "2025-11-14",
+     "isKolu": null,
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1989309288842448977?s=20"
+    },
+    {
+     "ad": "Nusefa Samur",
+     "yas": 14,
+     "il": "Ağrı",
+     "tarih": "2025-11-11",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1988237390956130587?s=20"
+    },
+    {
+     "ad": "Cansu Esatoğlu",
+     "yas": 16,
+     "il": "Kocaeli",
+     "tarih": "2025-11-08",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1987108459414741455?s=20"
+    },
+    {
+     "ad": "Nisa Taşdemir",
+     "yas": 17,
+     "il": "Kocaeli",
+     "tarih": "2025-11-08",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1987108459414741455?s=20"
+    },
+    {
+     "ad": "Abdülkadir Toktimur",
+     "yas": 17,
+     "il": "Şanlıurfa",
+     "tarih": "2025-11-03",
+     "isKolu": "tarım",
+     "olay": "Hayatına son verdi",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1985308082809733355"
+    },
+    {
+     "ad": "Mustafa Mustafa",
+     "yas": 14,
+     "il": "Şanlıurfa",
+     "tarih": "2025-11-03",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1985108281396760598?s=20"
+    },
+    {
+     "ad": "Miraç Sağlam",
+     "yas": 17,
+     "il": "Kahramanmaraş",
+     "tarih": "2025-11-02",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.ntv.com.tr/turkiye/kayip-cocuk-ucurum-kenarinda-olu-bulundu,Bt6dq6UzdU29chQT8QKbQw"
+    },
+    {
+     "ad": "Mehmet Eyi",
+     "yas": 17,
+     "il": "Konya",
+     "tarih": "2025-10-27",
+     "isKolu": "inşaat",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/580236/konyada-cocuk-isci-cinayeti-17-yasindaki-isci-mehmet-hayatini-kaybetti"
+    },
+    {
+     "ad": "Mustafa Eti",
+     "yas": 16,
+     "il": "Tekirdağ",
+     "tarih": "2025-10-21",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://bianet.org/haber/fabrikada-yanarak-olen-cocuk-isci-mustafa-eti-nin-babasi-sorumlular-cezalandirilsin-312797"
+    },
+    {
+     "ad": "Fatma Şanverdi",
+     "yas": 17,
+     "il": "Hatay",
+     "tarih": "2025-10-19",
+     "isKolu": null,
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.habersendika.com/is-kazasi/hatayda-korkunc-is-cinayeti-servis-kazasinda-yaralanan-17-yasindaki-isci-fatma-sanverdi-hayatini-kaybetti/2136"
+    },
+    {
+     "ad": "Ruhi Can Çıracı",
+     "yas": 16,
+     "il": "Aksaray",
+     "tarih": "2025-10-17",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://haber.sol.org.tr/haber/calistigi-atolyede-uzerine-kereste-dusen-16-yasindaki-cocuk-yasamini-yitirdi-402325"
+    },
+    {
+     "ad": "Samed Can Erdoğan",
+     "yas": 17,
+     "il": "İzmir",
+     "tarih": "2025-10-13",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.habersendika.com/amp/is-kazasi/kahreden-is-cinayeti-17-yasindaki-samed-can-erdogan-yikim-isinde-hayatini-kaybetti/2078"
+    },
+    {
+     "ad": "Bilal Erduran",
+     "yas": 17,
+     "il": "Mersin",
+     "tarih": "2025-10-02",
+     "isKolu": null,
+     "olay": "Kalp krizi sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1973700109641629923?s=20"
+    },
+    {
+     "ad": "Kemal Karabağ",
+     "yas": 17,
+     "il": "Diyarbakır",
+     "tarih": "2025-10-01",
+     "isKolu": null,
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1973316031167726052?s=20"
+    },
+    {
+     "ad": "Zeynep Tuz",
+     "yas": 15,
+     "il": "Niğde",
+     "tarih": "2025-09-28",
+     "isKolu": null,
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1972279381667254432?s=20"
+    },
+    {
+     "ad": "Fırat Köse",
+     "yas": 16,
+     "il": "Trabzon",
+     "tarih": "2025-09-22",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1970108125807071391?s=20"
+    },
+    {
+     "ad": "El Amr Ali",
+     "yas": 3,
+     "il": "Aydın",
+     "tarih": "2025-09-20",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1969397460612132960?s=20"
+    },
+    {
+     "ad": "Halil Kaçar",
+     "yas": 8,
+     "il": "Gaziantep",
+     "tarih": "2025-09-09",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1965444674916941945?s=20"
+    },
+    {
+     "ad": "Yunus Kerici",
+     "yas": 14,
+     "il": "Ağrı",
+     "tarih": "2025-09-07",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1964662891455578413?s=20"
+    },
+    {
+     "ad": "Bayram Kısak",
+     "yas": 14,
+     "il": "Erzurum",
+     "tarih": "2025-09-04",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1963562706599924072?s=20"
+    },
+    {
+     "ad": "Emre Karanfil",
+     "yas": 14,
+     "il": "Manisa",
+     "tarih": "2025-09-02",
+     "isKolu": "elektrik",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1962865080980086819?s=20"
+    },
+    {
+     "ad": "Hilal Özdemir",
+     "yas": 15,
+     "il": "İstanbul",
+     "tarih": "2025-08-31",
+     "isKolu": "hizmet",
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/567891/bogazici-universitesi-kampusunde-cinayet-dugunde-calisan-15-yasindaki-kiz-cocugu-olduruldu"
+    },
+    {
+     "ad": "Serdal P.",
+     "yas": 14,
+     "il": "Kars",
+     "tarih": "2025-08-24",
+     "isKolu": "tarım",
+     "olay": "Ateşli silahla yaralanarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.colemerghaber.com/14-yasindaki-cocuk-silah-kazasinda-hayatini-kaybetti"
+    },
+    {
+     "ad": "Arda Dimrilli",
+     "yas": 17,
+     "il": "Muğla",
+     "tarih": "2025-08-22",
+     "isKolu": "sanayi/atölye",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1958894315947577472?s=20"
+    },
+    {
+     "ad": "Muhammet Mislina Çıngı",
+     "yas": 16,
+     "il": "Kahramanmaraş",
+     "tarih": "2025-08-18",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.yesilafsin.com/afsinde-elektrik-akimina-kapilan-genc-hayatini-kaybetti"
+    },
+    {
+     "ad": "Recep Kürşat Kepçe",
+     "yas": 12,
+     "il": "Çorum",
+     "tarih": "2025-08-14",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/m_tahtasiz/status/1956027148982005820"
+    },
+    {
+     "ad": "İsa Ertaş",
+     "yas": 3,
+     "il": "Şanlıurfa",
+     "tarih": "2025-08-12",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1955259826356752773?s=20"
+    },
+    {
+     "ad": "Mazlum Yıldız",
+     "yas": 15,
+     "il": "Ordu",
+     "tarih": "2025-08-10",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/565035/orduda-serinlemek-icin-girdigi-denizde-kaybolan-tarim-iscisinin-cansiz-bedeni-bulundu"
+    },
+    {
+     "ad": "Emir Kılınç",
+     "yas": 16,
+     "il": "Mersin",
+     "tarih": "2025-08-07",
+     "isKolu": "sanayi/atölye",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/565990/tir-altinda-hayatini-kaybeden-emirin-babasi-16-yil-yasadi-8-yili-sanayide-gecti"
+    },
+    {
+     "ad": "Süleyman Keskin",
+     "yas": 14,
+     "il": "Konya",
+     "tarih": "2025-08-07",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.facebook.com/isigmeclisi/posts/süleyman-keskin14-yaşındakonya-beyşehir-yeşilyurt-yeni-sanayi-sitesinde-babasına/1069764065341116/"
+    },
+    {
+     "ad": "Zeliha Yılmaz",
+     "yas": 14,
+     "il": "Sivas",
+     "tarih": "2025-08-05",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/569035/14-yasindayken-is-cinayetinde-olmustu-tarim-iscisi-zeliha-yilmaz-yasasaydi-8inci-sinifa-baslayacakti"
+    },
+    {
+     "ad": "İbrahim Erol",
+     "yas": 12,
+     "il": "Sivas",
+     "tarih": "2025-08-05",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/reel/DM-YtUqhrM2/"
+    },
+    {
+     "ad": "Abdullah Yılmaz",
+     "yas": 12,
+     "il": "Ordu",
+     "tarih": "2025-08-05",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1952723165504819268?s=20"
+    },
+    {
+     "ad": "Mehmet Aksoy",
+     "yas": 17,
+     "il": "Denizli",
+     "tarih": "2025-08-01",
+     "isKolu": "hizmet",
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1951205626824032463"
+    },
+    {
+     "ad": "Eyüp Can Güner",
+     "yas": 12,
+     "il": "Mersin",
+     "tarih": "2025-07-30",
+     "isKolu": "hizmet",
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/DMvRGiIoFjF/?hl=en"
+    },
+    {
+     "ad": "Ünal Erçetin",
+     "yas": 12,
+     "il": "Bitlis",
+     "tarih": "2025-07-28",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.haberturk.com/babasi-tarla-surerken-traktorden-dusen-cocuk-hayatini-kaybetti-3810642"
+    },
+    {
+     "ad": "Dindar Diler",
+     "yas": 16,
+     "il": "Tekirdağ",
+     "tarih": "2025-07-27",
+     "isKolu": "sanayi/atölye",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1949372966623437231"
+    },
+    {
+     "ad": "Mehmet Yardımcı",
+     "yas": 17,
+     "il": "Eskişehir",
+     "tarih": "2025-07-20",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/562292/serinlemek-icin-sakarya-nehrine-giren-cocuk-isciler-yasamini-yitirdi"
+    },
+    {
+     "ad": "Mehmet Işık",
+     "yas": 16,
+     "il": "Eskişehir",
+     "tarih": "2025-07-20",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/562292/serinlemek-icin-sakarya-nehrine-giren-cocuk-isciler-yasamini-yitirdi"
+    },
+    {
+     "ad": "Resul Cengiz",
+     "yas": 13,
+     "il": "Hatay",
+     "tarih": "2025-07-11",
+     "isKolu": null,
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.facebook.com/photo.php?fbid=1048956107421912&id=100069225981944&set=a.403446065306256"
+    },
+    {
+     "ad": "Enes Ötünç Temur",
+     "yas": 16,
+     "il": "Kırıkkale",
+     "tarih": "2025-07-11",
+     "isKolu": null,
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1943645841928970415?s=20"
+    },
+    {
+     "ad": "Davut Bozan",
+     "yas": 15,
+     "il": "Gaziantep",
+     "tarih": "2025-06-21",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/558293/kayip-olarak-aranan-15-yasindaki-bozanin-cansiz-bedeni-barajda-bulundu"
+    },
+    {
+     "ad": "Yusuf Akdeniz",
+     "yas": 16,
+     "il": "Manisa",
+     "tarih": "2025-06-16",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1934543021267137006?s=20"
+    },
+    {
+     "ad": "Ahmet Ay",
+     "yas": 17,
+     "il": "Isparta",
+     "tarih": "2025-06-08",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.birgun.net/haber/isparta-da-sulama-havuzuna-dusen-cocuk-isci-hayatini-kaybetti-629293"
+    },
+    {
+     "ad": "Şükrü Gürbüz",
+     "yas": 17,
+     "il": "Konya",
+     "tarih": "2025-05-13",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.facebook.com/isigmeclisi/posts/şükrü-gürbüz17-yaşındakonya-seydişehirde-komşularından-aldığı-traktörle-dedesine/1005574671760056/"
+    },
+    {
+     "ad": "Barış Aydın",
+     "yas": 17,
+     "il": "Ardahan",
+     "tarih": "2025-05-07",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.facebook.com/isigmeclisi/photos/barış-aydın17-yaşında-çobanardahan-hanak-binbaşak-köyünde-1700-sularında-merada-/1001449358839254/"
+    },
+    {
+     "ad": "Şerafettin Başarır",
+     "yas": 15,
+     "il": "Çanakkale",
+     "tarih": "2025-05-04",
+     "isKolu": "sanayi/atölye",
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/552416/2025te-24-cocuk-isci-yasamini-yitirdi-canakkalede-15-yasindaki-serafettin-is-cinayetinde-hayatini-kaybetti"
+    },
+    {
+     "ad": "Diyar Kişçioğlu",
+     "yas": 16,
+     "il": "Kahramanmaraş",
+     "tarih": "2025-04-26",
+     "isKolu": "inşaat",
+     "olay": "Hayatına son verdi",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1915878021589766350"
+    },
+    {
+     "ad": "Abdurrahman Özkül",
+     "yas": 14,
+     "il": "Niğde",
+     "tarih": "2025-04-15",
+     "isKolu": null,
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1912200105823723807"
+    },
+    {
+     "ad": "Yusuf Mısri",
+     "yas": 14,
+     "il": "Konya",
+     "tarih": "2025-04-14",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/549982/14-yasindaki-cocuk-isci-yusuf-is-cinayetine-kurban-gitti"
+    },
+    {
+     "ad": "Mehmet Özarslan",
+     "yas": 17,
+     "il": "Kayseri",
+     "tarih": "2025-04-08",
+     "isKolu": "sanayi/atölye",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.dha.com.tr/gundem/kum-ocaginda-calisirken-nehre-dusen-mehmetin-cansiz-bedenine-ulasildi-2615119"
+    },
+    {
+     "ad": "Yakup Taşar",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2025-04-01",
+     "isKolu": null,
+     "olay": "Hayatına son verdi",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/548735/17-yasindaki-genc-isci-intihar-etti"
+    },
+    {
+     "ad": "Şükrü Alkaş",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2025-03-22",
+     "isKolu": null,
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.sabah.com.tr/yasam/sevgilime-kim-yazdi-diye-girdigi-oto-yikamacida-ates-acti-17-yasindaki-sukru-oldu-7276201"
+    },
+    {
+     "ad": "Mehmet Cuma Koçak",
+     "yas": 17,
+     "il": "Hatay",
+     "tarih": "2025-03-21",
+     "isKolu": "sanayi/atölye",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1903038933862055991"
+    },
+    {
+     "ad": "Eren Barışık",
+     "yas": 17,
+     "il": "İzmir",
+     "tarih": "2025-03-21",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.hurriyet.com.tr/gundem/baba-ogul-hayatini-kaybetti-cati-tamiri-yaparken-ruzgardan-savruldular-42736290"
+    },
+    {
+     "ad": "Ömer Erdoğan",
+     "yas": 17,
+     "il": "Hatay",
+     "tarih": "2025-03-01",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://awss3.blob.core.windows.net/media/files/1750690443838-ocak-mayis-aylikbilginotu.pdf"
+    },
+    {
+     "ad": "Alperen Kılıçparlar",
+     "yas": 17,
+     "il": "Gaziantep",
+     "tarih": "2025-02-28",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1895441000237027536?s=20"
+    },
+    {
+     "ad": "Yusuf Güzel",
+     "yas": 16,
+     "il": "Eskişehir",
+     "tarih": "2025-02-06",
+     "isKolu": "inşaat",
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://umutgazetesi45.org/arsivler/129001"
+    },
+    {
+     "ad": "Muhammet Eroğlu",
+     "yas": 17,
+     "il": "Gaziantep",
+     "tarih": "2025-01-20",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/580237/antepte-cocuk-isci-cinayeti-17-yasindaki-muhammet-eroglu-asansor-bosluguna-duserek-yasamini-yitirdi"
+    },
+    {
+     "ad": "Mert Ali Yigen",
+     "yas": 16,
+     "il": "Çorum",
+     "tarih": "2025-01-18",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.haberturk.com/son-dakika-otomobil-motosiklete-carpti-kurye-oldu-alkollu-surucu-gozaltinda-3757225"
+    },
+    {
+     "ad": "Mert Efe Yaman",
+     "yas": 17,
+     "il": "Adana",
+     "tarih": "2025-01-07",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/kurye_haber/status/1876719926204858874?s=20"
+    },
+    {
+     "ad": "Ali S.",
+     "yas": "Bilinmiyor",
+     "il": null,
+     "tarih": "2025-01-01",
+     "isKolu": null,
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "Bilinmiyor"
+    },
+    {
+     "ad": "Mehmet Çelik",
+     "yas": "Bilinmiyor",
+     "il": null,
+     "tarih": "2025-01-01",
+     "isKolu": null,
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "Bilinmiyor",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    }
+   ]
+  },
+  {
+   "yil": 2024,
+   "kisiler": [
+    {
+     "ad": "Efe Baran Kazancı",
+     "yas": 14,
+     "il": "Zonguldak",
+     "tarih": "2024-11-23",
+     "isKolu": "sanayi/atölye",
+     "olay": "İşyerine giderken ustasının kullandığı aracın kazasında hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://bianet.org/haber/mesemli-bir-cocuk-isci-daha-oldu-302088"
+    },
+    {
+     "ad": "Yunus Emre Küçükuzun",
+     "yas": 17,
+     "il": "Konya",
+     "tarih": "2024-11-22",
+     "isKolu": "sanayi/atölye",
+     "olay": "Atölyede üzerine platin levha devrilerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1859975934138626528",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Erol Can Yavuz",
+     "yas": 15,
+     "il": "Kütahya",
+     "tarih": "2024-11-18",
+     "isKolu": "sanayi/atölye",
+     "olay": "Üzerine sunta blokları devrilerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1919414484289872030"
+    },
+    {
+     "ad": "Muhammed Kendirci",
+     "yas": 15,
+     "il": "Şanlıurfa",
+     "tarih": "2024-11-14",
+     "isKolu": "sanayi/atölye",
+     "olay": "Çalıştığı atölyede kalfası tarafından uğradığı işkence sonucu hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.evrensel.net/haber/593582/mesemde-iskenceyle-oldurulen-muhammed-kendirci-icin-sosyal-medyada-adalet-cagrisi"
+    },
+    {
+     "ad": "Yunus Emre Küçükuzun",
+     "yas": 17,
+     "il": "Konya",
+     "tarih": "2024-11-05",
+     "isKolu": "sanayi/atölye",
+     "olay": "Atölyede üzerine platin levha devrilerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1859975934138626528",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Muammer Samet Karaoluk",
+     "yas": 14,
+     "il": "Manisa",
+     "tarih": "2024-10-24",
+     "isKolu": "sanayi/atölye",
+     "olay": "Plastik doğrama atölyesinde tüfekle vurularak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.evrensel.net/haber/531907/manisada-plastik-atolyesinde-vurulan-mesemli-yasamini-yitirdi"
+    },
+    {
+     "ad": "Arda Tonbul",
+     "yas": 14,
+     "il": "İstanbul",
+     "tarih": "2024-10-12",
+     "isKolu": "sanayi/atölye",
+     "olay": "Saç büküm makinesine başı sıkışarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1919429150206488960"
+    },
+    {
+     "ad": "Eren Dağ",
+     "yas": 16,
+     "il": "Konya",
+     "tarih": "2024-07-30",
+     "isKolu": "sanayi/atölye",
+     "olay": "Çalıştığı işyerinde elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://bianet.org/haber/cocugum-mesemde-vefat-etti-neden-hic-kamu-gorevlisi-yargilanmiyor-314399"
+    },
+    {
+     "ad": "Alperen Kocayavuz",
+     "yas": 15,
+     "il": "Ankara",
+     "tarih": "2024-07-23",
+     "isKolu": "inşaat",
+     "olay": "Çalıştırıldığı inşaattan düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.dha.com.tr/gundem/liseli-alperenin-staj-yaptigi-insaatta-olumunde-3-kisiye-dava-2507560"
+    },
+    {
+     "ad": "Emre Ulusal",
+     "yas": 17,
+     "il": "Samsun",
+     "tarih": "2024-06-12",
+     "isKolu": "inşaat",
+     "olay": "Çıktığı elektrik direğinde akıma kapılarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.maden.org.tr/uploads/publicationFiles/2024-10-31-17-19-17-199165.pdf"
+    },
+    {
+     "ad": "Zekai Dikici",
+     "yas": 16,
+     "il": "Manisa",
+     "tarih": "2024-05-27",
+     "isKolu": "inşaat",
+     "olay": "İnşaatın 5. katından düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.facebook.com/groups/130070543768352/posts/9629441870497791/",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Alperen Enes Ural",
+     "yas": 17,
+     "il": "Manisa",
+     "tarih": "2024-05-23",
+     "isKolu": "inşaat",
+     "olay": "Çalıştırıldığı inşaattan düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://www.evrensel.net/haber/536434/mesemli-alperenin-olumune-51-bin-tl-ceza-17-yasindaki-cocuga-adalet-saglayamadiginiz-icin-utanin"
+    },
+    {
+     "ad": "Arda Günay",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2024-02-13",
+     "isKolu": "hizmet",
+     "olay": "Duvar ile asansör kabini arasında sıkışarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1919421021179801784"
+    },
+    {
+     "ad": "Murat Can Eryılmaz",
+     "yas": 17,
+     "il": "Kilis",
+     "tarih": "2024-02-02",
+     "isKolu": "inşaat",
+     "olay": "İnşaatın 8. katından düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://bianet.org/haber/mesem-kapsaminda-calistirilan-cocuk-murat-can-eryilmaz-oldu-291392"
+    },
+    {
+     "ad": "Mehmet Çelik",
+     "yas": 15,
+     "il": "Gaziantep",
+     "tarih": "2024-12-28",
+     "isKolu": "inşaat",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1872927819581608051",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Mert Aydın",
+     "yas": 16,
+     "il": "İstanbul",
+     "tarih": "2024-12-26",
+     "isKolu": null,
+     "olay": "Beyin kanaması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.facebook.com/isigmeclisi/posts/mert-aydın16-yaşındaistanbul-sancaktepede-iki-aydır-çalıştığı-fırında-1430-sular/904913025159555/",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Samet Demir",
+     "yas": 17,
+     "il": "İzmir",
+     "tarih": "2024-11-29",
+     "isKolu": "inşaat",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1862446195634815285",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Mert Aydın",
+     "yas": 16,
+     "il": "İstanbul",
+     "tarih": "2024-11-26",
+     "isKolu": "hizmet",
+     "olay": "Beyin kanaması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1872335677398073546",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "İlhan Yolcu",
+     "yas": 15,
+     "il": "Afyonkarahisar",
+     "tarih": "2024-11-20",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/534601/15-yasindaki-insaat-iscisi-cocuk-iskeleden-dusup-yasamini-yitirdi"
+    },
+    {
+     "ad": "Muratcan Ateş",
+     "yas": 17,
+     "il": "Elazığ",
+     "tarih": "2024-11-17",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1858201661849608356"
+    },
+    {
+     "ad": "Yusuf Gözel",
+     "yas": 16,
+     "il": "Elazığ",
+     "tarih": "2024-11-17",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1858201661849608356",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Murat Ateş",
+     "yas": 17,
+     "il": "Elazığ",
+     "tarih": "2024-11-16",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/534199/elazigda-teleskopik-yukleyicinin-devrilmesi-sonucu-2-cocuk-isci-hayatini-kaybetti"
+    },
+    {
+     "ad": "Yusuf Gözel",
+     "yas": 16,
+     "il": "Elazığ",
+     "tarih": "2024-11-16",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/534199/elazigda-teleskopik-yukleyicinin-devrilmesi-sonucu-2-cocuk-isci-hayatini-kaybetti",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Tarık El Deyab",
+     "yas": 17,
+     "il": "Konya",
+     "tarih": "2024-11-13",
+     "isKolu": "sanayi/atölye",
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1856685210693206170"
+    },
+    {
+     "ad": "Ahmet El Esad",
+     "yas": 17,
+     "il": "Çorum",
+     "tarih": "2024-10-17",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1846837126748320162"
+    },
+    {
+     "ad": "Abdullah El Esad",
+     "yas": 15,
+     "il": "Çorum",
+     "tarih": "2024-10-17",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1846837126748320162"
+    },
+    {
+     "ad": "Adem Poyraz",
+     "yas": 8,
+     "il": "Karaman",
+     "tarih": "2024-10-13",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://yeniyasamgazetesi9.com/karamanda-isci-servisi-devrildi-2-olu/"
+    },
+    {
+     "ad": "Selahattin Erol",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2024-10-02",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.antalyasokaklari.com/sokak/tarla-suren-cocuk-isci-yildirim-carpmasi-sonucu-hayatini-kaybetti.html",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Tamir D.",
+     "yas": 16,
+     "il": "Şanlıurfa",
+     "tarih": "2024-10-01",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.haber7.com/guncel/haber/3465188-insaatin-besinci-katindan-dusen-yabanci-uyruklu-cocuk-isci-oldu"
+    },
+    {
+     "ad": "Selahattin Erol",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2024-10-01",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1841020941561663563",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Ögün Dinç",
+     "yas": 17,
+     "il": "Afyonkarahisar",
+     "tarih": "2024-09-25",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.tmmob.org.tr/icerik/mesem-ve-cocuk-isci-olumleri-hakkinda-tmmob-isci-sagligi-ve-guvenligi-calisma-grubu"
+    },
+    {
+     "ad": "Muammed C.",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2024-09-21",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/528776/arnavutkoyde-is-cinayeti-17-yasindaki-multeci-cocuk-kereste-atolyesinde-cikan-yanginda-oldu"
+    },
+    {
+     "ad": "Muhammed C.",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2024-09-21",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1837412083006140584"
+    },
+    {
+     "ad": "Eylem Debek",
+     "yas": 5,
+     "il": "Tokat",
+     "tarih": "2024-09-05",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.ntv.com.tr/amp/turkiye/galeri-eylemin-oldugu-kazada-sofore-gozalti-17-kisilik-minibuste26-yolcu-oldugu-ortaya-cikti,pnnjannpnEq_R_Wx2aJseQ"
+    },
+    {
+     "ad": "Okan Baran",
+     "yas": 15,
+     "il": "Ardahan",
+     "tarih": "2024-08-28",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1828718395606331472"
+    },
+    {
+     "ad": "Osman Bostan",
+     "yas": 16,
+     "il": "Niğde",
+     "tarih": "2024-08-14",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1823794348632182814"
+    },
+    {
+     "ad": "Hüsnü Acer",
+     "yas": 12,
+     "il": "Şırnak",
+     "tarih": "2024-08-13",
+     "isKolu": "tarım",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1782793636477808835"
+    },
+    {
+     "ad": "Samet Ceyran",
+     "yas": 17,
+     "il": "Kayseri",
+     "tarih": "2024-07-30",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1818248058502590535"
+    },
+    {
+     "ad": "Celil Kartal",
+     "yas": 16,
+     "il": "Batman",
+     "tarih": "2024-07-27",
+     "isKolu": "tarım",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1817197789903774122"
+    },
+    {
+     "ad": "Fatih Curlu",
+     "yas": 17,
+     "il": "Kayseri",
+     "tarih": "2024-07-23",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1815744266007646640"
+    },
+    {
+     "ad": "Fatma Sarıgül",
+     "yas": 16,
+     "il": "Ankara",
+     "tarih": "2024-07-23",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1804930403871981717"
+    },
+    {
+     "ad": "Zehra Budak",
+     "yas": 13,
+     "il": "Ankara",
+     "tarih": "2024-07-23",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1804930403871981717"
+    },
+    {
+     "ad": "Muhammed Mustafa Kiraz",
+     "yas": 11,
+     "il": "Malatya",
+     "tarih": "2024-07-23",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1804918961147875427"
+    },
+    {
+     "ad": "Esmanur Argun",
+     "yas": 15,
+     "il": "Bursa",
+     "tarih": "2024-07-18",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1919393233483813007"
+    },
+    {
+     "ad": "Mehmet Emin Doğan",
+     "yas": 17,
+     "il": "Elazığ",
+     "tarih": "2024-07-17",
+     "isKolu": "inşaat",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1813612318158422261"
+    },
+    {
+     "ad": "Deniz Bilgin",
+     "yas": 11,
+     "il": "Gaziantep",
+     "tarih": "2024-07-11",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1811377000126263360"
+    },
+    {
+     "ad": "Muhammed Ali Küçük",
+     "yas": 16,
+     "il": "Bayburt",
+     "tarih": "2024-07-10",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1811028276229419455"
+    },
+    {
+     "ad": "Ahmed Handan El Naif",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2024-07-04",
+     "isKolu": null,
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1813612318158422261"
+    },
+    {
+     "ad": "Havin Ergin",
+     "yas": 17,
+     "il": "İzmir",
+     "tarih": "2024-07-02",
+     "isKolu": "hizmet",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1808063945871122681"
+    },
+    {
+     "ad": "Hasan Y.",
+     "yas": 15,
+     "il": "Konya",
+     "tarih": "2024-06-23",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1815751789775294620"
+    },
+    {
+     "ad": "Muhammed Hinki",
+     "yas": 14,
+     "il": "Gaziantep",
+     "tarih": "2024-06-23",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1804914602599235703"
+    },
+    {
+     "ad": "Emircan Mazak",
+     "yas": 17,
+     "il": "Bartın",
+     "tarih": "2024-06-06",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1798741324411424856"
+    },
+    {
+     "ad": "Gökhan Can",
+     "yas": 16,
+     "il": "Gaziantep",
+     "tarih": "2024-06-04",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://bircocukeksik.org/kayit/616",
+     "not": "Orijinal haber kaynağı yok; bağlantı bircocukeksik.org kaydıdır"
+    },
+    {
+     "ad": "Abdullah Çevik",
+     "yas": 15,
+     "il": "Şanlıurfa",
+     "tarih": "2024-05-12",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1789619638990475596"
+    },
+    {
+     "ad": "Polat Baran",
+     "yas": 15,
+     "il": "Şanlıurfa",
+     "tarih": "2024-04-24",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1783213267252294025"
+    },
+    {
+     "ad": "Serkan Çakıl",
+     "yas": 13,
+     "il": "Manisa",
+     "tarih": "2024-04-23",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1804914602599235703"
+    },
+    {
+     "ad": "Bünyemin Çakıl",
+     "yas": 6,
+     "il": "Manisa",
+     "tarih": "2024-04-23",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1782793636477808835"
+    },
+    {
+     "ad": "Furkan Celep",
+     "yas": 15,
+     "il": "Sakarya",
+     "tarih": "2024-04-18",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://chm.fisa.org.tr/wp-content/uploads/2025/01/FISA_CHM_2024_Cocugun_Yasam_Hakki_Raporu.pdf"
+    },
+    {
+     "ad": "Muhammet Kaan Akbulak",
+     "yas": 17,
+     "il": "Kocaeli",
+     "tarih": "2024-04-11",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1778461506448785760"
+    },
+    {
+     "ad": "İsmi Bilinmiyor",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2024-04-02",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1919834030230401160",
+     "not": "Kaynakta isim bilinmiyor"
+    },
+    {
+     "ad": "Efe Demir",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2024-04-02",
+     "isKolu": "hizmet",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1780615454647607338"
+    },
+    {
+     "ad": "Azat Erenuluğ",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2024-03-29",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1773687404412493855"
+    },
+    {
+     "ad": "Furkan Çiftçi",
+     "yas": 17,
+     "il": "Çorum",
+     "tarih": "2024-02-28",
+     "isKolu": "sanayi/atölye",
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1762761299572695415"
+    },
+    {
+     "ad": "Baran G.",
+     "yas": 16,
+     "il": "Adana",
+     "tarih": "2024-02-26",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1762073077410570359"
+    },
+    {
+     "ad": "Yasin Dombay",
+     "yas": 13,
+     "il": "Zonguldak",
+     "tarih": "2024-02-23",
+     "isKolu": "hizmet",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1919400264827642307"
+    },
+    {
+     "ad": "Ahmet Haskriko",
+     "yas": 15,
+     "il": "Adana",
+     "tarih": "2024-02-08",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.evrensel.net/haber/540180/ahmet-haskiro-davasi-cocuklarin-asansor-kullanmasi-yasak-calistirilmasi-serbest"
+    },
+    {
+     "ad": "Mehmet Ali Nar",
+     "yas": 17,
+     "il": "Mersin",
+     "tarih": "2024-02-01",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1752803552240550259"
+    },
+    {
+     "ad": "Fırat Karadağ",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2024-01-15",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1746823087381717205"
+    }
+   ]
+  },
+  {
+   "yil": 2023,
+   "kisiler": [
+    {
+     "ad": "Ömer Çakar",
+     "yas": 17,
+     "il": "Diyarbakır",
+     "tarih": "2023-12-29",
+     "isKolu": "sanayi/atölye",
+     "olay": "Çalıştırıldığı sırada yüksekten düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1740721396391514440?s=20"
+    },
+    {
+     "ad": "Ulaş Dumlu",
+     "yas": 17,
+     "il": "Konya",
+     "tarih": "2023-12-06",
+     "isKolu": "sanayi/atölye",
+     "olay": "Çalıştırıldığı sırada yüksekten düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1732434350719832421?s=20"
+    },
+    {
+     "ad": "Zekai Dikici",
+     "yas": 16,
+     "il": "Manisa",
+     "tarih": "2023-10-25",
+     "isKolu": "sanayi/atölye",
+     "olay": "Çalıştırıldığı sırada yüksekten düşerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1706622791993184367?s=20",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Oğuzhan Karataş",
+     "yas": 15,
+     "il": "Ardahan",
+     "tarih": "2023-07-09",
+     "isKolu": "tarım",
+     "olay": "Çalıştırıldığı sırada yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/is78034457931010048?s=201"
+    },
+    {
+     "ad": "Abdullah El Hamuud",
+     "yas": 16,
+     "il": "Adıyaman",
+     "tarih": "2023-12-29",
+     "isKolu": null,
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1740712887293706272?s=20"
+    },
+    {
+     "ad": "Ömer Girgin",
+     "yas": 15,
+     "il": "Kocaeli",
+     "tarih": "2023-12-12",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1734651402457145648?s=20"
+    },
+    {
+     "ad": "Mustafa Koç",
+     "yas": 17,
+     "il": "Kocaeli",
+     "tarih": "2023-12-09",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1733459574877749310?s=20"
+    },
+    {
+     "ad": "İsmail Yağbasan",
+     "yas": 16,
+     "il": "Şanlıurfa",
+     "tarih": "2023-11-16",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1725149493421617248?s=20"
+    },
+    {
+     "ad": "Ali Yahya Çetintaş",
+     "yas": 17,
+     "il": "Karaman",
+     "tarih": "2023-10-30",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1718917390807818255?s=20"
+    },
+    {
+     "ad": "Mehmet Sıtkı Gültekin",
+     "yas": 10,
+     "il": "Çanakkale",
+     "tarih": "2023-10-16",
+     "isKolu": "tarım",
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1713806359777460271?s=20"
+    },
+    {
+     "ad": "Samet Demir",
+     "yas": 19,
+     "il": "Sakarya",
+     "tarih": "2023-10-10",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.oxijen.tv/haber/16942147/insaat-iscisi-gencin-feci-olumu",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Birol Deveci",
+     "yas": 17,
+     "il": "Kocaeli",
+     "tarih": "2023-10-02",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1708728869946098017?s=20"
+    },
+    {
+     "ad": "Evren Kocaöz",
+     "yas": 12,
+     "il": "Aksaray",
+     "tarih": "2023-09-12",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1701530056508559392?s=20"
+    },
+    {
+     "ad": "B.İ.",
+     "yas": 7,
+     "il": "Çorum",
+     "tarih": "2023-09-12",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1701526448283005345?s=20"
+    },
+    {
+     "ad": "Emirhan Dolak",
+     "yas": 13,
+     "il": "Ordu",
+     "tarih": "2023-09-09",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1700536764392153133?s=20"
+    },
+    {
+     "ad": "Furkan Ertan",
+     "yas": 15,
+     "il": "Aksaray",
+     "tarih": "2023-08-31",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1697227187147927880?s=20"
+    },
+    {
+     "ad": "Mahsum Ak",
+     "yas": 12,
+     "il": "Ordu",
+     "tarih": "2023-08-29",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1696552342521311307?s=20"
+    },
+    {
+     "ad": "Yiğit Zamanis",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2023-08-27",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1695714324726079519?s=20"
+    },
+    {
+     "ad": "Sinan Enes Zinciralmaz",
+     "yas": 11,
+     "il": "Ordu",
+     "tarih": "2023-08-14",
+     "isKolu": "tarım",
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1691144329618665482?s=20"
+    },
+    {
+     "ad": "Sozdar Beko",
+     "yas": 14,
+     "il": "Adana",
+     "tarih": "2023-08-08",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1688851450342817793?s=20"
+    },
+    {
+     "ad": "Yusuf Akpolat",
+     "yas": 15,
+     "il": "Giresun",
+     "tarih": "2023-08-08",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1688844582971117568?s=20"
+    },
+    {
+     "ad": "A.A.",
+     "yas": 13,
+     "il": "Ankara",
+     "tarih": "2023-07-27",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/is4624664151064576?s=20"
+    },
+    {
+     "ad": "Esmanur Solmuş",
+     "yas": 4,
+     "il": "Bursa",
+     "tarih": "2023-07-25",
+     "isKolu": null,
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1683807141218377728?s=20"
+    },
+    {
+     "ad": "Salih Akkuş",
+     "yas": 15,
+     "il": "Afyonkarahisar",
+     "tarih": "2023-07-22",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1682813078369452034?s=20"
+    },
+    {
+     "ad": "Talha Çınaklı",
+     "yas": 13,
+     "il": "Konya",
+     "tarih": "2023-07-17",
+     "isKolu": null,
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1680907514219581446?s=20"
+    },
+    {
+     "ad": "Emre Günel",
+     "yas": 17,
+     "il": "Isparta",
+     "tarih": "2023-07-16",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1680581124962017284?s=20"
+    },
+    {
+     "ad": "Ali Karaoğlan",
+     "yas": 13,
+     "il": "Kahramanmaraş",
+     "tarih": "2023-07-12",
+     "isKolu": "sanayi/atölye",
+     "olay": "Ateşli silahla yaralanarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1679110764659965954?s=20"
+    },
+    {
+     "ad": "Emirhan Türker",
+     "yas": 17,
+     "il": "Sinop",
+     "tarih": "2023-07-11",
+     "isKolu": "inşaat",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1678737747425542144?s=20"
+    },
+    {
+     "ad": "Arsalan Doudkanlou",
+     "yas": 12,
+     "il": "Ağrı",
+     "tarih": "2023-07-11",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1678711116774490112?s=20"
+    },
+    {
+     "ad": "Bayram Ali Akdilek",
+     "yas": 16,
+     "il": "Karaman",
+     "tarih": "2023-07-11",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1678684160506904578?s=20"
+    },
+    {
+     "ad": "Ahmet Doğukan Ataş",
+     "yas": 14,
+     "il": "Erzurum",
+     "tarih": "2023-07-04",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/is676277836955492362"
+    },
+    {
+     "ad": "Ömer Faruk Yıldız",
+     "yas": 16,
+     "il": "Kocaeli",
+     "tarih": "2023-06-26",
+     "isKolu": "inşaat",
+     "olay": "Göçük altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1673301927772188673?s=20"
+    },
+    {
+     "ad": "Mehmet Akif Zengin",
+     "yas": 15,
+     "il": "Kayseri",
+     "tarih": "2023-06-25",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1673255933453950976?s=20"
+    },
+    {
+     "ad": "Mohammed Zain",
+     "yas": 7,
+     "il": "Hatay",
+     "tarih": "2023-06-19",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1670875472249475073?s=20"
+    },
+    {
+     "ad": "Mertcan Kuru",
+     "yas": 16,
+     "il": "Denizli",
+     "tarih": "2023-06-16",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1669693434440056833?s=20"
+    },
+    {
+     "ad": "Bektaş Algül",
+     "yas": 17,
+     "il": "Manisa",
+     "tarih": "2023-06-15",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1669294067623002112?s=20"
+    },
+    {
+     "ad": "Harun Yıldız",
+     "yas": 13,
+     "il": "Ankara",
+     "tarih": "2023-06-06",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1666033556232044546?s=20"
+    },
+    {
+     "ad": "Mustafa Çakmak",
+     "yas": 14,
+     "il": "Osmaniye",
+     "tarih": "2023-06-01",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1664211408773427201?s=20"
+    },
+    {
+     "ad": "Ali Heysem Heşlum",
+     "yas": 17,
+     "il": "Adana",
+     "tarih": "2023-05-27",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/is624476459132190760"
+    },
+    {
+     "ad": "Mehmet Erboğa",
+     "yas": 15,
+     "il": "İstanbul",
+     "tarih": "2023-05-26",
+     "isKolu": null,
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1662067631354945536?s=20"
+    },
+    {
+     "ad": "Enes Balçok",
+     "yas": 11,
+     "il": "Ağrı",
+     "tarih": "2023-05-11",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/is530804348619161630"
+    },
+    {
+     "ad": "Serhat Erdem",
+     "yas": 15,
+     "il": "Batman",
+     "tarih": "2023-03-19",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1637509818440187907?s=20"
+    },
+    {
+     "ad": "Abdurrezzak Kahya",
+     "yas": 12,
+     "il": "Gaziantep",
+     "tarih": "2023-01-29",
+     "isKolu": "hizmet",
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1619758298865213442?s=20"
+    }
+   ]
+  },
+  {
+   "yil": 2022,
+   "kisiler": [
+    {
+     "ad": "İsmi Bilinmiyor",
+     "yas": 17,
+     "il": "Batman",
+     "tarih": "2022-11-18",
+     "isKolu": "sanayi/atölye",
+     "olay": "Tekstil atölyesinde pamuk römork makinesine sıkışarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1859949400505876498",
+     "not": "Kaynakta isim bilinmiyor"
+    },
+    {
+     "ad": "Emre Koç",
+     "yas": 17,
+     "il": "Balıkesir",
+     "tarih": "2022-10-12",
+     "isKolu": "sanayi/atölye",
+     "olay": "İmalat tesisinde üzerine suntalar devrilerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1580255167777492992?s=20"
+    },
+    {
+     "ad": "Muhanmed Hüseyin",
+     "yas": 17,
+     "il": "Tekirdağ",
+     "tarih": "2022-06-02",
+     "isKolu": "sanayi/atölye",
+     "olay": "Fabrikada yük asansörü ile duvar arasında sıkışarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1818561634610069530"
+    },
+    {
+     "ad": "Büşra Koçak",
+     "yas": 16,
+     "il": "İzmir",
+     "tarih": "2022-04-17",
+     "isKolu": "hizmet",
+     "olay": "Çalıştığı restorandan çıkıp karşıya geçerken beton mikserinin çarpması sonucu hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1515738512062046212?s=20"
+    },
+    {
+     "ad": "C.A.K",
+     "yas": 17,
+     "il": "Şanlıurfa",
+     "tarih": "2022-11-19",
+     "isKolu": "lojistik",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1593905195138048000?s=20"
+    },
+    {
+     "ad": "Ali Sait Karpınar",
+     "yas": 16,
+     "il": "Kahramanmaraş",
+     "tarih": "2022-11-18",
+     "isKolu": "lojistik",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1593521551697133569?s=20"
+    },
+    {
+     "ad": "Hasan Eymen Ergen",
+     "yas": 9,
+     "il": "Konya",
+     "tarih": "2022-11-15",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1592514378120986625?s=20"
+    },
+    {
+     "ad": "Dicle Nur Selçuk",
+     "yas": 14,
+     "il": "Hatay",
+     "tarih": "2022-11-10",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1591022965218775040?s=20"
+    },
+    {
+     "ad": "Fidan Tunç",
+     "yas": 14,
+     "il": "Hatay",
+     "tarih": "2022-11-09",
+     "isKolu": "tarım",
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1590404988206911488?s=20"
+    },
+    {
+     "ad": "Erman Haymana",
+     "yas": 14,
+     "il": "Bursa",
+     "tarih": "2022-11-04",
+     "isKolu": "sanayi/atölye",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1588611324820729856?s=20"
+    },
+    {
+     "ad": "Mehmet Sinan Yaygın",
+     "yas": 12,
+     "il": "Şanlıurfa",
+     "tarih": "2022-09-23",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1573234604181528579?s=20"
+    },
+    {
+     "ad": "Hüseyin Elhamud",
+     "yas": 3,
+     "il": "İstanbul",
+     "tarih": "2022-09-22",
+     "isKolu": null,
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1572878906818166785?s=20"
+    },
+    {
+     "ad": "Egehan Bülbül",
+     "yas": 15,
+     "il": "Muğla",
+     "tarih": "2022-09-09",
+     "isKolu": "sanayi/atölye",
+     "olay": "Kalp krizi sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1568166626385616897?s=20"
+    },
+    {
+     "ad": "İskender Çimen",
+     "yas": 17,
+     "il": "Adana",
+     "tarih": "2022-08-29",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1564021476650618880?s=20"
+    },
+    {
+     "ad": "Ali Koç",
+     "yas": 15,
+     "il": "İstanbul",
+     "tarih": "2022-08-28",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1563826141751812097?s=20"
+    },
+    {
+     "ad": "Ağci Çiçek",
+     "yas": 15,
+     "il": "Diyarbakır",
+     "tarih": "2022-08-24",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1562452136855711744?s=20"
+    },
+    {
+     "ad": "İrem Selçuk",
+     "yas": 17,
+     "il": "Denizli",
+     "tarih": "2022-07-30",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1553403236060643328?s=20"
+    },
+    {
+     "ad": "Hamza Dülüklüoğlu",
+     "yas": 11,
+     "il": "Gaziantep",
+     "tarih": "2022-07-29",
+     "isKolu": "tarım",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/is53094434757156864?s=20"
+    },
+    {
+     "ad": "Hidayet Yeşil",
+     "yas": 16,
+     "il": "Aydın",
+     "tarih": "2022-07-29",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1553081494473543682?s=20"
+    },
+    {
+     "ad": "Mehmet Çevirel",
+     "yas": 15,
+     "il": "Van",
+     "tarih": "2022-07-27",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1552044339869671427?s=20"
+    },
+    {
+     "ad": "M.D",
+     "yas": 17,
+     "il": "Afyonkarahisar",
+     "tarih": "2022-07-26",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1551999074223722499?s=20"
+    },
+    {
+     "ad": "Muhammet Ongun",
+     "yas": 12,
+     "il": "Mersin",
+     "tarih": "2022-07-24",
+     "isKolu": "tarım",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1551237526488317954?s=20"
+    },
+    {
+     "ad": "Furkan Kalemli",
+     "yas": 15,
+     "il": "Mardin",
+     "tarih": "2022-07-23",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1550769265497759746?s=20"
+    },
+    {
+     "ad": "İsmet Ziya Çevik",
+     "yas": 14,
+     "il": "Afyonkarahisar",
+     "tarih": "2022-07-08",
+     "isKolu": "sanayi/atölye",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1545404984208068608?s=20"
+    },
+    {
+     "ad": "Muhammet Koçyiğit",
+     "yas": 11,
+     "il": "Ağrı",
+     "tarih": "2022-06-25",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/is40686744386998273?s=20"
+    },
+    {
+     "ad": "Miktad Yantur",
+     "yas": 15,
+     "il": "Konya",
+     "tarih": "2022-06-23",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1539899538688843776?s=20"
+    },
+    {
+     "ad": "Halil Togay",
+     "yas": 17,
+     "il": "İzmir",
+     "tarih": "2022-06-17",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1537870537879322624?s=20"
+    },
+    {
+     "ad": "Halil Karagöz",
+     "yas": 17,
+     "il": "Çankırı",
+     "tarih": "2022-06-07",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1534176730587570183?s=20"
+    },
+    {
+     "ad": "Abdulsamed Dağ",
+     "yas": 13,
+     "il": "Diyarbakır",
+     "tarih": "2022-06-03",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1532474709828329492?s=20"
+    },
+    {
+     "ad": "Muhammet Nur El Hüseyin",
+     "yas": 17,
+     "il": "Tekirdağ",
+     "tarih": "2022-06-02",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1532404801262190593?s=20"
+    },
+    {
+     "ad": "Muhammet Gün",
+     "yas": 17,
+     "il": "Tekirdağ",
+     "tarih": "2022-05-31",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1531613574925271040?s=20"
+    },
+    {
+     "ad": "Tahir Baykan",
+     "yas": 15,
+     "il": "Sivas",
+     "tarih": "2022-05-23",
+     "isKolu": "tarım",
+     "olay": "Ateşli silahla yaralanarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1528727316028964864?s=20"
+    },
+    {
+     "ad": "Muhammed Dağır",
+     "yas": 10,
+     "il": "Malatya",
+     "tarih": "2022-05-20",
+     "isKolu": null,
+     "olay": "Göçük altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1527698103251484673?s=20"
+    },
+    {
+     "ad": "Murat Koyuncu",
+     "yas": 14,
+     "il": "Manisa",
+     "tarih": "2022-05-19",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1527227774645243908?s=20"
+    },
+    {
+     "ad": "Ferhat Batur",
+     "yas": 16,
+     "il": "Adana",
+     "tarih": "2022-05-16",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1526066639384498179?s=20"
+    },
+    {
+     "ad": "Yusuf Narin",
+     "yas": 15,
+     "il": "Ankara",
+     "tarih": "2022-05-10",
+     "isKolu": "tarım",
+     "olay": "Hayatına son verdi",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1524107463460630529?s=20"
+    },
+    {
+     "ad": "Emir Esnek",
+     "yas": 10,
+     "il": "Balıkesir",
+     "tarih": "2022-04-07",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/is12077522510364674?s=20"
+    },
+    {
+     "ad": "Zafer Umut Bayram",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2022-04-05",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1511210537937428482?s=20"
+    },
+    {
+     "ad": "Muharrem Aksem",
+     "yas": 16,
+     "il": "Şanlıurfa",
+     "tarih": "2022-03-27",
+     "isKolu": "tarım",
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1508109177507528707?s=20"
+    },
+    {
+     "ad": "Ahmet Şahin",
+     "yas": 17,
+     "il": "Manisa",
+     "tarih": "2022-02-24",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1496804866559254535?s=20"
+    },
+    {
+     "ad": "Hayri Altun",
+     "yas": 17,
+     "il": "Batman",
+     "tarih": "2022-02-15",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1493648644775587843?s=20"
+    },
+    {
+     "ad": "Edanur Demir",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2022-01-21",
+     "isKolu": "hizmet",
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1484478795839152128?s=20"
+    }
+   ]
+  },
+  {
+   "yil": 2021,
+   "kisiler": [
+    {
+     "ad": "Süleyman Daşgın",
+     "yas": 15,
+     "il": "Muğla",
+     "tarih": "2021-11-18",
+     "isKolu": "tarım",
+     "olay": "Tarım işinde kamyon halatlarını açarken savrulan tomruğun başına çarpması sonucu hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1461407025880051712?s=20"
+    },
+    {
+     "ad": "Doğan Gül",
+     "yas": 10,
+     "il": "Diyarbakır",
+     "tarih": "2021-12-29",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1476138629495930883?s=20"
+    },
+    {
+     "ad": "Muhammed el-Bish",
+     "yas": 17,
+     "il": "İzmir",
+     "tarih": "2021-12-22",
+     "isKolu": "inşaat",
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1473682510173380613?s=20"
+    },
+    {
+     "ad": "Kerem",
+     "yas": 13,
+     "il": "Mersin",
+     "tarih": "2021-11-16",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1460695587922321414?s=20"
+    },
+    {
+     "ad": "Muhammed Onan",
+     "yas": 12,
+     "il": "Şırnak",
+     "tarih": "2021-11-16",
+     "isKolu": "tarım",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1460670041611976704?s=20"
+    },
+    {
+     "ad": "Ali Kubacık",
+     "yas": 13,
+     "il": "Çorum",
+     "tarih": "2021-10-12",
+     "isKolu": "tarım",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1447847825379893248?s=20"
+    },
+    {
+     "ad": "Mehmet Durmaz",
+     "yas": 12,
+     "il": "Konya",
+     "tarih": "2021-10-05",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1445326627517435907?s=20"
+    },
+    {
+     "ad": "Yusuf Demir",
+     "yas": 17,
+     "il": "Bolu",
+     "tarih": "2021-09-27",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1442533214644420609?s=20"
+    },
+    {
+     "ad": "Delil Alış",
+     "yas": 14,
+     "il": "Siirt",
+     "tarih": "2021-09-27",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1442494153531609094?s=20"
+    },
+    {
+     "ad": "Taha Demirer",
+     "yas": 9,
+     "il": "Şanlıurfa",
+     "tarih": "2021-09-09",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1435919355909394438?s=20"
+    },
+    {
+     "ad": "Enes Kurt",
+     "yas": 8,
+     "il": "Şanlıurfa",
+     "tarih": "2021-09-07",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1435298984269058049?s=20"
+    },
+    {
+     "ad": "Muhammet Talha Karabacak",
+     "yas": 17,
+     "il": "Kocaeli",
+     "tarih": "2021-09-03",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1433765927724671002?s=20"
+    },
+    {
+     "ad": "Yahya Berkay Şahin",
+     "yas": 15,
+     "il": "Antalya",
+     "tarih": "2021-08-31",
+     "isKolu": "hizmet",
+     "olay": "Fenalaşarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1432759898379538437?s=20"
+    },
+    {
+     "ad": "Hediye Aksoy",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2021-08-30",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1432259860469583875?s=20"
+    },
+    {
+     "ad": "Mahmut Karaaslan",
+     "yas": 17,
+     "il": "Bursa",
+     "tarih": "2021-08-27",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1431305794579046402?s=20"
+    },
+    {
+     "ad": "Abdulhamit Gür",
+     "yas": 17,
+     "il": "Gaziantep",
+     "tarih": "2021-08-25",
+     "isKolu": "tarım",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1430299508286623745?s=20"
+    },
+    {
+     "ad": "Mert Yıldırım",
+     "yas": 8,
+     "il": "Şanlıurfa",
+     "tarih": "2021-08-23",
+     "isKolu": "tarım",
+     "olay": "Ateşli silahla yaralanarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1429739959976669188?s=20"
+    },
+    {
+     "ad": "Mustafa Bülbül",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2021-08-20",
+     "isKolu": "hizmet",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1428637179492851714?s=20"
+    },
+    {
+     "ad": "Belkize Çelik",
+     "yas": 17,
+     "il": "Ordu",
+     "tarih": "2021-08-11",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1425516324290277379?s=20"
+    },
+    {
+     "ad": "Mecit Muhammet Madal",
+     "yas": 17,
+     "il": "Gaziantep",
+     "tarih": "2021-08-02",
+     "isKolu": "inşaat",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1422282380291739655?s=20"
+    },
+    {
+     "ad": "Emcet El Şvavbi",
+     "yas": 15,
+     "il": "Gaziantep",
+     "tarih": "2021-08-02",
+     "isKolu": "inşaat",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1422282380291739655?s=20"
+    },
+    {
+     "ad": "Emat Eldin",
+     "yas": 17,
+     "il": "Gaziantep",
+     "tarih": "2021-08-02",
+     "isKolu": "inşaat",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1422282380291739655?s=20"
+    },
+    {
+     "ad": "Ahmed Hannan",
+     "yas": 15,
+     "il": "Mersin",
+     "tarih": "2021-07-18",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1416505101829746693?s=20"
+    },
+    {
+     "ad": "Musa Can Çabuk",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2021-07-13",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1414867667194761217?s=20"
+    },
+    {
+     "ad": "Mahmut Gül",
+     "yas": 15,
+     "il": "Aksaray",
+     "tarih": "2021-07-08",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1413214632471416836?s=20"
+    },
+    {
+     "ad": "Beritan Taşer",
+     "yas": 15,
+     "il": "Muğla",
+     "tarih": "2021-07-05",
+     "isKolu": "inşaat",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1412121799593189388?s=20"
+    },
+    {
+     "ad": "Mustafa İletmiş",
+     "yas": 14,
+     "il": "Osmaniye",
+     "tarih": "2021-06-29",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1409891497529446405?s=20"
+    },
+    {
+     "ad": "Mehmet Ali Kırcılı",
+     "yas": 12,
+     "il": "Osmaniye",
+     "tarih": "2021-06-29",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1409891497529446405?s=20"
+    },
+    {
+     "ad": "Berzan Özgün",
+     "yas": 17,
+     "il": "Mardin",
+     "tarih": "2021-06-16",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1405235458766950400?s=20"
+    },
+    {
+     "ad": "Salih Güneş",
+     "yas": 15,
+     "il": "Eskişehir",
+     "tarih": "2021-06-14",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1404421602742317062?s=20"
+    },
+    {
+     "ad": "Enes Çiftçi",
+     "yas": 12,
+     "il": "Şanlıurfa",
+     "tarih": "2021-06-13",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1404173498558435334?s=20"
+    },
+    {
+     "ad": "Muhammet Karancı",
+     "yas": 17,
+     "il": "Muğla",
+     "tarih": "2021-06-01",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/is9gmeclisi/status/1399673456850046978?s=20"
+    },
+    {
+     "ad": "Narin Büyükçay",
+     "yas": 15,
+     "il": "Osmaniye",
+     "tarih": "2021-04-29",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1387839827454971915?s=20"
+    },
+    {
+     "ad": "Saadet Karataş",
+     "yas": 10,
+     "il": "Osmaniye",
+     "tarih": "2021-04-29",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1387839827454971915?s=20"
+    },
+    {
+     "ad": "Remziye Büyükçay",
+     "yas": 9,
+     "il": "Osmaniye",
+     "tarih": "2021-04-29",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1387839827454971915?s=20"
+    },
+    {
+     "ad": "Mehmet Emin Aslan",
+     "yas": 12,
+     "il": "Şanlıurfa",
+     "tarih": "2021-04-29",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1387835855453265924?s=20"
+    },
+    {
+     "ad": "Ahmet Aslan",
+     "yas": 8,
+     "il": "Şanlıurfa",
+     "tarih": "2021-04-29",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1387835855453265924?s=20"
+    },
+    {
+     "ad": "Baran Üstün",
+     "yas": 17,
+     "il": "Zonguldak",
+     "tarih": "2021-04-25",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1386219505223864322?s=20"
+    },
+    {
+     "ad": "Habip Şen",
+     "yas": 17,
+     "il": "Sivas",
+     "tarih": "2021-04-12",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1381536828809957378?s=20"
+    },
+    {
+     "ad": "Samet Bilir",
+     "yas": 16,
+     "il": "Bursa",
+     "tarih": "2021-04-10",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1380844478366355459?s=20"
+    },
+    {
+     "ad": "Yusuf Ata",
+     "yas": 14,
+     "il": "Şırnak",
+     "tarih": "2021-03-22",
+     "isKolu": "tarım",
+     "olay": "Patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1374044828997156868?s=20"
+    },
+    {
+     "ad": "Caner Sak",
+     "yas": 16,
+     "il": "Şırnak",
+     "tarih": "2021-03-22",
+     "isKolu": "tarım",
+     "olay": "Patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1374044828997156868?s=20"
+    },
+    {
+     "ad": "Mustafa El Muhammet",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2021-03-08",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1368882833666740227?s=20"
+    },
+    {
+     "ad": "Özgür Can Akbulut",
+     "yas": 17,
+     "il": "Şanlıurfa",
+     "tarih": "2021-02-21",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1363246795749474305?s=20"
+    },
+    {
+     "ad": "Barış Akbulut",
+     "yas": 16,
+     "il": "Şanlıurfa",
+     "tarih": "2021-02-21",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1363246795749474305?s=20"
+    },
+    {
+     "ad": "Rojhat Altuntaş",
+     "yas": 17,
+     "il": "Şanlıurfa",
+     "tarih": "2021-02-21",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1363246795749474305?s=20"
+    },
+    {
+     "ad": "Latif A.",
+     "yas": 16,
+     "il": "Kahramanmaraş",
+     "tarih": "2021-02-12",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1365947994571423744?s=20"
+    }
+   ]
+  },
+  {
+   "yil": 2020,
+   "kisiler": [
+    {
+     "ad": "Devran Onay",
+     "yas": 17,
+     "il": "Diyarbakır",
+     "tarih": "2020-12-28",
+     "isKolu": null,
+     "olay": "Göçük altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1343619399220080647?s=20"
+    },
+    {
+     "ad": "Tümer Kaşık",
+     "yas": 17,
+     "il": "Karaman",
+     "tarih": "2020-12-24",
+     "isKolu": "sanayi/atölye",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1342108773943488516?s=20"
+    },
+    {
+     "ad": "Fesih Kapkaç",
+     "yas": 16,
+     "il": "Sakarya",
+     "tarih": "2020-12-16",
+     "isKolu": "tarım",
+     "olay": "Hayatına son verdi",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1339293661952172034?s=20"
+    },
+    {
+     "ad": "İsa Yıldız",
+     "yas": 16,
+     "il": "İstanbul",
+     "tarih": "2020-12-14",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1343633384099241985?s=20"
+    },
+    {
+     "ad": "Halil Şenbüyük",
+     "yas": 16,
+     "il": "Antalya",
+     "tarih": "2020-12-13",
+     "isKolu": null,
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1338204057266249728?s=20"
+    },
+    {
+     "ad": "Emre Özcan",
+     "yas": 17,
+     "il": "Adana",
+     "tarih": "2020-10-29",
+     "isKolu": "hizmet",
+     "olay": "Kalp krizi sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1321775280848048130?s=20"
+    },
+    {
+     "ad": "Serhat Sarıyıldırım",
+     "yas": 16,
+     "il": "Osmaniye",
+     "tarih": "2020-10-26",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1320708137939312640?s=20"
+    },
+    {
+     "ad": "Harun Mete Şahin",
+     "yas": 14,
+     "il": "Samsun",
+     "tarih": "2020-10-25",
+     "isKolu": "sanayi/atölye",
+     "olay": "Fenalaşarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1320386816902647810?s=20"
+    },
+    {
+     "ad": "Vail El Mansur",
+     "yas": 14,
+     "il": "Konya",
+     "tarih": "2020-10-21",
+     "isKolu": "hizmet",
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1318842782715432961?s=20"
+    },
+    {
+     "ad": "Bakri Ancilini",
+     "yas": 8,
+     "il": "İstanbul",
+     "tarih": "2020-10-16",
+     "isKolu": null,
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1317131888511909896?s=20"
+    },
+    {
+     "ad": "Gamze Kakız",
+     "yas": 13,
+     "il": "Eskişehir",
+     "tarih": "2020-10-15",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1316486741457539072?s=20"
+    },
+    {
+     "ad": "Hamza Çökükoğlu",
+     "yas": 12,
+     "il": "Gaziantep",
+     "tarih": "2020-10-12",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1315730077796179969?s=20"
+    },
+    {
+     "ad": "Mahmut Tebaş",
+     "yas": 17,
+     "il": "Muş",
+     "tarih": "2020-09-30",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1311260577260605441?s=20"
+    },
+    {
+     "ad": "Emirhan Uyanık",
+     "yas": 14,
+     "il": "Samsun",
+     "tarih": "2020-09-25",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1309505315478687753?s=20"
+    },
+    {
+     "ad": "Ayşe Daş",
+     "yas": 15,
+     "il": "Şanlıurfa",
+     "tarih": "2020-09-22",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1308350569980059648?s=20"
+    },
+    {
+     "ad": "Sami Nadiri",
+     "yas": 13,
+     "il": "Ankara",
+     "tarih": "2020-09-09",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1303711603133739017?s=20"
+    },
+    {
+     "ad": "Doğan Yılmaz",
+     "yas": 15,
+     "il": "Samsun",
+     "tarih": "2020-08-24",
+     "isKolu": "tarım",
+     "olay": "Ateşli silahla yaralanarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1297918700583092224?s=20"
+    },
+    {
+     "ad": "Haydar Karataş",
+     "yas": 17,
+     "il": "Ordu",
+     "tarih": "2020-08-22",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1296924685083582464?s=20"
+    },
+    {
+     "ad": "Alper Arslan",
+     "yas": 17,
+     "il": "Karabük",
+     "tarih": "2020-08-18",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1295768674964512769?s=20"
+    },
+    {
+     "ad": "Mehmet Zencirci",
+     "yas": 17,
+     "il": "Ordu",
+     "tarih": "2020-08-11",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1296925418461831172?s=20"
+    },
+    {
+     "ad": "İbrahim Küçük",
+     "yas": 15,
+     "il": "Şanlıurfa",
+     "tarih": "2020-08-07",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1291653321917370370?s=20"
+    },
+    {
+     "ad": "Nucud Salih",
+     "yas": 10,
+     "il": "Bursa",
+     "tarih": "2020-07-29",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1288459896220987394?s=20"
+    },
+    {
+     "ad": "Ersan Taş",
+     "yas": 17,
+     "il": "Ağrı",
+     "tarih": "2020-07-24",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1286735823988232204?s=20"
+    },
+    {
+     "ad": "Kemal Budak",
+     "yas": 17,
+     "il": "Gaziantep",
+     "tarih": "2020-07-22",
+     "isKolu": "hizmet",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1285925745815158785?s=20"
+    },
+    {
+     "ad": "Hamza Acan",
+     "yas": 17,
+     "il": "Bursa",
+     "tarih": "2020-07-17",
+     "isKolu": "hizmet",
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1284119500808433667?s=20"
+    },
+    {
+     "ad": "Ali Osman Eytemiş",
+     "yas": 12,
+     "il": "Ağrı",
+     "tarih": "2020-07-13",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1282663166099574787?s=20"
+    },
+    {
+     "ad": "Ramazan Şimşek",
+     "yas": 16,
+     "il": "Giresun",
+     "tarih": "2020-06-17",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1273011714150273024?s=20"
+    },
+    {
+     "ad": "Mehmet Emin Epyıldız",
+     "yas": 16,
+     "il": "Batman",
+     "tarih": "2020-06-15",
+     "isKolu": "tarım",
+     "olay": "Ateşli silahla yaralanarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1272475306985742340?s=20"
+    },
+    {
+     "ad": "Mehmet Zurnacı",
+     "yas": 8,
+     "il": "Şanlıurfa",
+     "tarih": "2020-06-12",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1271208362236162048?s=20"
+    },
+    {
+     "ad": "Kadir Yağmur",
+     "yas": 10,
+     "il": "Şanlıurfa",
+     "tarih": "2020-06-12",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1271208362236162048?s=20"
+    },
+    {
+     "ad": "Mahmut Yağmur",
+     "yas": 12,
+     "il": "Şanlıurfa",
+     "tarih": "2020-06-12",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1271208362236162048?s=20"
+    },
+    {
+     "ad": "Mehmet Ali Beşaltı",
+     "yas": 16,
+     "il": "Gaziantep",
+     "tarih": "2020-06-01",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1267383726692012032?s=20"
+    },
+    {
+     "ad": "Harun Sakar",
+     "yas": 16,
+     "il": "Denizli",
+     "tarih": "2020-05-16",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1261581963519037440?s=20"
+    },
+    {
+     "ad": "Doğan Polat",
+     "yas": 11,
+     "il": "Erzurum",
+     "tarih": "2020-05-10",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1266346696579207169?s=20"
+    },
+    {
+     "ad": "İbrahim Aldemir",
+     "yas": 9,
+     "il": "Antalya",
+     "tarih": "2020-05-10",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1265040179544363009?s=20"
+    },
+    {
+     "ad": "Barış Aksu",
+     "yas": 12,
+     "il": "Siirt",
+     "tarih": "2020-04-23",
+     "isKolu": "tarım",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1255972654827388931?s=20"
+    },
+    {
+     "ad": "Yunus Akkuş",
+     "yas": 17,
+     "il": "Malatya",
+     "tarih": "2020-04-18",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1251611334363566081?s=20"
+    },
+    {
+     "ad": "Vefa Karataş",
+     "yas": 16,
+     "il": "Ağrı",
+     "tarih": "2020-04-04",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1259945498129182722?s=20"
+    },
+    {
+     "ad": "Abdullah Korkmaz",
+     "yas": 13,
+     "il": "Gaziantep",
+     "tarih": "2020-03-29",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1244322156605050880?s=20"
+    },
+    {
+     "ad": "Hasan İlaslan",
+     "yas": 16,
+     "il": "Afyonkarahisar",
+     "tarih": "2020-03-21",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1223669923735638019?s=20"
+    },
+    {
+     "ad": "Mustafa Kemal Üçpınar",
+     "yas": 15,
+     "il": "Konya",
+     "tarih": "2020-02-01",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1223669923735638019?s=20"
+    }
+   ]
+  },
+  {
+   "yil": 2019,
+   "kisiler": [
+    {
+     "ad": "Fatih Çiftçi",
+     "yas": 16,
+     "il": "Mersin",
+     "tarih": "2019-12-11",
+     "isKolu": "sanayi/atölye",
+     "olay": "Çalıştırıldığı sırada üzerine iş makinesi devrilerek hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1204801756070326275"
+    },
+    {
+     "ad": "Salih Geyikçi",
+     "yas": 16,
+     "il": "Antalya",
+     "tarih": "2019-11-17",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1196011162061737984"
+    },
+    {
+     "ad": "Burak Demir",
+     "yas": 16,
+     "il": "İstanbul",
+     "tarih": "2019-09-26",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1165951618069729286",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Eray Yazgam",
+     "yas": 17,
+     "il": "Aksaray",
+     "tarih": "2019-09-24",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1176411237300744197"
+    },
+    {
+     "ad": "Emre Bayır",
+     "yas": 16,
+     "il": "Bursa",
+     "tarih": "2019-09-23",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1189290661679374341"
+    },
+    {
+     "ad": "Davut Ulaş Kayacan",
+     "yas": 14,
+     "il": "Denizli",
+     "tarih": "2019-09-23",
+     "isKolu": "hizmet",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1176155488137994240"
+    },
+    {
+     "ad": "Fatih Gür",
+     "yas": 16,
+     "il": "Ordu",
+     "tarih": "2019-09-22",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1164513730656440320"
+    },
+    {
+     "ad": "Emircan Burak",
+     "yas": 16,
+     "il": "İstanbul",
+     "tarih": "2019-09-09",
+     "isKolu": null,
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1166984107240448000"
+    },
+    {
+     "ad": "Halaf Sağır",
+     "yas": 17,
+     "il": "Şanlıurfa",
+     "tarih": "2019-09-06",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1171081601587003392"
+    },
+    {
+     "ad": "Azat T.",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2019-08-28",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1169567124936941569"
+    },
+    {
+     "ad": "Burak Demir",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2019-08-18",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1163041859729580032",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Jindar Şan",
+     "yas": 17,
+     "il": "Şırnak",
+     "tarih": "2019-08-08",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1159548623182581760"
+    },
+    {
+     "ad": "Vedat Ekinci",
+     "yas": 14,
+     "il": "Hakkari",
+     "tarih": "2019-08-02",
+     "isKolu": "tarım",
+     "olay": "Ateşli silahla yaralanarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1157370443269050368"
+    },
+    {
+     "ad": "Tülin Türkmen",
+     "yas": 14,
+     "il": "İzmir",
+     "tarih": "2019-07-11",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1149234319753449472"
+    },
+    {
+     "ad": "Muhammed Emir Bozanoğlu",
+     "yas": 17,
+     "il": "Şanlıurfa",
+     "tarih": "2019-07-08",
+     "isKolu": "hizmet",
+     "olay": "Ateşli silahla yaralanarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1148232541444411398"
+    },
+    {
+     "ad": "Furkan Diri",
+     "yas": 15,
+     "il": "Sinop",
+     "tarih": "2019-07-08",
+     "isKolu": "tarım",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1148227092494135296"
+    },
+    {
+     "ad": "Recep Arslan",
+     "yas": 16,
+     "il": "Diyarbakır",
+     "tarih": "2019-06-09",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1137611818153762816"
+    },
+    {
+     "ad": "İsa Boğa",
+     "yas": 16,
+     "il": "Adana",
+     "tarih": "2019-05-27",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1133040999679385600"
+    },
+    {
+     "ad": "Ali Soyer",
+     "yas": 14,
+     "il": "Bilecik",
+     "tarih": "2019-05-26",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1132650053032652800"
+    },
+    {
+     "ad": "Nurullah Karakuş",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2019-05-25",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1132626817125421057"
+    },
+    {
+     "ad": "Ferhat Arslan",
+     "yas": 14,
+     "il": "Kahramanmaraş",
+     "tarih": "2019-05-25",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1132604393356972032"
+    },
+    {
+     "ad": "Emrullah Alptekin",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2019-05-06",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1125349006287220739"
+    },
+    {
+     "ad": "Yakup Çetin",
+     "yas": 17,
+     "il": "Şanlıurfa",
+     "tarih": "2019-05-04",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1126865655783813122"
+    },
+    {
+     "ad": "Ahmed El Ahmed",
+     "yas": 12,
+     "il": "Aydın",
+     "tarih": "2019-04-10",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1115893705347600389"
+    },
+    {
+     "ad": "Tevfik Fukra Erikli",
+     "yas": 16,
+     "il": "Gaziantep",
+     "tarih": "2019-04-09",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1120337358417690624"
+    },
+    {
+     "ad": "Servan Akpolat",
+     "yas": 16,
+     "il": "Muş",
+     "tarih": "2019-04-01",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1112482489006727169"
+    },
+    {
+     "ad": "Nergiz Kinno",
+     "yas": 15,
+     "il": "Hatay",
+     "tarih": "2019-03-07",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1103664819025137664"
+    },
+    {
+     "ad": "Ömer Demet",
+     "yas": 15,
+     "il": "Bursa",
+     "tarih": "2019-02-07",
+     "isKolu": null,
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1093269623745794049"
+    },
+    {
+     "ad": "İbrahim Halil Oruç",
+     "yas": 16,
+     "il": "Diyarbakır",
+     "tarih": "2019-01-29",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1090001282218291200"
+    },
+    {
+     "ad": "Berivan Karakeçili",
+     "yas": 13,
+     "il": "Antalya",
+     "tarih": "2019-01-25",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1088737742429868032"
+    },
+    {
+     "ad": "Zinnur Tomay",
+     "yas": 16,
+     "il": null,
+     "tarih": "2019-01-21",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1087393112585056258"
+    },
+    {
+     "ad": "Yakup Yıldız",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2019-01-19",
+     "isKolu": "sanayi/atölye",
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1086925209507168256"
+    },
+    {
+     "ad": "Hakan Gündeş",
+     "yas": 15,
+     "il": "İstanbul",
+     "tarih": "2019-01-19",
+     "isKolu": "sanayi/atölye",
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1086925209507168256"
+    },
+    {
+     "ad": "Muhammed Emin",
+     "yas": 16,
+     "il": "Ankara",
+     "tarih": "2019-01-18",
+     "isKolu": null,
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1086006506158542848"
+    },
+    {
+     "ad": "Ramazan Uygun",
+     "yas": 16,
+     "il": "İstanbul",
+     "tarih": "2019-01-02",
+     "isKolu": null,
+     "olay": "Göçük altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1083015929766834177"
+    }
+   ]
+  },
+  {
+   "yil": 2018,
+   "kisiler": [
+    {
+     "ad": "Devran Tunahan Kösçü",
+     "yas": 16,
+     "il": "Antalya",
+     "tarih": "2018-12-15",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1062826873950998533"
+    },
+    {
+     "ad": "Efekan Aslan",
+     "yas": 15,
+     "il": "Aydın",
+     "tarih": "2018-12-10",
+     "isKolu": "sanayi/atölye",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1072080250337746945"
+    },
+    {
+     "ad": "Aziz Çino",
+     "yas": 5,
+     "il": "Antalya",
+     "tarih": "2018-11-23",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1065955735526408194"
+    },
+    {
+     "ad": "Halil Yeloğlu",
+     "yas": 15,
+     "il": null,
+     "tarih": "2018-11-20",
+     "isKolu": "hizmet",
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1065220802260422656"
+    },
+    {
+     "ad": "Selman Bingöl",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2018-11-08",
+     "isKolu": "inşaat",
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1068631703948804096"
+    },
+    {
+     "ad": "Okan Şengel",
+     "yas": 17,
+     "il": "Aydın",
+     "tarih": "2018-09-30",
+     "isKolu": "sanayi/atölye",
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1046347488620425216"
+    },
+    {
+     "ad": "Jihad Saflan Hamid",
+     "yas": 14,
+     "il": "Kastamonu",
+     "tarih": "2018-09-24",
+     "isKolu": "tarım",
+     "olay": "Şiddet sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1043983214367379456"
+    },
+    {
+     "ad": "Hıdır Önder",
+     "yas": 14,
+     "il": "Mardin",
+     "tarih": "2018-09-04",
+     "isKolu": "sanayi/atölye",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1036998463949549570"
+    },
+    {
+     "ad": "Uğur Güneş",
+     "yas": 17,
+     "il": "Gaziantep",
+     "tarih": "2018-09-03",
+     "isKolu": null,
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1036649488302137351"
+    },
+    {
+     "ad": "Mustafa Altunbaş",
+     "yas": 13,
+     "il": "Gaziantep",
+     "tarih": "2018-09-03",
+     "isKolu": null,
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1036649488302137351"
+    },
+    {
+     "ad": "Musa Taşkın Yavuz",
+     "yas": 16,
+     "il": "Ordu",
+     "tarih": "2018-08-28",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1034456962006740992"
+    },
+    {
+     "ad": "Gül Abdu",
+     "yas": 17,
+     "il": "Bursa",
+     "tarih": "2018-08-25",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1011206788505653248"
+    },
+    {
+     "ad": "Yusuf Aydın",
+     "yas": 15,
+     "il": "Aydın",
+     "tarih": "2018-08-21",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1031884953200611328"
+    },
+    {
+     "ad": "Mahmut Maruf",
+     "yas": 16,
+     "il": "Gaziantep",
+     "tarih": "2018-08-16",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1030176751425658882"
+    },
+    {
+     "ad": "Emrah Sucu",
+     "yas": 17,
+     "il": "Erzurum",
+     "tarih": "2018-08-09",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1027519283767791617"
+    },
+    {
+     "ad": "Ömer Faruk Arslan",
+     "yas": 17,
+     "il": "Ankara",
+     "tarih": "2018-07-24",
+     "isKolu": "inşaat",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1021777243167703041"
+    },
+    {
+     "ad": "Gökhan Ahıskalı",
+     "yas": 12,
+     "il": "Çorum",
+     "tarih": "2018-07-19",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1019900992614207488"
+    },
+    {
+     "ad": "Arif Kul",
+     "yas": 16,
+     "il": "Burdur",
+     "tarih": "2018-07-16",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1017050628458196992"
+    },
+    {
+     "ad": "Yusuf Yılmaz",
+     "yas": 14,
+     "il": "Aydın",
+     "tarih": "2018-07-13",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1019903971257999360"
+    },
+    {
+     "ad": "Oğuzhan Erçeğ",
+     "yas": 17,
+     "il": "Aydın",
+     "tarih": "2018-07-09",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1016078310768603136"
+    },
+    {
+     "ad": "Ahmet Turan",
+     "yas": 17,
+     "il": "Gaziantep",
+     "tarih": "2018-07-03",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1014128669982445568",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Ahmet Turan",
+     "yas": 16,
+     "il": "Kayseri",
+     "tarih": "2018-06-29",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1012700548779290626",
+     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+    },
+    {
+     "ad": "Faruk Aydemiroğlu",
+     "yas": 16,
+     "il": "Sakarya",
+     "tarih": "2018-06-08",
+     "isKolu": "hizmet",
+     "olay": "Fenalaşarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1005056088146931712"
+    },
+    {
+     "ad": "İbrahim Biçer",
+     "yas": 17,
+     "il": "Adana",
+     "tarih": "2018-05-23",
+     "isKolu": "inşaat",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1001438774419709953"
+    },
+    {
+     "ad": "İslam Öztemel",
+     "yas": 17,
+     "il": "Mardin",
+     "tarih": "2018-05-14",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/996028773349904391"
+    },
+    {
+     "ad": "Hogır Kayran",
+     "yas": 11,
+     "il": "Mardin",
+     "tarih": "2018-05-14",
+     "isKolu": "tarım",
+     "olay": "Patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/996044164101038085"
+    },
+    {
+     "ad": "Yusuf Kaya",
+     "yas": 13,
+     "il": "Gaziantep",
+     "tarih": "2018-04-28",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/989995341238980610"
+    },
+    {
+     "ad": "Berat Taş",
+     "yas": 12,
+     "il": "Gaziantep",
+     "tarih": "2018-04-28",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/989995341238980610"
+    },
+    {
+     "ad": "Kadir Kara",
+     "yas": 15,
+     "il": "Van",
+     "tarih": "2018-04-23",
+     "isKolu": "inşaat",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/988410666418655232"
+    },
+    {
+     "ad": "Vefa Taşcı",
+     "yas": 16,
+     "il": "Niğde",
+     "tarih": "2018-04-12",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/984493792463147008"
+    },
+    {
+     "ad": "Oktay Porsuk",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2018-01-31",
+     "isKolu": "hizmet",
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/958748474908045312"
+    },
+    {
+     "ad": "İlyas Çeler",
+     "yas": 12,
+     "il": "Şanlıurfa",
+     "tarih": "2018-01-19",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/958079936392323078"
+    },
+    {
+     "ad": "Mehmet Toprak",
+     "yas": 15,
+     "il": "Mardin",
+     "tarih": "2018-01-07",
+     "isKolu": "sanayi/atölye",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/949935803660193792"
+    }
+   ]
+  },
+  {
+   "yil": 2017,
+   "kisiler": [
+    {
+     "ad": "Faruk Türkoğlu",
+     "yas": 17,
+     "il": null,
+     "tarih": "2017-01-12",
+     "isKolu": "sanayi/atölye",
+     "olay": "Çalıştırıldığı sırada çıkan yangında hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/837026664412549120?s=20"
+    },
+    {
+     "ad": "Ekrem Yörük",
+     "yas": 16,
+     "il": "Manisa",
+     "tarih": "2017-10-09",
+     "isKolu": "tarım",
+     "olay": "Zehirlenme sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/924565466064084994?s=20"
+    },
+    {
+     "ad": "İsrafil Sarı",
+     "yas": 14,
+     "il": "Gaziantep",
+     "tarih": "2017-09-26",
+     "isKolu": null,
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/912689528208596992?s=20"
+    },
+    {
+     "ad": "Mehmet Emin Çevik",
+     "yas": 14,
+     "il": "Bitlis",
+     "tarih": "2017-09-12",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/907608069001138177?s=20"
+    },
+    {
+     "ad": "Songül Çapat",
+     "yas": 14,
+     "il": "Sakarya",
+     "tarih": "2017-09-08",
+     "isKolu": "tarım",
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/906145494468108288?s=20"
+    },
+    {
+     "ad": "Fazlı Çam",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2017-08-23",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/900345652776927234?s=20"
+    },
+    {
+     "ad": "Eray Sevim",
+     "yas": 14,
+     "il": "Trabzon",
+     "tarih": "2017-08-21",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/899592146998751232?s=20"
+    },
+    {
+     "ad": "Şahin Budan",
+     "yas": 10,
+     "il": "İstanbul",
+     "tarih": "2017-08-17",
+     "isKolu": "hizmet",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/898269723401572352?s=20"
+    },
+    {
+     "ad": "Furkan Duman",
+     "yas": 16,
+     "il": "Bilecik",
+     "tarih": "2017-08-12",
+     "isKolu": "inşaat",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/896341567388123137?s=20"
+    },
+    {
+     "ad": "Samet Çelebi",
+     "yas": 17,
+     "il": "Ankara",
+     "tarih": "2017-08-11",
+     "isKolu": "inşaat",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/896006481941856257?s=20"
+    },
+    {
+     "ad": "Piroz Yaşar",
+     "yas": 17,
+     "il": "Düzce",
+     "tarih": "2017-08-11",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/895961403185614848?s=20"
+    },
+    {
+     "ad": "Muhammet Nur Ahmet",
+     "yas": 15,
+     "il": "Kocaeli",
+     "tarih": "2017-08-11",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/895987681653432320?s=20"
+    },
+    {
+     "ad": "Samet Barış Aydın",
+     "yas": 14,
+     "il": "Gaziantep",
+     "tarih": "2017-08-03",
+     "isKolu": "inşaat",
+     "olay": "Göçük altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/893192932215357440?s=20"
+    },
+    {
+     "ad": "Murat Gümüş",
+     "yas": 17,
+     "il": "Adana",
+     "tarih": "2017-07-21",
+     "isKolu": null,
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/888504403019354113?s=20"
+    },
+    {
+     "ad": "Faruk Kaya",
+     "yas": 17,
+     "il": "Adana",
+     "tarih": "2017-07-21",
+     "isKolu": null,
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/888504403019354113?s=20"
+    },
+    {
+     "ad": "Yunus İnci",
+     "yas": 16,
+     "il": "Tekirdağ",
+     "tarih": "2017-07-21",
+     "isKolu": "inşaat",
+     "olay": "Yüksekten düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/888386972607287298?s=20"
+    },
+    {
+     "ad": "Betül Kazan",
+     "yas": 12,
+     "il": "Samsun",
+     "tarih": "2017-07-12",
+     "isKolu": "tarım",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/885094360588668930?s=20"
+    },
+    {
+     "ad": "Hüseyin Abay",
+     "yas": 15,
+     "il": "İzmir",
+     "tarih": "2017-07-01",
+     "isKolu": "hizmet",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/880909110258135040?s=20"
+    },
+    {
+     "ad": "Mustafa Buğa",
+     "yas": 17,
+     "il": "Ankara",
+     "tarih": "2017-06-12",
+     "isKolu": "inşaat",
+     "olay": "İş kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/874250713391562752?s=20"
+    },
+    {
+     "ad": "Davut Beyazıt",
+     "yas": 17,
+     "il": "Mardin",
+     "tarih": "2017-06-09",
+     "isKolu": "tarım",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/872931538740154369?s=20"
+    },
+    {
+     "ad": "Ömer Faruk Sever",
+     "yas": 16,
+     "il": "Adana",
+     "tarih": "2017-05-01",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/859162073787502592?s=20"
+    },
+    {
+     "ad": "R.D.",
+     "yas": 15,
+     "il": "Van",
+     "tarih": "2017-04-27",
+     "isKolu": "sanayi/atölye",
+     "olay": "Hayatına son verdi",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/857699659866886158?s=20"
+    },
+    {
+     "ad": "Ahmet Albayrak",
+     "yas": 15,
+     "il": "Şanlıurfa",
+     "tarih": "2017-02-16",
+     "isKolu": "inşaat",
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/832195923245670401?s=20"
+    },
+    {
+     "ad": "Ali Yıldız",
+     "yas": 16,
+     "il": "Kilis",
+     "tarih": "2017-02-09",
+     "isKolu": "hizmet",
+     "olay": "Hayatına son verdi",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/829454554693525515?s=20"
+    }
+   ]
+  },
+  {
+   "yil": 2016,
+   "kisiler": [
+    {
+     "ad": "İbrahim İşcan",
+     "yas": 17,
+     "il": "Kütahya",
+     "tarih": "2016-10-28",
+     "isKolu": "sanayi/atölye",
+     "olay": "Sanayide stajyer olarak çalışırken saç kesme makinesine başı sıkışarak hayatını kaybetti",
+     "mesem": true,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/791926191229853699?s=20",
+     "not": "MESEM işareti bircocukeksik.org kaydından alındı; kayıt metninde MESEM ibaresi geçmiyor"
+    },
+    {
+     "ad": "Oğuzhan Tosun",
+     "yas": 17,
+     "il": "Sakarya",
+     "tarih": "2016-12-24",
+     "isKolu": "sanayi/atölye",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/812651278115504129"
+    },
+    {
+     "ad": "Cafer",
+     "yas": 14,
+     "il": "Aydın",
+     "tarih": "2016-10-11",
+     "isKolu": "sanayi/atölye",
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/785806490468691972"
+    },
+    {
+     "ad": "Kasen Abdullah",
+     "yas": 16,
+     "il": "Aydın",
+     "tarih": "2016-10-05",
+     "isKolu": "sanayi/atölye",
+     "olay": "Göçük altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/783730336257699840"
+    },
+    {
+     "ad": "Ahmet Demir",
+     "yas": 15,
+     "il": "Şanlıurfa",
+     "tarih": "2016-09-09",
+     "isKolu": "tarım",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/774311839085764608"
+    },
+    {
+     "ad": "Muhammet Recep Çömez",
+     "yas": 16,
+     "il": "Zonguldak",
+     "tarih": "2016-08-24",
+     "isKolu": "tarım",
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/768457212972961792"
+    },
+    {
+     "ad": "Hakan Sarp",
+     "yas": 16,
+     "il": "Mersin",
+     "tarih": "2016-07-28",
+     "isKolu": null,
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/758726095331991552"
+    },
+    {
+     "ad": "Zeynep Müçek",
+     "yas": 14,
+     "il": "Elazığ",
+     "tarih": "2016-07-25",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/757505144489738241"
+    },
+    {
+     "ad": "Pınar Müçek",
+     "yas": 17,
+     "il": "Elazığ",
+     "tarih": "2016-07-25",
+     "isKolu": "tarım",
+     "olay": "Suda boğularak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/757505144489738241"
+    },
+    {
+     "ad": "Kadir Oflaz",
+     "yas": 17,
+     "il": "Antalya",
+     "tarih": "2016-07-14",
+     "isKolu": null,
+     "olay": "Elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/753577275577294848",
+     "not": "Kaynakta il \"Alanya\" yazıyor; Alanya Antalya'nın ilçesidir"
+    },
+    {
+     "ad": "Burak Ay",
+     "yas": 17,
+     "il": "Muğla",
+     "tarih": "2016-07-10",
+     "isKolu": "hizmet",
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/752195977059135488"
+    },
+    {
+     "ad": "Mustafa Cemal",
+     "yas": 11,
+     "il": "İstanbul",
+     "tarih": "2016-06-21",
+     "isKolu": "sanayi/atölye",
+     "olay": "Asansör kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/747520994592628736"
+    },
+    {
+     "ad": "Şahin Aytaç",
+     "yas": 15,
+     "il": "Gaziantep",
+     "tarih": "2016-05-30",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/737199618279247872"
+    },
+    {
+     "ad": "Selman Mertaslan",
+     "yas": 17,
+     "il": "Mersin",
+     "tarih": "2016-05-27",
+     "isKolu": "inşaat",
+     "olay": "Göçük altında kalarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/735946521682817024"
+    },
+    {
+     "ad": "Mehmet Şeyhan",
+     "yas": 17,
+     "il": "Ankara",
+     "tarih": "2016-05-19",
+     "isKolu": "tarım",
+     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/733247873517785088"
+    },
+    {
+     "ad": "Özcan Gencer",
+     "yas": 17,
+     "il": "Uşak",
+     "tarih": "2016-04-02",
+     "isKolu": "sanayi/atölye",
+     "olay": "Hayatına son verdi",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/716348592278138881"
+    },
+    {
+     "ad": "Ercan Tuğlu",
+     "yas": 16,
+     "il": "İstanbul",
+     "tarih": "2016-03-29",
+     "isKolu": "hizmet",
+     "olay": "Trafik kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/714780030707085312"
+    },
+    {
+     "ad": "Halil Berke Aygün",
+     "yas": 17,
+     "il": "Balıkesir",
+     "tarih": "2016-03-06",
+     "isKolu": null,
+     "olay": "Kalp krizi sonucu hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/706571628017278976"
+    },
+    {
+     "ad": "Sefa Doğan Özer",
+     "yas": 17,
+     "il": "Karaman",
+     "tarih": "2016-02-08",
+     "isKolu": null,
+     "olay": "Asansör kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/696783356244185088"
+    },
+    {
+     "ad": "Osman Yardımcı",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2016-02-02",
+     "isKolu": null,
+     "olay": "Asansör kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/694638046604607488"
+    },
+    {
+     "ad": "Serhat Bilmez",
+     "yas": 15,
+     "il": "Kocaeli",
+     "tarih": "2016-01-25",
+     "isKolu": "sanayi/atölye",
+     "olay": "Makine kazasında hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/691659908958281729"
+    },
+    {
+     "ad": "Ufuk Özcan",
+     "yas": 17,
+     "il": null,
+     "tarih": "2016-01-07",
+     "isKolu": null,
+     "olay": null,
+     "mesem": false,
+     "kaynakUrl": "https://x.com/isigmeclisi/status/685002308715962368"
+    }
+   ]
+  }
+ ]
+}

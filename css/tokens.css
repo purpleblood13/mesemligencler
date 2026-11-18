@@ -1,0 +1,30 @@
+/* Tasarım belirteçleri. Palet logodan: rozetin kırmızısı (#932d24),
+   kahverengimsi siyahı (#262424 / #382e2c) ve kâğıt beyazı (#fefcfa). */
+@import url("fonts.css?v=202611180322");
+
+:root {
+  color-scheme: dark;
+
+  /* Zemin: logonun kahve-siyahından türetildi */
+  --bg: #1a1514;
+  --surface: #262020;
+  --surface-2: #382e2c;
+  --line: rgb(254 252 250 / .1);
+  --line-strong: rgb(254 252 250 / .24);
+
+  /* Metin: logonun kâğıt beyazı */
+  --ink: #fefcfa;
+  --muted: #b9a9a5;
+
+  /* Vurgu: logonun kırmızısı, koyu zeminde okunacak kadar açıldı */
+  --c1: #ef5a43;   /* kızıl */
+  --c2: #932d24;   /* logo kırmızısı */
+  --c3: #ff9a5c;   /* fabrika ateşi */
+  --c4: #a3746f;   /* gül kurusu */
+
+  --font-display: "Bricolage Grotesque", "Arial Narrow", system-ui, sans-serif;
+  --font-body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  --max: 76rem;
+  --header-h: 72px;
+}
