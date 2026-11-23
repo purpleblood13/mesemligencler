@@ -396,8 +396,8 @@ window.MG_BOT = {
     },
     ulas: {
       say: [
-        "Bize ulaşmak için ad soyadını, telefon numaranı ve okulunu yazman yeterli. Ekipten biri seni arar.",
-        "Bilgilerini yalnızca seninle iletişime geçmek için kullanırız; kimseyle paylaşmayız.",
+        "Bize ulaşmak için Instagram'dan (@mesemligencler) ya da TikTok'tan DM atman yeterli. Ekipten biri sana geri döner.",
+        "Yazdıklarını yalnızca seninle konuşmak için kullanırız; iznin olmadan kimseyle paylaşmayız.",
       ],
       links: [{ label: "Bize ulaş", href: "iletisim.html" }],
       choices: [{ label: "Başka bir şey yapalım", next: "merkez" }],

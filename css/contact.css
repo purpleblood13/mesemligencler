@@ -1,21 +1,33 @@
-/* Bize ulaş: kısa iletişim formu. */
-.contact { width: min(100% - 2rem, 32rem); margin-inline: auto; }
-.contact-form { display: grid; gap: 1.25rem; }
-.field { display: grid; gap: .45rem; }
-.field label { font-weight: 600; }
-.field small { color: var(--muted); font-size: .88rem; }
-.field input {
-  min-height: 52px; padding: 0 1rem; font: inherit; font-size: 1.05rem; color: var(--ink);
-  background: var(--surface); border: 1px solid var(--line-strong); border-radius: 12px;
+/* Bize ulaş: sosyal medya hesaplarına DM bağlantıları. */
+.contact { width: min(100% - 2rem, 34rem); margin-inline: auto; }
+div.contact { padding-bottom: 4rem; }
+.dm-list { display: grid; gap: .75rem; margin: 0; padding: 0; list-style: none; }
+.dm-card {
+  display: flex; align-items: center; gap: 1rem; min-height: 72px; padding: .9rem 1.1rem;
+  color: var(--ink); text-decoration: none;
+  background: var(--surface); border: 1px solid var(--line-strong); border-radius: 16px;
+  transition: background .2s, border-color .2s, transform .2s;
 }
-.field input:focus-visible { outline: 2px solid var(--c1); outline-offset: 2px; }
-.field input[aria-invalid="true"] { border-color: var(--c1); }
-.field .error { color: #ff8a77; font-size: .92rem; min-height: 0; }
-.contact-form .hp { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
-.contact-form .btn { width: 100%; min-height: 54px; font-size: 1.05rem; border: 0; cursor: pointer; font-family: inherit; }
-.contact-form .btn:disabled { opacity: .6; cursor: progress; }
-.contact-note { color: var(--muted); font-size: .92rem; margin: 0; }
-.contact-status { padding: 1rem 1.1rem; border-radius: 14px; background: var(--surface); line-height: 1.5; }
-.contact-status[hidden] { display: none; }
-.contact-status--ok { border: 1px solid var(--c3); }
-.contact-status--error { border: 1px solid var(--c1); }
+.dm-card:hover { background: var(--surface-2); transform: translateY(-1px); }
+.dm-card:focus-visible { outline: 2px solid var(--c1); outline-offset: 3px; }
+.dm-card--primary { border-color: var(--c1); }
+.dm-card__icon {
+  display: grid; place-items: center; flex: none; width: 44px; height: 44px;
+  border-radius: 12px; background: var(--surface-2);
+}
+.dm-card--primary .dm-card__icon { background: var(--c1); color: var(--ink); }
+.dm-card__icon svg { width: 22px; height: 22px; }
+.dm-card__text { display: grid; gap: .15rem; min-width: 0; }
+.dm-card__text strong { font-size: 1.08rem; }
+.dm-card__text span { color: var(--muted); font-size: .92rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.dm-card__action { margin-left: auto; flex: none; font-weight: 600; color: var(--c3); white-space: nowrap; }
+.contact-note { margin: 1.5rem 0 0; color: var(--muted); font-size: .92rem; }
+
+@media (max-width: 380px) {
+  .dm-card { gap: .75rem; padding: .8rem .9rem; }
+  .dm-card__action { font-size: .9rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dm-card { transition: none; }
+  .dm-card:hover { transform: none; }
+}

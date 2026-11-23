@@ -29,7 +29,7 @@ SOCIAL = [
     ("Instagram", "https://www.instagram.com/mesemligencler/", "instagram"),
     ("TikTok", "https://www.tiktok.com/@mesemligencler", "tiktok"),
     ("YouTube", "https://www.youtube.com/@MESEMliGencler2024", "youtube"),
-    ("X", "https://x.com/isigmeclisi", "x"),
+    ("X", "https://x.com/mesemligencler", "x"),
 ]
 
 ICONS = {
