@@ -2,7 +2,7 @@
 
 MESEM'de okuyan ve çalışan liselilerin haberleşme ve dayanışma ağının sitesi. Canlı adres: https://mesemligencler.com/ (GitHub Pages). Domain Hostinger'de kayıtlı; Hostinger'de hosting paketi yok, yalnızca DNS orada yönetilir.
 
-Repo: https://github.com/purpleblood13/mesemli-gencler (herkese açık, varsayılan dal `main`). Ücretsiz GitHub hesabında Pages yalnızca herkese açık repoda çalışır; repo gizlenirse site yayından düşer.
+Repo: https://github.com/purpleblood13/mesemligencler (herkese açık, varsayılan dal `main`). Ücretsiz GitHub hesabında Pages yalnızca herkese açık repoda çalışır; repo gizlenirse site yayından düşer.
 
 ## Yapı
 
