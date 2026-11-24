@@ -1,0 +1,11 @@
+[Unit]
+Description=Mesemli Gencler Instagram sync (hourly)
+
+[Timer]
+OnCalendar=hourly
+# Genç Hayat senkronuyla aynı dakikaya düşmesin, Instagram'a toplu istek gitmesin.
+RandomizedDelaySec=900
+Persistent=true
+
+[Install]
+WantedBy=timers.target

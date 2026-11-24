@@ -64,9 +64,10 @@ def resolve_post(code):
         ie._reel_media = orig
 
 
-def build_post(old):
+def build_post(old, p=None):
+    """`p` (resolve_post çıktısı) verilirse embed'e ikinci kez gidilmez."""
     code = old["code"]
-    p = resolve_post(code)
+    p = p or resolve_post(code)
     # fetch_post url'siz medyayı eler; yt-dlp başarısızsa tek video kapakla kalır
     medya = []
     items = p["media"]
@@ -119,4 +120,5 @@ def main():
     print("FAILED:", failed)
 
 
-main()
+if __name__ == "__main__":
+    main()

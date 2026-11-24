@@ -1,0 +1,13 @@
+[Unit]
+Description=Mesemli Gencler Instagram sync
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/mesemli-sync
+# ffmpeg sistemden, Pillow ve yt-dlp .venv'den gelir.
+Environment=PATH=%h/mesemli-sync/.venv/bin:/usr/local/bin:/usr/bin:/bin
+ExecStart=%h/mesemli-sync/.venv/bin/python scripts/insta/sync_latest.py
+# Video dönüştürme VM'de yavaş olabilir; takılan çalıştırma bir sonrakini engellemesin.
+TimeoutStartSec=30min
