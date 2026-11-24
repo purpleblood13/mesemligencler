@@ -75,7 +75,7 @@
       <header class="bot-panel__head">
         <button class="bot-icon bot-back" type="button" aria-label="Bir önceki soruya dön">${ICON.back}</button>
         <img src="assets/logo/profile.jpg" alt="" width="36" height="36">
-        <div class="bot-panel__who"><b>Mesemli Gençler</b><small>İsimsiz sohbet</small></div>
+        <div class="bot-panel__who"><b>MESEM'li Gençler</b><small>İsimsiz sohbet</small></div>
         <button class="bot-icon bot-restart" type="button" aria-label="Sohbeti baştan başlat">${ICON.restart}</button>
         <button class="bot-icon bot-close" type="button" aria-label="Sohbeti kapat">${ICON.close}</button>
       </header>

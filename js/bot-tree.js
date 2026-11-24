@@ -31,7 +31,7 @@ window.MG_BOT = {
     },
     tanis: {
       say: [
-        "MESEM'i, öğrenciyi haftada dört gün işletmede çalıştıran bir ucuz emek ve çocuk işçiliği düzeni olarak görüyoruz. Amacımız mesleki eğitimin okulda, parasız ve güvenli verilmesi.",
+        "MESEM'i, öğrenciyi haftada en az 4 gün işletmede çalıştıran bir ucuz emek ve çocuk işçiliği düzeni olarak görüyoruz. Amacımız mesleki eğitimin okulda, parasız ve güvenli verilmesi.",
         "Bunun için önce senin neler yaşadığını bilmemiz gerekiyor. Ne kadar çok genç anlatırsa, itirazımız o kadar güçlü olur.",
       ],
       links: [{ label: "Biz kimiz", href: "biz-kimiz.html" }],

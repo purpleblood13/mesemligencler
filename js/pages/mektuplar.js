@@ -45,7 +45,7 @@
   function sourcesHtml(l) {
     const list = Array.isArray(l.kaynakca) ? l.kaynakca.slice() : [];
     const insta = MG.safeUrl(l.instagram);
-    if (insta) list.push({ metin: `Mesemli Gençler Instagram hesabı, ${MG.formatDate(l.tarih)} tarihli gönderi.`, url: insta });
+    if (insta) list.push({ metin: `MESEM'li Gençler Instagram hesabı, ${MG.formatDate(l.tarih)} tarihli gönderi.`, url: insta });
     if (!list.length) return "";
     const items = list.map((s) => {
       const url = MG.safeUrl(s.url);

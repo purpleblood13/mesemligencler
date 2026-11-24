@@ -69,7 +69,7 @@
             <li><b>${short(p.takipci)}</b> takipçi</li>
             <li><b>${num(p.takip)}</b> takip</li>
           </ul>
-          <div class="ig-bio"><b>${MG.esc(p.ad || "Mesemli Gençler")}</b>${p.bio ? `<span>${MG.esc(p.bio)}</span>` : ""}</div>
+          <div class="ig-bio"><b>${MG.esc(p.ad || "MESEM'li Gençler")}</b>${p.bio ? `<span>${MG.esc(p.bio)}</span>` : ""}</div>
         </div>
       </header>
       <nav class="ig-tabs" aria-label="Profil sekmeleri"><span class="ig-tab">${ICON.grid}GÖNDERİLER</span></nav>`;

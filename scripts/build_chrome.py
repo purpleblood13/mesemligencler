@@ -40,10 +40,10 @@ ICONS = {
 }
 
 SITE_URL = "https://mesemligencler.com/"
-OG_IMAGE_ALT = "Mesemli Gençler: MESEM çocuk işçiliğidir."
+OG_IMAGE_ALT = "MESEM'li Gençler: MESEM çocuk işçiliğidir."
 HOME_HREF = "./"  # ana sayfa: adres çubuğunda index.html görünmesin
 
-BRAND = f'<a class="brand" href="{HOME_HREF}"><img src="assets/logo/profile.jpg" alt="" width="38" height="38">Mesemli Gençler</a>'
+BRAND = f'<a class="brand" href="{HOME_HREF}"><img src="assets/logo/profile.jpg" alt="" width="38" height="38">MESEM\'li Gençler</a>'
 CURRENT_ATTR = ' aria-current="page"'
 
 
@@ -121,7 +121,7 @@ def meta_html(page, title, description):
   <link rel="canonical" href="{attr(url)}">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="tr_TR">
-  <meta property="og:site_name" content="Mesemli Gençler">
+  <meta property="og:site_name" content="MESEM'li Gençler">
   <meta property="og:title" content="{attr(title)}">
   <meta property="og:description" content="{attr(description)}">
   <meta property="og:url" content="{attr(url)}">

@@ -79,7 +79,7 @@
       <section class="carousel__slide tpl tpl--paper tpl--info" aria-label="Künye">
         <h4 class="tpl__title">ÖNERGENİN KÜNYESİ</h4>
         <dl>${rows.map(([k, v]) => `<div><dt>${MG.esc(k)}</dt><dd>${MG.esc(v)}</dd></div>`).join("")}</dl>
-        <span class="tpl__sign"><img src="assets/logo/profile.jpg" alt="" width="44" height="44">Mesemli Gençler</span>
+        <span class="tpl__sign"><img src="assets/logo/profile.jpg" alt="" width="44" height="44">MESEM'li Gençler</span>
       </section>`;
   }
 
