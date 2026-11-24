@@ -39,7 +39,7 @@ ICONS = {
     "x": '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.8 3h3.1l-6.8 7.7L22 21h-6.2l-4.9-6.3L5.3 21H2.2l7.3-8.3L2 3h6.4l4.4 5.8L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5Z"/></svg>',
 }
 
-SITE_URL = "https://voltran.space/mesemli-gencler/"
+SITE_URL = "https://mesemligencler.com/"
 OG_IMAGE_ALT = "Mesemli Gençler: MESEM çocuk işçiliğidir."
 HOME_HREF = "./"  # ana sayfa: adres çubuğunda index.html görünmesin
 

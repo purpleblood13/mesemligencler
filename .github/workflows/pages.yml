@@ -1,0 +1,59 @@
+# main'e her birleşmede siteyi GitHub Pages'e yayınlar (mesemligencler.com).
+# Yayına yalnızca sitenin kendisi gider; betikler, ham veri ve belgeler gitmez.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Assemble site
+        run: |
+          mkdir _site
+          rsync -a \
+            --exclude='.git*' \
+            --exclude='.github/' \
+            --exclude='.claude/' \
+            --exclude='_site/' \
+            --exclude='scripts/' \
+            --exclude='data/' \
+            --exclude='assets/mektup/' \
+            --exclude='*.md' \
+            ./ _site/
+
+      # css/js adreslerindeki ?v= damgası commit zamanıyla yenilenir; ziyaretçinin tarayıcısı eski dosyayı kullanmaz.
+      - name: Stamp asset versions
+        run: |
+          VERSION="$(git log -1 --format=%cd --date=format:%Y%m%d%H%M)"
+          sed -i -E "s/\?v=[0-9]+/?v=$VERSION/g" _site/*.html _site/css/*.css
+
+      - name: Check required files
+        run: |
+          for f in index.html css/site.css js/data.js js/common.js og.jpg css/fonts.css; do
+            test -f "_site/$f" || { echo "missing: $f"; exit 1; }
+          done
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

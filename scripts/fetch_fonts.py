@@ -1,7 +1,7 @@
 """Google Fonts yazı tiplerini siteye gömer (tek seferlik).
 
-Neden: voltran.space kök dizinindeki güvenlik kuralı (CSP) yalnızca aynı kökenden
-font yüklemeye izin veriyor; fonts.googleapis.com engelleniyor.
+Neden: site dış kaynaktan font yüklemiyor. Ziyaretçinin IP'si Google'a gitmesin ve site
+fonts.googleapis.com'a bağımlı kalmasın diye yazı tipleri depoda duruyor.
 
 Üretir: assets/fonts/*.woff2 ve css/fonts.css (yalnızca latin ve latin-ext: Türkçe için yeterli).
 Yazı tipleri SIL Open Font License altında, gömülerek dağıtılabilir.

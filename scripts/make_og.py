@@ -2,7 +2,8 @@
 
 Sol tarafta başlık, sağ tarafta ana sayfadaki ağ animasyonunun durağan hâli
 (js/logo-points.js noktaları, aynı palet). Yazı tipi: Poppins ExtraBold TTF
-(--font ile verilir; varsayılan: scratchpad içindeki indirilmiş dosya).
+(--font ile verilir; varsayılan: scripts/fonts/Poppins-ExtraBold.ttf, depoda yok,
+github.com/google/fonts deposundaki ofl/poppins klasöründen indirilir).
 
 Kullanım: python3 scripts/make_og.py [--font /yol/Poppins-ExtraBold.ttf]
 """
@@ -32,8 +33,8 @@ TITLE = ["MESEM çocuk", "işçiliğidir."]
 TITLE_SIZE = 78
 SUBTITLE = "Mesemli Gençler"
 TAGLINE = "Haberleşme ve dayanışma ağı"
-FOOTER = "voltran.space/mesemli-gencler"
-DEFAULT_FONT = "/private/tmp/claude-501/-Users-daglar--claude-spares-spare-yMOXAe/9d2c1373-1c8b-4aa6-90d0-8e363aafba9a/scratchpad/Poppins-ExtraBold.ttf"
+FOOTER = "mesemligencler.com"
+DEFAULT_FONT = os.path.join(ROOT, "scripts", "fonts", "Poppins-ExtraBold.ttf")  # depoda yok; --font ile ver
 
 
 def load_points():
