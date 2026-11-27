@@ -41,10 +41,18 @@ COMMIT_PATHS = ["data/instagram.json", "js/data.js", "assets/insta"]
 BOT_NAME = "mesemli-sync"
 BOT_EMAIL = "mesemli-sync@users.noreply.github.com"
 EMBED_DELAY_SEC = 1.0
+# Akış yalnızca son gönderileri gösterir; eskilerin medyası silinir. Neden: her video 4–9 MB ve
+# hesabın çoğu gönderisi video; arşiv büyürse depo ve Pages sitesi (1 GB sınır) kısa sürede dolar.
+KEEP_POSTS = 12
+SHORTCODE_ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_"
 
 
 class SyncError(RuntimeError):
     """Senkron akışında kurtarılamayan hata."""
+
+
+class PushRejected(SyncError):
+    """Bu sırada main'e başka bir commit geldi; iş güncel main üzerinde baştan yapılmalı."""
 
 
 def git(*args, check=True):
@@ -56,10 +64,40 @@ def git(*args, check=True):
 
 
 def update_repo():
-    """Elle yapılmış commit'lerin üstüne binmek için; çakışırsa rebase'i bırakır ve durur."""
+    """Elle çalıştırma (--no-push) için: elle yapılmış commit'lerin üstüne biner; çakışırsa durur."""
     if git("pull", "--rebase", "--autostash", "-q", check=False).returncode != 0:
         git("rebase", "--abort", check=False)
         raise SyncError("depo güncellenemedi (çakışma olabilir); elle bakın.")
+
+
+def sync_with_remote():
+    """Bot klonunu uzaktaki main'e eşitler, önceki çalıştırmadan kalan her şeyi atar.
+
+    Neden: botun yerelde biriktirdiği bir commit main'le çakışırsa, rebase'le kurtarmaya çalışmak
+    klonu kalıcı olarak takar (her saat aynı çakışma). Botun kendine ait bir işi yok; her çalıştırma
+    güncel main'den baştan üretir.
+    """
+    git("fetch", "-q", "origin", "main")
+    git("reset", "-q", "--hard", "origin/main")
+    git("clean", "-fdq", "--", "assets/insta")
+
+
+def taken_from_code(code):
+    """Kısa koddan gönderi zamanı (unix saniye); indirmeden yaşını bilmek için."""
+    media_id = 0
+    for ch in code[:11]:
+        media_id = media_id * 64 + SHORTCODE_ALPHABET.index(ch)
+    return ie._taken_at(media_id)
+
+
+def prune(posts):
+    """En yeni KEEP_POSTS gönderiyi tutar; düşenlerin medyasını diskten siler."""
+    kept, dropped = posts[:KEEP_POSTS], posts[KEEP_POSTS:]
+    for post in dropped:
+        for path in MEDIA_DIR.glob(f"{post['code']}[._]*"):
+            path.unlink()
+        print(f"  - {post['code']} ({post['tarih']}) akıştan çıktı", flush=True)
+    return kept
 
 
 def discover(known, refetch):
@@ -136,8 +174,7 @@ def commit_and_push(records, push):
         print("push atlandı (--no-push).", flush=True)
         return
     if git("push", "-q", "origin", "HEAD:refs/heads/main", check=False).returncode != 0:
-        update_repo()
-        git("push", "-q", "origin", "HEAD:refs/heads/main")
+        raise PushRejected("push reddedildi; main'de yeni commit var.")
     print("push tamam.", flush=True)
 
 
@@ -149,12 +186,19 @@ def dry_run(codes):
 
 
 def run(is_dry, push, refetch):
-    if not is_dry:
+    if push and not is_dry:
+        sync_with_remote()
+    elif not is_dry:
         update_repo()
     data = json.loads(DATA.read_text(encoding="utf-8"))
     known = {p["code"] for p in data["gonderiler"]}
     print(f"arşiv: {len(known)} gönderi", flush=True)
     codes = discover(known, refetch)
+    if len(data["gonderiler"]) >= KEEP_POSTS:
+        # Akıştaki en eskiden de eski bir gönderi (ör. sabitlenmiş) eklense bile hemen düşerdi;
+        # her saat medyasını boşuna indirmemek için baştan atla. --refetch ile istenen hariç.
+        oldest = min(taken_from_code(p["code"]) for p in data["gonderiler"])
+        codes = [c for c in codes if c in refetch or taken_from_code(c) >= oldest]
     if not codes:
         print("yeni gönderi yok.", flush=True)
         return
@@ -177,7 +221,7 @@ def run(is_dry, push, refetch):
     records = [r for r, _ in sorted(built, key=lambda b: b[1], reverse=True)]
     added = sum(1 for r in records if r["code"] not in known)
     profil = {**data["profil"], "gonderiSayisi": data["profil"]["gonderiSayisi"] + added}
-    write_data({**data, "profil": profil, "gonderiler": merge(data["gonderiler"], records)})
+    write_data({**data, "profil": profil, "gonderiler": prune(merge(data["gonderiler"], records))})
     subprocess.run([sys.executable, str(BUILD_DATA)], check=True)
     if fm.failed:
         print("  ! videosu indirilemeyenler (yalnızca kapak yayında):", fm.failed, flush=True)
@@ -191,7 +235,12 @@ def main():
     ap.add_argument("--refetch", nargs="*", default=[])
     args = ap.parse_args()
     try:
-        run(args.dry_run, not args.no_push, args.refetch)
+        try:
+            run(args.dry_run, not args.no_push, args.refetch)
+        except PushRejected as e:
+            # Bir kez, güncel main üzerinde baştan dene (run başta klonu main'e eşitler).
+            print(f"  ! {e} Yeniden deneniyor.", flush=True)
+            run(args.dry_run, not args.no_push, args.refetch)
     except (SyncError, ie.InstaError, subprocess.CalledProcessError) as e:
         print(f"HATA: {e}", file=sys.stderr)
         return 1

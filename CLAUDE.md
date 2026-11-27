@@ -24,7 +24,7 @@ Derleme aracı ve framework yok: düz HTML, CSS ve JS. Python betikleri veriyi v
 | `js/data.js` | `scripts/build_data.py` | `data/*.json` değişince |
 | HTML içindeki `<!--header-->`, `<!--footer-->`, `<!--meta-->` blokları | `scripts/build_chrome.py` | menü, bağlantı, başlık ya da açıklama değişince |
 | `data/mektuplar.json` | `scripts/build_letters.py` (ardından `build_data.py`) | yeni mektup eklenince (`LETTERS` listesine satır) |
-| `data/instagram.json`, `assets/insta/` | `scripts/insta/collect.py`, `fetch_media.py` | Instagram akışını yenilerken |
+| `data/instagram.json`, `assets/insta/` | `scripts/insta/sync_latest.py` (VM'de saatlik), `collect.py`, `fetch_media.py` | yeni gönderiler otomatik gelir; elle yenilemek için `collect.py` + `fetch_media.py` |
 | `data/kayiplar.json` (yeni kayıtlar, `isig` alanı) | `scripts/kayiplar/isig_sync.py` (`kayiplar.yml` otomatik çalıştırır) | geçmişe dönük tamamlama için elle `codes KOD` |
 | `js/logo-points.js` | `scripts/logo_points.py` | logo değişince |
 | `og.jpg` | `scripts/make_og.py` | paylaşım görseli değişince |
@@ -127,7 +127,12 @@ Settings → General → Pull Requests altında yalnızca squash açık olmalı 
 
 Repodaki ilk commit (`feat: Mesemli Gençler kampanya sitesi ilk sürüm`) ilk içe aktarma istisnasıdır ve doğrudan `main`'e girdi. Sonraki her değişiklik PR ile gelir.
 
-Tek istisna veri botu: `.github/workflows/kayiplar.yml` (`mesemli-sync` adıyla) yalnızca `data/kayiplar.json` ve `js/data.js` dosyalarını değiştirip doğrudan `main`'e commit atar, çünkü saatlik bir iş için PR onaylatılamaz. Botun kod ya da başka dosyaya dokunması bu istisnaya girmez. `main` için ruleset eklenirse GitHub Actions bypass listesine eklenmeli.
+İki istisna veri botlarıdır; ikisi de `mesemli-sync` adıyla doğrudan `main`'e commit atar, çünkü saatlik bir iş için PR onaylatılamaz. Botların kod ya da listelenmeyen bir dosyaya dokunması bu istisnaya girmez.
+
+- Kayıplar: `.github/workflows/kayiplar.yml` (GitHub Actions) yalnızca `data/kayiplar.json` ve `js/data.js`'e yazar. Ayrıntı: `scripts/kayiplar/README.md`.
+- Akış: Oracle VM'deki `scripts/insta/sync_latest.py` (deploy key `oracle-vm-mesemli-sync`) yalnızca `data/instagram.json`, `js/data.js` ve `assets/insta/`'ya yazar. Akışta en yeni 12 gönderi tutulur. Ayrıntı: `scripts/insta/README.md`.
+
+`main` için ruleset eklenirse GitHub Actions ve bu deploy key bypass listesine eklenmeli.
 
 ## Yayın (deploy)
 
