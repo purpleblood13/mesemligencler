@@ -14,8 +14,9 @@ permissions:
   actions: write
   issues: write
 
+# Bütün veri botları js/data.js'i yeniden yazar; aynı anda çalışıp birbirinin push'unu bozmasınlar.
 concurrency:
-  group: kayiplar
+  group: veri-botlari
   cancel-in-progress: false
 
 jobs:

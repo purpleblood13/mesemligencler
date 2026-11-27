@@ -25,6 +25,7 @@ Derleme aracı ve framework yok: düz HTML, CSS ve JS. Python betikleri veriyi v
 | HTML içindeki `<!--header-->`, `<!--footer-->`, `<!--meta-->` blokları | `scripts/build_chrome.py` | menü, bağlantı, başlık ya da açıklama değişince |
 | `data/mektuplar.json` | `scripts/build_letters.py` (ardından `build_data.py`) | yeni mektup eklenince (`LETTERS` listesine satır) |
 | `data/instagram.json`, `assets/insta/` | `scripts/insta/collect.py`, `fetch_media.py` | Instagram akışını yenilerken |
+| `data/onergeler.json`, `data/haberler.json`, `data/mektuplar.json` (yeni kayıtlar), `assets/news/` | `scripts/sync/` (`veri.yml` otomatik çalıştırır) | elle: `python scripts/sync/<bot>.py --dry-run` |
 | `data/kayiplar.json` (yeni kayıtlar, `isig` alanı) | `scripts/kayiplar/isig_sync.py` (`kayiplar.yml` otomatik çalıştırır) | geçmişe dönük tamamlama için elle `codes KOD` |
 | `js/logo-points.js` | `scripts/logo_points.py` | logo değişince |
 | `og.jpg` | `scripts/make_og.py` | paylaşım görseli değişince |
@@ -69,7 +70,7 @@ Bu projenin alanları:
 | Alan | Kapsam |
 |---|---|
 | `frontend` | `*.html`, `css/`, `js/` (üretilen `js/data.js` hariç), yazı tipleri ve arayüz görselleri |
-| `data` | `data/*.json`, `assets/insta/`, `assets/news/`, `assets/logos/` ve bunları üreten betikler (`build_data.py`, `build_letters.py`, `scripts/insta/`, `scripts/kayiplar/`) |
+| `data` | `data/*.json`, `assets/insta/`, `assets/news/`, `assets/logos/` ve bunları üreten betikler (`build_data.py`, `build_letters.py`, `scripts/insta/`, `scripts/kayiplar/`, `scripts/sync/`) |
 | `devops` | `.github/workflows/`, `.gitignore`, DNS ve repo ayarları |
 | `docs` | `CLAUDE.md`, README ve diğer belgeler |
 
@@ -127,7 +128,7 @@ Settings → General → Pull Requests altında yalnızca squash açık olmalı 
 
 Repodaki ilk commit (`feat: Mesemli Gençler kampanya sitesi ilk sürüm`) ilk içe aktarma istisnasıdır ve doğrudan `main`'e girdi. Sonraki her değişiklik PR ile gelir.
 
-Tek istisna veri botu: `.github/workflows/kayiplar.yml` (`mesemli-sync` adıyla) yalnızca `data/kayiplar.json` ve `js/data.js` dosyalarını değiştirip doğrudan `main`'e commit atar, çünkü saatlik bir iş için PR onaylatılamaz. Botun kod ya da başka dosyaya dokunması bu istisnaya girmez. `main` için ruleset eklenirse GitHub Actions bypass listesine eklenmeli.
+Tek istisna veri botlarıdır: `.github/workflows/kayiplar.yml` ve `.github/workflows/veri.yml` (`mesemli-sync` adıyla) yalnızca `data/*.json`, `js/data.js` ve `assets/news/` dosyalarını değiştirip doğrudan `main`'e commit atar, çünkü periyodik bir iş için PR onaylatılamaz. Botların kod ya da başka dosyaya dokunması bu istisnaya girmez. Ayrıntı: `scripts/kayiplar/README.md`, `scripts/sync/README.md`. `main` için ruleset eklenirse GitHub Actions bypass listesine eklenmeli.
 
 ## Yayın (deploy)
 
