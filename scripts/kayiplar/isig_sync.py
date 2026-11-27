@@ -77,9 +77,13 @@ CONTEXT_KEY = '"contextJSON":"'
 COUNTER_RE = re.compile(r"(\d{1,3})\s*\.\s*çocuk\s+işçi\s+ölümü", re.I)
 AGE_RE = re.compile(r"(?<![\d-])(\d{1,2})\s*yaş(?:ında|larında)", re.I)
 AGE_RANGE_RE = re.compile(r"\d{1,2}\s*[-–]\s*\d{1,2}\s*yaş", re.I)
-DEATH_RE = re.compile(r"hayatını\s+kaybetti|yaşamını\s+yitirdi|can\s+verdi|öldü", re.I)
+DEATH_RE = re.compile(r"hayatını\s+kaybetti|yaşamını\s+yitirdi|can\s+verdi|öldü|cansız\s+bedeni\s+bulundu", re.I)
+# Ölüm tarihi paylaşımdan farklıysa İSİG sona "/ 24 Ekim" yazar.
+DEATH_DATE_RE = re.compile(r"/\s*(\d{1,2})\s+(Ocak|Şubat|Mart|Nisan|Mayıs|Haziran|Temmuz|Ağustos|Eylül|Ekim|Kasım|Aralık)\b")
+MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
 MESEM_RE = re.compile(r"\bMESEM\b|mesleki\s+eğitim\s+merkez", re.I)
-LOCATIVE_RE = re.compile(r"^(?:\S+\s+){0,3}?\S+['’](?:de|da|te|ta)\s+", re.I)
+LOCATIVE_RE = re.compile(r"^(?:\S+\s+){0,5}?\S+['’]n?(?:de|da|te|ta)\s+", re.I)
+TIME_RE = re.compile(r"^\d{1,2}[.:]\d{2}\s+sularında\s+", re.I)
 NAME_WORD_RE = re.compile(r"^[A-ZÇĞİÖŞÜÂÎÛ][a-zçğıöşüâîû]+$")
 
 PROVINCES = [
@@ -178,47 +182,83 @@ def find_province(text):
 
 
 def clean_event(segment):
-    """'Şanlıurfa Karaköprü'de çalıştığı inşaattan düşerek...' → 'Çalıştığı inşaattan düşerek...'."""
+    """'Şanlıurfa Karaköprü'de 16.00 sularında çalıştığı inşaattan...' → 'Çalıştığı inşaattan...'."""
     event = segment.strip(" .")
-    if find_province(event.split(" ", 1)[0]) or event[:1].isupper():
-        stripped = LOCATIVE_RE.sub("", event, count=1)
-        if stripped != event and find_province(event[: len(event) - len(stripped)]):
-            event = stripped
-    return event[:1].upper() + event[1:]
+    stripped = LOCATIVE_RE.sub("", event, count=1)
+    if stripped != event and find_province(event[: len(event) - len(stripped)]):
+        event = stripped
+    event = TIME_RE.sub("", event)
+    return tr_capitalize(event)
+
+
+def tr_capitalize(text):
+    """str.upper() "i"yi "I" yapar; Türkçede "İ" olmalı."""
+    first = {"i": "İ", "ı": "I"}.get(text[:1], text[:1].upper())
+    return first + text[1:]
+
+
+def event_text(segments):
+    """Olaydan ölüme kadar olan bölümler: 'yaralandı.. hastanede hayatını kaybetti' ikisi birden kalır."""
+    death = next((i for i, s in enumerate(segments) if DEATH_RE.search(s)), None)
+    if death is None:
+        return None
+    start = next((i for i, s in enumerate(segments[: death + 1]) if find_province(s)), death)
+    return ". ".join(clean_event(s) for s in segments[start: death + 1])
+
+
+def death_day(caption):
+    """'/ 24 Ekim' → (gün, ay); yoksa None. Yıl, paylaşım tarihine göre add_or_link'te belirlenir."""
+    m = DEATH_DATE_RE.search(caption)
+    return (int(m.group(1)), MONTHS.index(m.group(2)) + 1) if m else None
+
+
+def resolve_day(parsed, post_day):
+    """Ölüm günü verilmişse onu, yoksa paylaşım gününü döndürür (YYYY-AA-GG)."""
+    if not post_day or not parsed.get("olumGunu"):
+        return post_day
+    d, m = parsed["olumGunu"]
+    year = int(post_day[:4]) - (1 if m > int(post_day[5:7]) else 0)
+    try:
+        return datetime(year, m, d).strftime("%Y-%m-%d")
+    except ValueError:
+        return post_day
 
 
 def parse(caption):
     """Kalıba tam uyan bir çocuk işçi ölümü paylaşımıysa alan sözlüğü, değilse (None, neden) döner."""
+    # İSİG çoğu çocuk ölümünü "Bu yıl tespit edebildiğimiz 81. çocuk işçi ölümü.." diye açar, ama
+    # bazılarını her işçi ölümü gibi "Ad.. 17 yaşında.." diye paylaşır; sayaç varsa okunur, şart değil.
     counter = COUNTER_RE.search(caption)
-    if not counter:
-        return None, "çocuk işçi ölümü sayacı yok"
-    if AGE_RANGE_RE.search(caption):
-        return None, "yaş aralık olarak verilmiş"
-    ages = {int(a) for a in AGE_RE.findall(caption)}
-    if len(ages) != 1:
-        return None, f"tek bir yaş bulunamadı ({sorted(ages)})"
-    age = ages.pop()
-    if age >= CHILD_AGE_LIMIT:
-        return None, f"yaş {age}"
     if not DEATH_RE.search(caption):
         return None, "ölüm ifadesi yok"
 
-    after = caption[counter.end():]
+    after = caption[counter.end():] if counter else caption
     segments = [s.strip(" ,") for s in re.split(r"\.{2,}|…", after) if s.strip(" ,")]
-    if not segments:
-        return None, "sayaçtan sonra metin yok"
-    name = segments[0]
+    if len(segments) < 2:
+        return None, "sayaçtan sonra isim ve yaş yok"
+    # "Halil (İbrahim) Yağız" gibi parantezli ikinci adlar adın parçasıdır.
+    name = re.sub(r"\s+", " ", re.sub(r"[()]", "", segments[0])).strip()
     words = name.split()
     if not (2 <= len(words) <= 5 and all(NAME_WORD_RE.match(w) for w in words)):
-        return None, f"isim kalıba uymuyor: {name!r}"
+        return None, f"isim kalıba uymuyor: {segments[0]!r}"
+    # Yaş, isimden hemen sonraki bölümden okunur; metnin devamında başka çocukların yaşları geçebilir.
+    age_seg = segments[1]
+    if AGE_RANGE_RE.search(age_seg):
+        return None, "yaş aralık olarak verilmiş"
+    ages = {int(a) for a in AGE_RE.findall(age_seg)}
+    if len(ages) != 1:
+        return None, f"isimden sonra tek bir yaş yok ({age_seg[:40]!r})"
+    age = ages.pop()
+    if age >= CHILD_AGE_LIMIT:
+        return None, f"yaş {age}"
 
-    event_seg = next((s for s in segments if DEATH_RE.search(s)), None)
     return {
-        "no": int(counter.group(1)),
+        "no": int(counter.group(1)) if counter else None,
+        "olumGunu": death_day(caption),
         "ad": name,
         "yas": age,
-        "il": find_province(caption[counter.end():]),
-        "olay": clean_event(event_seg) if event_seg else None,
+        "il": find_province(after),
+        "olay": event_text(segments[2:]),
         "mesem": bool(MESEM_RE.search(caption)),
     }, None
 
@@ -258,9 +298,13 @@ def sort_year(year):
 def find_existing(data, parsed, code, day):
     """Aynı gönderi ya da aynı yıl içinde aynı isim (±60 gün) zaten listede mi?"""
     key = norm_name(parsed["ad"])
-    for _, rec in all_records(data):
+    year_no = int(day[:4]) if day else None
+    for year, rec in all_records(data):
         isig = rec.get("isig") or {}
         if isig.get("kod") == code:
+            return rec
+        # İSİG aynı çocuğu düzeltilmiş metinle yeniden paylaşabiliyor; yıl içindeki sıra numarası aynı kişidir.
+        if year_no and parsed["no"] is not None and year["yil"] == year_no and isig.get("no") == parsed["no"]:
             return rec
     for _, rec in all_records(data):
         if norm_name(rec.get("ad")) != key or not rec.get("tarih") or not day:
@@ -277,12 +321,13 @@ def snapshot(parsed, code):
 
 def add_or_link(data, code, parsed, day, log):
     """Yeni kaydı ekler; aynı kişi zaten varsa yalnızca İSİG bağlantısını iliştirir (elle girilmiş alanlara dokunmaz)."""
+    day = resolve_day(parsed, day)
     existing = find_existing(data, parsed, code, day)
     if existing is not None:
         if (existing.get("isig") or {}).get("kod") == code:
             return False
         existing["isig"] = snapshot(parsed, code)
-        log(f"  = {code} #{parsed['no']} {parsed['ad']}: listede vardı, İSİG kaydı bağlandı")
+        log(f"  = {code} #{parsed['no'] or '-'} {parsed['ad']}: listede vardı, İSİG kaydı bağlandı")
         return True
     if not day:
         log(f"  ! {code} #{parsed['no']}: paylaşım tarihi okunamadı, eklenmedi")
@@ -296,7 +341,7 @@ def add_or_link(data, code, parsed, day, log):
         "olay": parsed["olay"],
         "mesem": parsed["mesem"],
         "kaynakUrl": POST_URL.format(code=code),
-        "not": "İSİG Meclisi paylaşımından otomatik eklendi; tarih paylaşım günüdür.",
+        "not": "İSİG Meclisi paylaşımından otomatik eklendi" + ("." if parsed.get("olumGunu") else "; tarih paylaşım günüdür."),
         "isig": snapshot(parsed, code),
     }
     year_no = int(day[:4])
@@ -307,7 +352,7 @@ def add_or_link(data, code, parsed, day, log):
         data["yillar"].sort(key=lambda y: -y["yil"])
     year["kisiler"].append(record)
     sort_year(year)
-    log(f"  + {code} #{parsed['no']} {parsed['ad']}, {parsed['yas']}, {parsed['il']}, {day}"
+    log(f"  + {code} #{parsed['no'] or '-'} {parsed['ad']}, {parsed['yas']}, {parsed['il']}, {day}"
         f"{', MESEM' if parsed['mesem'] else ''}")
     return True
 
@@ -325,7 +370,7 @@ def process_codes(data, codes, seen, log):
             continue
         parsed, reason = parse(caption)
         if parsed is None:
-            if COUNTER_RE.search(caption):
+            if COUNTER_RE.search(caption) or any(int(a) < CHILD_AGE_LIMIT for a in AGE_RE.findall(caption)):
                 # Çocuk ölümü sayacı var ama kalıp tutmadı: elle bakılmalı, sessizce geçilmez.
                 log(f"  ? {code}: çocuk işçi paylaşımı ama eklenmedi ({reason}): {caption[:140]}")
             else:
