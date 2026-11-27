@@ -1,0 +1,66 @@
+# Kayıplarımız: İSİG Meclisi'nin Instagram paylaşımlarından çocuk işçi ölümlerini ekler ve doğrular.
+# Her sabah 09:00'da (İstanbul) eklenmiş kayıtları yeniden okur; yaş, MESEM, ölüm nedeni gibi bir alan
+# İSİG'de değiştiyse sayfayı günceller. Saat başı yeni paylaşımlara bakar. Ayrıntı: scripts/kayiplar/README.md
+name: Kayıplar (İSİG senkronu)
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 09:00 İstanbul: doğrulama
+    - cron: "17 * * * *"  # saat başı: yeni paylaşımlar
+  workflow_dispatch:
+  push:
+    branches: [feat/data/isig-kayiplar-sync]  # GEÇİCİ: birleşmeden önce silinecek
+
+permissions:
+  contents: write
+  actions: write
+  issues: write
+
+concurrency:
+  group: kayiplar
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Yeni paylaşımlar
+        id: discover
+        run: python3 scripts/kayiplar/isig_sync.py discover ${{ github.event_name == 'push' && '--dry-run' || '' }}
+
+      - name: Eklenmiş kayıtları doğrula (09:00)
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 6 * * *' || github.event_name == 'push'
+        run: python3 scripts/kayiplar/isig_sync.py verify ${{ github.event_name == 'push' && '--dry-run' || '' }}
+
+      - name: Değişiklik varsa main'e gönder ve yayınla
+        if: github.event_name != 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add data/kayiplar.json js/data.js
+          if git diff --cached --quiet; then echo "değişiklik yok"; exit 0; fi
+          git -c user.name=mesemli-sync -c user.email=mesemli-sync@users.noreply.github.com \
+            commit -q -m "chore(data): sync child worker deaths from isig"
+          git push -q origin HEAD:main
+          # GITHUB_TOKEN ile yapılan push pages.yml'i tetiklemez; yayını elle başlat.
+          gh workflow run pages.yml --ref main
+
+      - name: İSİG sıra numaralarında eksik var mı
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 6 * * *'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          out=$(python3 scripts/kayiplar/isig_sync.py gaps)
+          echo "$out" | tee -a "$GITHUB_STEP_SUMMARY"
+          title="Kayıplar: İSİG sırasında eksik çocuk işçi kaydı"
+          num=$(gh issue list --state open --search "in:title \"$title\"" --json number --jq '.[0].number')
+          if echo "$out" | grep -q ": yok$"; then
+            [ -n "$num" ] && gh issue close "$num" --comment "Eksik numara kalmadı."
+            exit 0
+          fi
+          body="$out
+
+          Bu numaralı paylaşımlar otomatik eklenemedi (kalıba uymadı ya da kaçırıldı). Instagram'da İSİG hesabında bulup kodunu \`python scripts/kayiplar/isig_sync.py codes KOD\` ile ekleyin; isim yoksa elle girin."
+          if [ -n "$num" ]; then gh issue edit "$num" --body "$body"; else gh issue create --title "$title" --body "$body"; fi
