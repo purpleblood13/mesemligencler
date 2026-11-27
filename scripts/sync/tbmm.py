@@ -136,18 +136,22 @@ def party_map(op):
 
 # ---------- Veri ----------
 
-def surname(name):
-    return c.tr_lower((name or "").split(" ve ")[0].split()[-1]) if name else ""
-
-
 def find_news_record(data, vekil, day):
     """Haberden girilmiş, esas numarası olmayan aynı vekilin yakın tarihli kaydı."""
+    # Haber kaydı "İskender Bayhan, Sevda Karaca" gibi birden çok vekili ya da soyadın bir kısmını
+    # ("Sevda Karaca" / TBMM'de "Sevda Karaca Demir") içerebilir: ad ve soyadlardan biri geçiyorsa aynı kişi.
+    first, *rest = c.tr_lower(vekil).split()
+    best = None
     for rec in data:
-        if rec.get("esasNo") or surname(rec.get("vekil")) != surname(vekil) or not rec.get("tarih"):
+        if rec.get("esasNo") or not rec.get("tarih"):
             continue
-        if abs((date.fromisoformat(rec["tarih"]) - day).days) <= 10:
-            return rec
-    return None
+        words = set(re.findall(r"\w+", c.tr_lower(rec.get("vekil") or "")))
+        if first not in words or not words & set(rest):
+            continue
+        gap = abs((date.fromisoformat(rec["tarih"]) - day).days)
+        if gap <= 10 and (best is None or gap < best[0]):
+            best = (gap, rec)
+    return best[1] if best else None
 
 
 def run(days, dry_run):
@@ -159,7 +163,8 @@ def run(days, dry_run):
     print(f"TBMM: son {days} günde '{KEYWORD}' geçen {len(rows)} yazılı soru", flush=True)
     parties = None
     changed = False
-    for row in rows:
+    # Eskiden yeniye: haber kaydı önce kendi tarihine en yakın önergeyle eşleşsin.
+    for row in sorted(rows, key=lambda r: r["baskanligaGelisTarihiDt"]):
         esas = f"{row['taksimNo']}/{row['esasNo']}"
         if esas in known:
             continue
