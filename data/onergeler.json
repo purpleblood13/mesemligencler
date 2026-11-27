@@ -1,5 +1,52 @@
 [
  {
+  "vekil": "Ömer Faruk Gergerlioğlu",
+  "parti": "DEM Parti",
+  "il": "Kocaeli",
+  "tur": "Yazılı soru",
+  "esasNo": "7/53306",
+  "tarih": "2026-11-13",
+  "muhatap": "Çalışma ve Sosyal Güvenlik Bakanı",
+  "konu": "MESEM uygulamasının denetlenmesine ve bu kapsamda çalışırken hayatını kaybeden öğrencilere ilişkin.",
+  "sorular": [
+   "MESEM öğrencilerinin çalıştığı işletmelerde 2025-2026 yıllarında Bakanlığınız iş müfettişlerince kaç teftiş yapılmıştır? Bunlardan kaçı ölümlü ya da ağır yaralanmalı iş kazasının ardından yapılmıştır?",
+   "MESEM öğrencilerinin yaşamını yitirdiği 37 olayın kaçında müfettiş incelemesi yapılmış; raporlarda işverenin kusur oranı ve tespit edilen mevzuat ihlalleri nelerdir?",
+   "Bu olaylar nedeniyle işverenlere kaç kez, hangi tutarda idari para cezası uygulanmış, kaç işyerinde işin durdurulması kararı verilmiştir?",
+   "SGK kayıtlarına göre 2019-2026 yılları arasında 3308 sayılı Kanun kapsamındaki öğrencilerle ilgili bildirilen iş kazası ve meslek hastalığı sayısı yıllara ve sektörlere göre nedir? Bu sayılar MEB'in açıkladığı verilerle örtüşmekte midir?",
+   "MESEM öğrencilerinin ağır ve tehlikeli işler sınıfındaki işyerlerinde çalıştırılmasına ilişkin bir sınırlama bulunmakta mıdır? Bu sınıfındaki işyerlerinde çalışan kaç MESEM öğrencisi vardır?",
+   "MESEM öğrencilerinin çalışma süresi, fazla mesai, gece çalışması ve ücretlerine ilişkin habersiz denetim yapılmakta mıdır? Yapılan denetimlerde tespit edilen ihlal sayısı nedir?",
+   "MESEM işletmelerinde çalışan çocuklara özgü iş sağlığı ve güvenliği eğitimi ve risk değerlendirmesi yapılması zorunlu mudur? Bu zorunluluğa uyulup uyulmadığı nasıl denetlenmektedir?",
+   "Yaşamını yitiren çocukların ailelerine SGK tarafından ölüm geliri bağlanmış mıdır? Bağlanmayan dosya var mıdır?",
+   "Ölümlü iş kazası yaşanan işletmelerin MESEM kapsamında öğrenci almasını ve devlet katkısından yararlanmasını yasaklayacak bir düzenleme üzerinde çalışılmakta mıdır?"
+  ],
+  "url": "https://www.tbmm.gov.tr/Denetim/Yazili-Soru-Onergesi-Detay/a8fa6f23-f9f5-4172-b7cb-01a1e406959d",
+  "kaynakTuru": "TBMM"
+ },
+ {
+  "vekil": "Suat Özçağdaş",
+  "parti": "Yeni Parti",
+  "il": "İstanbul",
+  "tur": "Yazılı soru",
+  "esasNo": "7/53366",
+  "tarih": "2026-11-11",
+  "muhatap": "Milli Eğitim Bakanı",
+  "konu": "2016 yılının Aralık ayından bu yana MESEM kapsamında çalışırken hayatını kaybeden veya yaralanan öğrencilere ilişkin.",
+  "sorular": [
+   "Aralık 2016'dan bugüne MESEM kapsamında kaç çocuğumuz işletmede, işyerine gidiş- dönüş sırasında ya da işletmenin sağladığı taşıtta hayatını kaybetmiştir? Bunların yıllara, illere ve sektörlere göre dağılımı nedir? Kaçı 18 yaşından küçüktür, kaçı 18 yaş ve üstüdür? Hayatını kaybeden çocuklarımızın ailelerine Bakanlığınızca hangi destek sağlanmıştır?",
+   "Aynı dönemde iş kazası veya meslek hastalığı nedeniyle kaç çocuğumuz uzuv kaybı yaşamış, kalıcı olarak sakat kalmış ya da sürekli iş göremezlik durumuna düşmüştür?",
+   "Aralık 2016'dan bugüne MESEM kapsamında kaç iş kazası meydana gelmiştir? Bu kazalarda yaralanan çocuklarımızın yıllara, illere, sektörlere ve yaş gruplarına göre dağılımı nedir? Kaçı ayakta, kaçı yatarak tedavi görmüştür?",
+   "MESEM'e kayıtlı olduğu dönemde intihar eden ya da intihar girişiminde bulunan kaç çocuğumuz vardır? Bu vakaların kaçında işletmede şiddet, baskı veya aşırı çalıştırma iddiası bulunmaktadır? Bakanlığınız bu vakaları kayıt altına almakta mıdır?",
+   "Bakanlığınız Haziran 2026'da 2016'dan bu yana 13 ölüm bildirmiş, yaklaşık iki buçuk ay sonra yalnızca 2025 ve 2026 yıllarında 37 çocuğumuzun hayatını kaybettiğini açıklamıştır. Hangi rakam doğrudur? Haziran 2026'da TBMM'ye eksik bilgi verildiği doğru mudur? Doğruysa sorumlular hakkında hangi işlem yapılmıştır? Bakanlık MESEM davalarını takip ediyor mu?",
+   "Sayın Bakan'ın, kaza ihtimali nedeniyle mesleki eğitimden vazgeçilmeyeceğini açıkladığı Mayıs 2026'dan bugüne MESEM kapsamında kaç çocuğumuz hayatını kaybetmiş, kaçı yaralanmıştır?",
+   "MESEM kapsamında kaç çocuğumuz işvereni, ustası veya işletme çalışanları tarafından şiddet görmüş ya da psikolojik baskıya, tacize veya cinsel istismara maruz kalmıştır? Bunların yıllara ve illere göre dağılımı nedir? Bakanlığınız bu olayları kayıt altına almakta mıdır? Almıyorsa çocuklarımızı işletmelere hangi güvenceyle göndermektedir?",
+   "Tekirdağ'ın Kapaklı ilçesinde 25 Eylül 2026'da işletmeci tarafından darp edilen 14 yaşındaki çocuğumuz için Bakanlığınızca hangi işlemler yapılmıştır?",
+   "Samsun'da ustaları tarafından iki ay boyunca şiddet gördüğünü bildiren 14 yaşındaki çocuğumuz için hangi işlemler yapılmıştır? Bu işletmeler olaylardan önce kaç kez denetlenmiştir?",
+   "MESEM'de yaşanan çocuk ölümleri nedeniyle bugüne kadar kaç okul müdürü, koordinatör öğretmen veya il ve ilçe milli eğitim yöneticisi hakkında idari soruşturma açılmıştır? Görevden alınan ya da disiplin cezası verilen yönetici var mıdır?"
+  ],
+  "url": "https://www.tbmm.gov.tr/Denetim/Yazili-Soru-Onergesi-Detay/7b286bca-a702-48fd-a390-01a1d02cc172",
+  "kaynakTuru": "TBMM"
+ },
+ {
   "vekil": "Serhat Eren",
   "parti": "DEM Parti",
   "il": "Diyarbakır",
