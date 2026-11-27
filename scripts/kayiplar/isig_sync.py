@@ -11,12 +11,10 @@ Komutlar:
     python scripts/kayiplar/isig_sync.py verify            # İSİG kodu olan kayıtları yeniden oku, değişeni güncelle
     python scripts/kayiplar/isig_sync.py codes KOD1 KOD2   # verilen gönderileri işle (geçmişe dönük tamamlama)
     python scripts/kayiplar/isig_sync.py gaps              # İSİG sıra numaralarında eksik olanları yaz
-Seçenekler: --dry-run (hiçbir şey yazma), --push (commit et ve main'e gönder; VM'deki saatlik iş için).
+Seçenekler: --dry-run (hiçbir şey yazma), --push (uzak main'e eşitle, commit et ve gönder; Actions dışında çalıştırılırsa).
 
-Nerede çalışır:
-    discover: Instagram, profil listesini datacenter IP'lerine (GitHub Actions) boş döndürür; bu yüzden
-              Oracle VM'inde saatlik çalışır (scripts/kayiplar/systemd/). Liste son ~12 paylaşımı gösterir.
-    verify:   tek tek gönderi sayfaları her yerden okunur; GitHub Actions'ta her sabah 09:00'da çalışır.
+Nerede çalışır: GitHub Actions (.github/workflows/kayiplar.yml). discover saat başı (profil embed'i
+son ~6 paylaşımı gösterir, İSİG günde ~8 paylaşım yapar), verify her sabah 09:00'da (İstanbul).
 
 Kayıt alanları (data/kayiplar.json): ad, yas, il, tarih, isKolu, olay, mesem, kaynakUrl, not,
 ve "isig": {no, kod, ad, yas, il, olay, mesem}. "isig", İSİG'in en son okunan halidir; bir alan
@@ -43,7 +41,7 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "kayiplar.json"
 BUILD_DATA = ROOT / "scripts" / "build_data.py"
 COMMIT_PATHS = ["data/kayiplar.json", "js/data.js"]
-# Yalnızca VM'de: işlenmiş (çocuk ölümü olmayan) kodlar, her saat yeniden indirilmesin. Depoya girmez.
+# İşlenmiş (çocuk ölümü olmayan) kodlar, aynı makinede yeniden indirilmesin. Depoya girmez.
 SEEN_FILE = ROOT / ".isig_seen.json"
 SEEN_MAX = 500
 

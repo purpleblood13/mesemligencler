@@ -8,8 +8,6 @@ on:
     - cron: "0 6 * * *"   # 09:00 İstanbul: doğrulama
     - cron: "17 * * * *"  # saat başı: yeni paylaşımlar
   workflow_dispatch:
-  push:
-    branches: [feat/data/isig-kayiplar-sync]  # GEÇİCİ: birleşmeden önce silinecek
 
 permissions:
   contents: write
@@ -28,14 +26,15 @@ jobs:
 
       - name: Yeni paylaşımlar
         id: discover
-        run: python3 scripts/kayiplar/isig_sync.py discover ${{ github.event_name == 'push' && '--dry-run' || '' }}
+        run: python3 scripts/kayiplar/isig_sync.py discover
 
       - name: Eklenmiş kayıtları doğrula (09:00)
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 6 * * *' || github.event_name == 'push'
-        run: python3 scripts/kayiplar/isig_sync.py verify ${{ github.event_name == 'push' && '--dry-run' || '' }}
+        # Bulma adımı Instagram yüzünden düşse bile doğrulama çalışsın.
+        if: ${{ !cancelled() && (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 6 * * *') }}
+        run: python3 scripts/kayiplar/isig_sync.py verify
 
       - name: Değişiklik varsa main'e gönder ve yayınla
-        if: github.event_name != 'push'
+        if: ${{ !cancelled() }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -48,7 +47,7 @@ jobs:
           gh workflow run pages.yml --ref main
 
       - name: İSİG sıra numaralarında eksik var mı
-        if: github.event_name == 'workflow_dispatch' || github.event.schedule == '0 6 * * *'
+        if: ${{ !cancelled() && (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 6 * * *') }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
