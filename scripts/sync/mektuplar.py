@@ -15,6 +15,7 @@ import hashlib
 import io
 import json
 import sys
+import urllib.parse
 from datetime import date, datetime
 from pathlib import Path
 
@@ -65,7 +66,8 @@ def letter(article_id, dates):
         "kaynakAdi": f"Genç Hayat, Sayı {number}",
         "metin": text,
         "kaynakca": [{"metin": f'Genç Hayat, Sayı {number}, "{title}", {who}.', "url": f"{SITE}/{a['slug']}"}],
-        "_gorselUrl": a.get("imageUrl"),
+        # API görseli çoğunlukla "/uploads/123.jpg" gibi göreli adresle veriyor.
+        "_gorselUrl": urllib.parse.urljoin("https://genchayat.net/", a["imageUrl"]) if a.get("imageUrl") else None,
     }
 
 
