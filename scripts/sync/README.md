@@ -32,6 +32,8 @@ Değişiklik varsa `publish.sh` bot adına (`mesemli-sync`) `main`'e commit atar
 **Mektuplar (`mektuplar.py`)**
 - Yalnızca 27 Kasım 2026'dan (`SINCE`) sonra dosyaya eklenen yazıları alır. Mevcut mektuplara dokunmaz.
 - `build_letters.py`'nin `main()`'i çağrılmaz, çünkü elle düzenlenmiş `data/mektuplar.json`'u baştan yazar.
+- Dosyanın 2022'ye kadar uzanan geçmişi bir kez `--since 2020-01-01` ile eklendi; 124 yazının hepsi sitede.
+- API görsel adresini göreli verebiliyor (`/uploads/...`); `genchayat.net` köküne tamamlanır.
 - Aynı yazı Genç Hayat'ta iki kimlikle görünebiliyor. Bu yüzden başlık da tekilleştirme anahtarıdır.
 
 ## Elle çalıştırma
