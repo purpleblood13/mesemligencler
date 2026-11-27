@@ -1,0 +1,17 @@
+name: Sync dry-run (temporary)
+on:
+  push:
+    branches: [feat/data/auto-sources]
+permissions:
+  contents: read
+jobs:
+  dry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install --quiet pillow pypdf
+      - run: python3 scripts/sync/tbmm.py --days 30 --dry-run 2>&1 | tee tbmm.log; true
+      - run: python3 scripts/sync/haberler.py --dry-run 2>&1 | tee news.log; true
+      - run: python3 scripts/sync/mektuplar.py --dry-run --since 2026-11-01 2>&1 | tee letters.log; true
+      - run: |
+          for f in tbmm.log news.log letters.log; do grep -E "^(TBMM|Evrensel|Cumhuriyet|Bianet|BirGün|T24|Genç|HATA|  !)" $f | head -8 | while read -r l; do echo "::warning::$f $l"; done; done

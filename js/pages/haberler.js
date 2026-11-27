@@ -12,10 +12,10 @@
     return;
   }
 
-  const SOURCE_ORDER = ["Evrensel", "Genç Hayat", "BirGün", "Artı Gerçek", "Bianet", "T24"];
-  const MONOGRAM = { Evrensel: "E", "Genç Hayat": "GH", BirGün: "B", "Artı Gerçek": "A+", Bianet: "bi", T24: "24" };
+  const SOURCE_ORDER = ["Evrensel", "Genç Hayat", "BirGün", "Artı Gerçek", "Bianet", "T24", "Cumhuriyet"];
+  const MONOGRAM = { Evrensel: "E", "Genç Hayat": "GH", BirGün: "B", "Artı Gerçek": "A+", Bianet: "bi", T24: "24", Cumhuriyet: "C" };
   // Türkçe bulunma eki kaynağa göre değişir
-  const READ_AT = { Evrensel: "Evrensel'de", "Genç Hayat": "Genç Hayat'ta", BirGün: "BirGün'de", "Artı Gerçek": "Artı Gerçek'te", Bianet: "Bianet'te", T24: "T24'te" };
+  const READ_AT = { Evrensel: "Evrensel'de", "Genç Hayat": "Genç Hayat'ta", BirGün: "BirGün'de", "Artı Gerçek": "Artı Gerçek'te", Bianet: "Bianet'te", T24: "T24'te", Cumhuriyet: "Cumhuriyet'te" };
   const MONTHS = ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"];
   const UNDATED = "tarihsiz";
   const WEEK_DAYS = 7;

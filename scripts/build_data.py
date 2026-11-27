@@ -40,7 +40,8 @@ def with_cover(letters, news):
     covers = {n["url"]: n.get("gorsel") for n in news if n.get("url")}
     out = []
     for letter in letters:
-        cover = next((covers[k["url"]] for k in letter.get("kaynakca", []) if covers.get(k.get("url"))), None)
+        cover = next((covers[k["url"]] for k in letter.get("kaynakca", []) if covers.get(k.get("url"))), None) or letter.get("gorsel")
+        # Haber listesinde kapağı olmayan mektup (ör. Genç Hayat senkronu) kendi görselini taşıyabilir.
         if not cover:
             print(f"uyarı: {letter.get('id')} için kaynak görseli bulunamadı (haber listesinde yok)", file=sys.stderr)
         out.append({**letter, "gorsel": cover})

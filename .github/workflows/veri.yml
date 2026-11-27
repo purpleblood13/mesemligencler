@@ -1,0 +1,69 @@
+# Haftalık/periyodik veri botları. Ayrıntı: scripts/sync/README.md
+#   Meclis Önergeleri: her pazartesi 04:00 (İstanbul) TBMM'deki MESEM yazılı soru önergeleri
+#   Haberler: 3 günde bir 04:00, Evrensel, Cumhuriyet, Bianet, BirGün, T24
+#   Mektuplarımız: 27 Kasım 2026'dan itibaren 2 haftada bir cuma 04:00, Genç Hayat MESEM dosyası
+name: Veri botları
+
+on:
+  schedule:
+    - cron: "0 1 * * 1"     # pazartesi 04:00 İstanbul: önergeler
+    - cron: "0 1 */3 * *"   # ayın 1, 4, 7... günü 04:00: haberler (ay başında aralık 1-3 gün olabilir)
+    - cron: "0 1 * * 5"     # cuma 04:00: mektuplar (2 haftada bir; tarih kapısı aşağıda)
+  workflow_dispatch:
+    inputs:
+      is:
+        description: "Hangi bot (onergeler, haberler, mektuplar)"
+        required: true
+        default: onergeler
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: veri-botlari
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Hangi bot
+        id: pick
+        run: |
+          case "${{ github.event.schedule }}" in
+            "0 1 * * 1")   is=onergeler ;;
+            "0 1 */3 * *") is=haberler ;;
+            "0 1 * * 5")
+              # Cron "2 haftada bir"i bilmez: 27 Kasım 2026 cumasından itibaren 14 günün katı olan cumalar.
+              days=$(( ( $(date -u +%s) - $(date -u -d 2026-11-27 +%s) ) / 86400 ))
+              if [ $(( days % 14 )) -lt 7 ]; then is=mektuplar; else is=; fi ;;
+            *) is="${{ github.event.inputs.is }}" ;;
+          esac
+          echo "is=$is" >> "$GITHUB_OUTPUT"
+          echo "bot: ${is:-bu hafta yok}"
+
+      - name: Python paketleri
+        if: steps.pick.outputs.is != ''
+        run: python3 -m pip install --quiet pillow pypdf
+
+      - name: Meclis önergeleri
+        if: steps.pick.outputs.is == 'onergeler'
+        run: python3 scripts/sync/tbmm.py
+
+      - name: Haberler
+        if: steps.pick.outputs.is == 'haberler'
+        run: python3 scripts/sync/haberler.py
+
+      - name: Mektuplar
+        if: steps.pick.outputs.is == 'mektuplar'
+        run: python3 scripts/sync/mektuplar.py
+
+      - name: Değişiklik varsa main'e gönder ve yayınla
+        if: steps.pick.outputs.is != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          bash scripts/sync/publish.sh "chore(data): sync ${{ steps.pick.outputs.is }}" data/ js/data.js assets/news/
