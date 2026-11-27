@@ -34,7 +34,7 @@ window.MG_BOT = {
         "MESEM'i, öğrenciyi haftada en az 4 gün işletmede çalıştıran bir ucuz emek ve çocuk işçiliği düzeni olarak görüyoruz. Amacımız mesleki eğitimin okulda, parasız ve güvenli verilmesi.",
         "Bunun için önce senin neler yaşadığını bilmemiz gerekiyor. Ne kadar çok genç anlatırsa, itirazımız o kadar güçlü olur.",
       ],
-      links: [{ label: "Biz kimiz", href: "biz-kimiz.html" }],
+      links: [{ label: "Biz Kimiz?", href: "biz-kimiz.html" }],
       choices: [
         { label: "Sorulara geçelim", next: "mod" },
         { label: "Haklarımı öğrenmek istiyorum", next: "haklar" },
@@ -70,7 +70,7 @@ window.MG_BOT = {
       ],
       links: [
         { label: "Haberler", href: "haberler.html" },
-        { label: "Meclis önergeleri", href: "onergeler.html" },
+        { label: "Meclis Önergeleri", href: "onergeler.html" },
         { label: "Kayıplarımız", href: "kayiplar.html" },
       ],
       choices: [
@@ -358,7 +358,7 @@ window.MG_BOT = {
         { label: "Instagram", href: "https://www.instagram.com/mesemligencler/", ext: true },
         { label: "TikTok", href: "https://www.tiktok.com/@mesemligencler", ext: true },
         { label: "YouTube", href: "https://www.youtube.com/@MESEMliGencler2024", ext: true },
-        { label: "Instagram akışı", href: "akis.html" },
+        { label: "Instagram Akışı", href: "akis.html" },
         { label: "Mektuplarımız", href: "mektuplar.html" },
         { label: "Haberler", href: "haberler.html" },
       ],
