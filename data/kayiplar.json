@@ -12,7 +12,16 @@
      "isKolu": null,
      "olay": "Çalıştırıldığı işyerine ait aracın devrilmesi sonucu hayatını kaybetti",
      "mesem": true,
-     "kaynakUrl": "https://haber.sol.org.tr/haber/mesemde-bir-olum-daha-isyeri-araci-devrildi-14-yasindaki-umut-emin-kaya-yasamini-yitirdi"
+     "kaynakUrl": "https://haber.sol.org.tr/haber/mesemde-bir-olum-daha-isyeri-araci-devrildi-14-yasindaki-umut-emin-kaya-yasamini-yitirdi",
+     "isig": {
+      "no": 69,
+      "kod": "DemInQvDYZp",
+      "ad": "Umut Emin Kaya",
+      "yas": 14,
+      "il": "Sivas",
+      "olay": "İşyerine ait 58 ACB 838 plakalı aracın devrilmesi sonucu hayatını kaybetti",
+      "mesem": true
+     }
     },
     {
      "ad": "Yiğit Söyler",
@@ -22,7 +31,16 @@
      "isKolu": "hizmet",
      "olay": "Kuryelik yaparken yolda duran, kayıtsız bir forkliftin demirine çarparak hayatını kaybetti",
      "mesem": true,
-     "kaynakUrl": "https://www.facebook.com/isigmeclisi/posts/bu-y%C4%B1l-tespit-edebildi%C4%9Fimiz-63-%C3%A7ocuk-i%C5%9F%C3%A7i-%C3%B6l%C3%BCm%C3%BCyi%C4%9Fit-s%C3%B6yler17-ya%C5%9F%C4%B1nda-moto-kurye/1406739131643606/"
+     "kaynakUrl": "https://www.facebook.com/isigmeclisi/posts/bu-y%C4%B1l-tespit-edebildi%C4%9Fimiz-63-%C3%A7ocuk-i%C5%9F%C3%A7i-%C3%B6l%C3%BCm%C3%BCyi%C4%9Fit-s%C3%B6yler17-ya%C5%9F%C4%B1nda-moto-kurye/1406739131643606/",
+     "isig": {
+      "no": 63,
+      "kod": "Ddwl9FVDfkU",
+      "ad": "Yiğit Söyler",
+      "yas": 17,
+      "il": "Antalya",
+      "olay": "İlk işgününde motosikletle seyir halindeyken arıza nedeniyle yolun ortasında yan duran ve tescil kaydı olmayan bir forkliftin ön bölümündeki vinç çatal demirine kafasını çarparak hayatını kaybetti",
+      "mesem": true
+     }
     },
     {
      "ad": "Eren Gündoğdu",
@@ -99,6 +117,166 @@
      "not": "MESEM işareti bircocukeksik.org kaydından alındı; kayıt metninde MESEM ibaresi geçmiyor"
     },
     {
+     "ad": "Ahmet Baytemur",
+     "yas": 16,
+     "il": "Şanlıurfa",
+     "tarih": "2026-11-22",
+     "isKolu": null,
+     "olay": "Çalıştığı inşaatın 3.katından düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/DgCdKXdoOFD/",
+     "not": "İSİG Meclisi paylaşımından otomatik eklendi; tarih paylaşım günüdür.",
+     "isig": {
+      "no": 81,
+      "kod": "DgCdKXdoOFD",
+      "ad": "Ahmet Baytemur",
+      "yas": 16,
+      "il": "Şanlıurfa",
+      "olay": "Çalıştığı inşaatın 3.katından düşerek hayatını kaybetti",
+      "mesem": false
+     }
+    },
+    {
+     "ad": "Mert Çağlı",
+     "yas": 17,
+     "il": "İstanbul",
+     "tarih": "2026-11-20",
+     "isKolu": null,
+     "olay": "Çalıştığı tekstil atölyesinde yük asansörünün halatının kopması sonucu 5 metre yükseklikten kabinle birlikte düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/Df93z8YI03_/",
+     "not": "İSİG Meclisi paylaşımından otomatik eklendi; tarih paylaşım günüdür.",
+     "isig": {
+      "no": 80,
+      "kod": "Df93z8YI03_",
+      "ad": "Mert Çağlı",
+      "yas": 17,
+      "il": "İstanbul",
+      "olay": "Çalıştığı tekstil atölyesinde yük asansörünün halatının kopması sonucu 5 metre yükseklikten kabinle birlikte düşerek hayatını kaybetti",
+      "mesem": false
+     }
+    },
+    {
+     "ad": "Kaan Gürgan",
+     "yas": 14,
+     "il": "Van",
+     "tarih": "2026-11-11",
+     "isKolu": null,
+     "olay": "Yem karma makinesine düşerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/DfnEwzgoJzL/",
+     "not": "İSİG Meclisi paylaşımından otomatik eklendi; tarih paylaşım günüdür.",
+     "isig": {
+      "no": null,
+      "kod": "DfnEwzgoJzL",
+      "ad": "Kaan Gürgan",
+      "yas": 14,
+      "il": "Van",
+      "olay": "Yem karma makinesine düşerek hayatını kaybetti",
+      "mesem": false
+     }
+    },
+    {
+     "ad": "Ahmet Özbay",
+     "yas": 15,
+     "il": "Nevşehir",
+     "tarih": "2026-11-11",
+     "isKolu": null,
+     "olay": "Kalp krizi geçirerek hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/Dfm-oeUofsS/",
+     "not": "İSİG Meclisi paylaşımından otomatik eklendi; tarih paylaşım günüdür.",
+     "isig": {
+      "no": null,
+      "kod": "Dfm-oeUofsS",
+      "ad": "Ahmet Özbay",
+      "yas": 15,
+      "il": "Nevşehir",
+      "olay": "Kalp krizi geçirerek hayatını kaybetti",
+      "mesem": false
+     }
+    },
+    {
+     "ad": "Mert Acar",
+     "yas": 17,
+     "il": "Manisa",
+     "tarih": "2026-11-07",
+     "isKolu": null,
+     "olay": "Çalıştığı oto tamirhanesinde sabah işyerine gelen çalışanlar tarafından cansız bedeni bulundu",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/Dfc0Z6fIeby/",
+     "not": "İSİG Meclisi paylaşımından otomatik eklendi; tarih paylaşım günüdür.",
+     "isig": {
+      "no": null,
+      "kod": "Dfc0Z6fIeby",
+      "ad": "Mert Acar",
+      "yas": 17,
+      "il": "Manisa",
+      "olay": "Çalıştığı oto tamirhanesinde sabah işyerine gelen çalışanlar tarafından cansız bedeni bulundu",
+      "mesem": false
+     }
+    },
+    {
+     "ad": "Hulki Can Horuz",
+     "yas": 17,
+     "il": "Düzce",
+     "tarih": "2026-11-07",
+     "isKolu": null,
+     "olay": "Düzce Gölyaka Hacıyakup Köyü'ndeki bir fındık deposunda gece sularında helezonla bir araca yükleme yaparken (muhtemelen yoğun fındık tozuna maruz kalması, bu tozların solunum yollarını tıkaması ve ciğerlerine dolması sonucu) fenalaşarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/Dfcp2SFIAyh/",
+     "not": "İSİG Meclisi paylaşımından otomatik eklendi; tarih paylaşım günüdür.",
+     "isig": {
+      "no": null,
+      "kod": "Dfcp2SFIAyh",
+      "ad": "Hulki Can Horuz",
+      "yas": 17,
+      "il": "Düzce",
+      "olay": "Düzce Gölyaka Hacıyakup Köyü'ndeki bir fındık deposunda gece sularında helezonla bir araca yükleme yaparken (muhtemelen yoğun fındık tozuna maruz kalması, bu tozların solunum yollarını tıkaması ve ciğerlerine dolması sonucu) fenalaşarak hayatını kaybetti",
+      "mesem": false
+     }
+    },
+    {
+     "ad": "İzzettin Neddef",
+     "yas": 17,
+     "il": "Adıyaman",
+     "tarih": "2026-10-24",
+     "isKolu": null,
+     "olay": "Çalıştığı inşaatta merdiven boşluğuna düşerek yaralandı. Beş gündür tedavi gördüğü hastanede hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/De4PV9KoK_r/",
+     "not": "İSİG Meclisi paylaşımından otomatik eklendi; tarih paylaşım günüdür.",
+     "isig": {
+      "no": 71,
+      "kod": "De4PV9KoK_r",
+      "ad": "İzzettin Neddef",
+      "yas": 17,
+      "il": "Adıyaman",
+      "olay": "Çalıştığı inşaatta merdiven boşluğuna düşerek yaralandı. Beş gündür tedavi gördüğü hastanede hayatını kaybetti",
+      "mesem": false
+     }
+    },
+    {
+     "ad": "Ayşegül Güleşçi",
+     "yas": 12,
+     "il": "Ankara",
+     "tarih": "2026-10-24",
+     "isKolu": null,
+     "olay": "Traktöre bağlı mibzerle tarlada tohum ekildiği sırada traktörden düşerek mibzerin altında kalıp hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/DfpDfbKIwRS/",
+     "not": "İSİG Meclisi paylaşımından otomatik eklendi.",
+     "isig": {
+      "no": null,
+      "kod": "DfpDfbKIwRS",
+      "ad": "Ayşegül Güleşçi",
+      "yas": 12,
+      "il": "Ankara",
+      "olay": "Traktöre bağlı mibzerle tarlada tohum ekildiği sırada traktörden düşerek mibzerin altında kalıp hayatını kaybetti",
+      "mesem": false
+     }
+    },
+    {
      "ad": "Muhammed Mehdi Dinler",
      "yas": 14,
      "il": "Van",
@@ -106,7 +284,36 @@
      "isKolu": "tarım",
      "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
      "mesem": false,
-     "kaynakUrl": "https://www.vanhabergazetesi.com/vanda-kahreden-olum-14-yasindaki-cocuga-yildirim-carpti"
+     "kaynakUrl": "https://www.vanhabergazetesi.com/vanda-kahreden-olum-14-yasindaki-cocuga-yildirim-carpti",
+     "isig": {
+      "no": 70,
+      "kod": "DerZXzEDckw",
+      "ad": "Muhammed Mehdi Dinler",
+      "yas": 13,
+      "il": "Van",
+      "olay": "Akşam sularında küçükbaş hayvanlarını otlattığı dağlık alanda yıldırım düşmesi sonucu hayatını kaybetti",
+      "mesem": false
+     }
+    },
+    {
+     "ad": "Mustafa El Abbas",
+     "yas": 16,
+     "il": "Gaziantep",
+     "tarih": "2026-10-14",
+     "isKolu": null,
+     "olay": "Çalıştığı hayvan çiftliğinde yem makinesinden elektrik akımına kapılarak hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/DeeZhexDXJa/",
+     "not": "İSİG Meclisi paylaşımından otomatik eklendi; tarih paylaşım günüdür.",
+     "isig": {
+      "no": 68,
+      "kod": "DeeZhexDXJa",
+      "ad": "Mustafa El Abbas",
+      "yas": 16,
+      "il": "Gaziantep",
+      "olay": "Çalıştığı hayvan çiftliğinde yem makinesinden elektrik akımına kapılarak hayatını kaybetti",
+      "mesem": false
+     }
     },
     {
      "ad": "Kadir Sevlilgen",
@@ -119,6 +326,26 @@
      "kaynakUrl": "https://www.dha.com.tr/gundem/is-kazasinda-yaralanan-kadir-3-gun-sonra-yasamini-yitirdi-2960059"
     },
     {
+     "ad": "Kadir Sevilgen",
+     "yas": 15,
+     "il": "Antalya",
+     "tarih": "2026-10-10",
+     "isKolu": null,
+     "olay": "Hafriyat çalışması sırasında yağcı olarak çalıştığı iş makinesinin bomu ile kepçe kovası arasında kafasının sıkışması sonucu ağır yaralandı. Üç gündür tedavi gördüğü hastanede hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://www.instagram.com/p/DeUDgO4jdir/",
+     "not": "İSİG Meclisi paylaşımından otomatik eklendi; tarih paylaşım günüdür.",
+     "isig": {
+      "no": 67,
+      "kod": "DeUDgO4jdir",
+      "ad": "Kadir Sevilgen",
+      "yas": 15,
+      "il": "Antalya",
+      "olay": "Hafriyat çalışması sırasında yağcı olarak çalıştığı iş makinesinin bomu ile kepçe kovası arasında kafasının sıkışması sonucu ağır yaralandı. Üç gündür tedavi gördüğü hastanede hayatını kaybetti",
+      "mesem": false
+     }
+    },
+    {
      "ad": "Umut Ayan",
      "yas": 17,
      "il": "Balıkesir",
@@ -126,7 +353,16 @@
      "isKolu": "hizmet",
      "olay": "Trafik kazasında hayatını kaybetti",
      "mesem": false,
-     "kaynakUrl": "https://www.instagram.com/p/DeEXTREMkgO/"
+     "kaynakUrl": "https://www.instagram.com/p/DeEXTREMkgO/",
+     "isig": {
+      "no": 66,
+      "kod": "DeHGxJ1jatX",
+      "ad": "Umut Ayan",
+      "yas": 17,
+      "il": "Balıkesir",
+      "olay": "Gece sularında motosikletle seyir halindeyken bir tırın çarpması sonucu hayatını kaybetti",
+      "mesem": false
+     }
     },
     {
      "ad": "Halil İbrahim Yağız",
@@ -136,7 +372,16 @@
      "isKolu": "inşaat",
      "olay": "Yüksekten düşerek hayatını kaybetti",
      "mesem": false,
-     "kaynakUrl": "https://www.urfanatik.com/gaziantepte-insaatin-6nci-katindan-dusen-17-yasindaki-isci-hayatini-kaybetti"
+     "kaynakUrl": "https://www.urfanatik.com/gaziantepte-insaatin-6nci-katindan-dusen-17-yasindaki-isci-hayatini-kaybetti",
+     "isig": {
+      "no": 65,
+      "kod": "Dd3mfmKjV34",
+      "ad": "Halil Yağız",
+      "yas": 17,
+      "il": "Gaziantep",
+      "olay": "Çalıştığı inşaatın 6.katından düşerek hayatını kaybetti",
+      "mesem": false
+     }
     },
     {
      "ad": "Halime Okkalı",
@@ -146,7 +391,16 @@
      "isKolu": "sanayi/atölye",
      "olay": "Makineye veya iki yüzey arasına sıkışarak hayatını kaybetti",
      "mesem": false,
-     "kaynakUrl": "https://www.evrensel.net/haber/6002352/6-yasindaki-cocuk-fistik-fabrikasinda-hayatini-kaybetti"
+     "kaynakUrl": "https://www.evrensel.net/haber/6002352/6-yasindaki-cocuk-fistik-fabrikasinda-hayatini-kaybetti",
+     "isig": {
+      "no": null,
+      "kod": "DdyidcHjXlo",
+      "ad": "Halime Okkalı",
+      "yas": 6,
+      "il": "Şanlıurfa",
+      "olay": "Fıstık fabrikasında çalışma alanında bir makinenin altında kalarak hayatını kaybetti",
+      "mesem": false
+     }
     },
     {
      "ad": "Abdullah Omar Alobid",
