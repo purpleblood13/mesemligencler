@@ -17,12 +17,12 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGES = ["index.html", "biz-kimiz.html", "kayiplar.html", "mektuplar.html", "haberler.html", "onergeler.html", "akis.html", "iletisim.html"]
 
 NAV = [
-    ("biz-kimiz.html", "Biz kimiz", "biz-kimiz"),
+    ("biz-kimiz.html", "Biz Kimiz?", "biz-kimiz"),
     ("kayiplar.html", "Kayıplarımız", "kayiplar"),
     ("mektuplar.html", "Mektuplarımız", "mektuplar"),
     ("haberler.html", "Haberler", "haberler"),
-    ("onergeler.html", "Meclis önergeleri", "onergeler"),
-    ("akis.html", "Instagram akışı", "akis"),
+    ("onergeler.html", "Meclis Önergeleri", "onergeler"),
+    ("akis.html", "Instagram Akışı", "akis"),
 ]
 
 SOCIAL = [
