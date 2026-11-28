@@ -24,6 +24,7 @@ Elle düzeltilmiş alanlar, İSİG o alanı değiştirmedikçe korunur.
 Çıkış kodu 0 = başarılı, 1 = hata.
 """
 import argparse
+import difflib
 import html
 import json
 import re
@@ -265,6 +266,9 @@ def parse(caption):
 
 # ---------- Veri ----------
 
+NAME_SIMILARITY = 0.9  # "kadir sevlilgen" ~ "kadir sevilgen" 0.97; farklı soyadlar 0.8'in altında
+
+
 def norm_name(name):
     folded = (name or "").replace("İ", "i").replace("I", "ı").lower()
     folded = unicodedata.normalize("NFKD", folded.replace("ı", "i"))
@@ -307,10 +311,18 @@ def find_existing(data, parsed, code, day):
         if year_no and parsed["no"] is not None and year["yil"] == year_no and isig.get("no") == parsed["no"]:
             return rec
     for _, rec in all_records(data):
-        if norm_name(rec.get("ad")) != key or not rec.get("tarih") or not day:
+        if not rec.get("tarih") or not day:
             continue
         gap = abs((datetime.fromisoformat(rec["tarih"]) - datetime.fromisoformat(day)).days)
-        if gap <= 60:
+        if gap > 60:
+            continue
+        other = norm_name(rec.get("ad"))
+        if other == key:
+            return rec
+        # Haberle İSİG arasında harf hatası olabiliyor ("Sevlilgen" / "Sevilgen"): yaşı tutan, adı çok
+        # benzeyen kayıt da aynı kişidir.
+        if (rec.get("yas") == parsed.get("yas") and parsed.get("yas") is not None
+                and difflib.SequenceMatcher(None, other, key).ratio() >= NAME_SIMILARITY):
             return rec
     return None
 
