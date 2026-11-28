@@ -1,6 +1,8 @@
 /* Kayıplarımız: iş cinayetinde hayatını kaybeden çocuklar, yıl yıl.
    MESEM'liler büyük, aynı yıl ölen diğer çocuk işçiler küçük yazılır.
-   İsme tıklayınca yaş, il, tarih, olay ve kaynak açılır. */
+   İsme tıklayınca yaş, il, tarih, olay ve kaynak açılır.
+   Yılın sayısı İSİG'in o yıl için verdiği "en az" sayıdır (isigSayisi); İSİG bu çocukların hepsinin
+   ismini yayımlamadığı için listedeki isim sayısı daha az olabilir, o zaman listenin sonunda belirtilir. */
 (() => {
   "use strict";
   const mount = document.querySelector("[data-years]");
@@ -36,12 +38,16 @@
   const yearBlock = (y) => {
     const children = [...y.kisiler].sort(byDateDesc);
     const mesemCount = children.filter((k) => k.mesem).length;
-    const counts = [`<span>${children.length} çocuk işçi</span>`];
-    if (mesemCount) counts.push(`<span>${mesemCount} MESEM öğrencisi</span>`);
+    const total = Math.max(Number(y.isigSayisi) || 0, children.length);
+    const counts = [`<span>en az ${total} çocuk işçi</span>`];
+    if (mesemCount) counts.push(`<span>en az ${mesemCount} MESEM öğrencisi</span>`);
+    const missing = total > children.length
+      ? `<p class="names__note">Bu yıl hayatını kaybeden çocukların hepsinin ismine ulaşılamadı. Burada ismine ulaşılabilen ${children.length} çocuk var.</p>`
+      : "";
     return `
       <section class="year" aria-labelledby="y${y.yil}">
         <div><h2 id="y${y.yil}">${MG.esc(y.yil)}</h2><p class="year__count">${counts.join("")}</p></div>
-        <ul class="names">${children.map(nameButton).join("")}</ul>
+        <div><ul class="names">${children.map(nameButton).join("")}</ul>${missing}</div>
       </section>`;
   };
 
