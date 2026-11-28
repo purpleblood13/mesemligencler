@@ -226,6 +226,8 @@ body.menu-open { overflow: hidden; }
 .year h2 { font-size: clamp(2.5rem, 5vw, 4rem); margin: 0; color: var(--muted); }
 .year__count { color: var(--muted); font-size: .95rem; margin-top: .5rem; line-height: 1.5; }
 .year__count span { display: block; white-space: nowrap; }
+.names__note { margin: 1.25rem 0 0; color: var(--muted); font-size: .95rem; max-width: 40rem; }
+.page-head p.page-head__source { margin-top: .75rem; font-size: .95rem; }
 .names { display: flex; flex-wrap: wrap; gap: .3rem .55rem; list-style: none; margin: 0; padding: 0; align-content: flex-start; }
 .name {
   font: inherit; font-size: clamp(1rem, 1.6vw, 1.15rem); font-weight: 500; line-height: 1.35;

@@ -85,7 +85,7 @@
      "not": "MESEM işareti bircocukeksik.org kaydından alındı; kayıt metninde MESEM ibaresi geçmiyor"
     },
     {
-     "ad": "Yiğit Kesme",
+     "ad": "Yiğit Mehmet Kesme",
      "yas": 16,
      "il": "Osmaniye",
      "tarih": "2026-07-10",
@@ -95,7 +95,7 @@
      "kaynakUrl": "https://www.birgun.net/haber/traktor-tamir-ettirilen-mesem-ogrencisi-hayatini-kaybetti-723323"
     },
     {
-     "ad": "Mahir Buğra Karaön",
+     "ad": "Mahir Buğra Karagön",
      "yas": 16,
      "il": "Hatay",
      "tarih": "2026-05-01",
@@ -556,7 +556,7 @@
      "not": "Metinde çırak/staj geçiyor ancak sitede MESEM işaretli değil; MESEM olup olmadığı doğrulanmalı"
     },
     {
-     "ad": "Süleyman Tuna Egüler",
+     "ad": "Süleyman Tuna Ergüler",
      "yas": 16,
      "il": "Antalya",
      "tarih": "2026-07-18",
@@ -698,7 +698,7 @@
      "kaynakUrl": "https://www.hurriyet.com.tr/gundem/traktorun-altinda-kalan-kuzenler-feci-sekilde-can-verdi-43175833"
     },
     {
-     "ad": "Mehmet Daniş",
+     "ad": "Muhammed Danış",
      "yas": 13,
      "il": "Ankara",
      "tarih": "2026-05-11",
@@ -778,7 +778,7 @@
      "kaynakUrl": "https://x.com/isigmeclisi/status/2034925802198843563?s=20"
     },
     {
-     "ad": "Muna Ahmet",
+     "ad": "Muna Ahmed",
      "yas": 9,
      "il": "Antalya",
      "tarih": "2026-03-20",
@@ -858,7 +858,7 @@
      "kaynakUrl": "https://x.com/isigmeclisi/status/2016493359829786864?s=20"
     },
     {
-     "ad": "Bedat Kılınç",
+     "ad": "Velat Kılınç",
      "yas": 15,
      "il": "Diyarbakır",
      "tarih": "2026-01-15",
@@ -881,6 +881,7 @@
   },
   {
    "yil": 2025,
+   "isigSayisi": 94,
    "kisiler": [
     {
      "ad": "Buğrahan Sağdıç",
@@ -994,14 +995,15 @@
      "kaynakUrl": "https://www.evrensel.net/haber/545503/staj-carki-cocuklari-olduruyor-meslek-liseli-arda-is-yerinde-yasamina-son-verdi"
     },
     {
-     "ad": "Zehra",
+     "ad": "Zahra Hosseini",
      "yas": 17,
      "il": "Karaman",
      "tarih": "2025-12-22",
      "isKolu": "sanayi/atölye",
      "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
      "mesem": false,
-     "kaynakUrl": "https://x.com/isigmeclisi/status/2003020882864898361"
+     "kaynakUrl": "https://x.com/isigmeclisi/status/2003020882864898361",
+     "not": "Afganistanlı; plastik enjeksiyon makinesinde başörtüsü makineye kaptırıldı (TGRT Haber, Bianet)."
     },
     {
      "ad": "Emre Filik",
@@ -1094,7 +1096,7 @@
      "kaynakUrl": "https://x.com/isigmeclisi/status/1989309288842448977?s=20"
     },
     {
-     "ad": "Nusefa Samur",
+     "ad": "Nursefa Samur",
      "yas": 14,
      "il": "Ağrı",
      "tarih": "2025-11-11",
@@ -1104,7 +1106,7 @@
      "kaynakUrl": "https://x.com/isigmeclisi/status/1988237390956130587?s=20"
     },
     {
-     "ad": "Cansu Esatoğlu",
+     "ad": "Cansu Esetoğlu",
      "yas": 16,
      "il": "Kocaeli",
      "tarih": "2025-11-08",
@@ -1114,7 +1116,7 @@
      "kaynakUrl": "https://x.com/isigmeclisi/status/1987108459414741455?s=20"
     },
     {
-     "ad": "Nisa Taşdemir",
+     "ad": "Nisanur Taşdemir",
      "yas": 17,
      "il": "Kocaeli",
      "tarih": "2025-11-08",
@@ -1702,11 +1704,23 @@
      "olay": null,
      "mesem": false,
      "kaynakUrl": "Bilinmiyor"
+    },
+    {
+     "ad": "Tuğba Taşdemir",
+     "yas": 17,
+     "il": "Kocaeli",
+     "tarih": "2025-11-08",
+     "isKolu": "sanayi/atölye",
+     "olay": "Yangın veya patlamada hayatını kaybetti",
+     "mesem": false,
+     "kaynakUrl": "https://bianet.org/haber/dilovasinda-7-kisinin-oldugu-ravive-kozmetik-yangini-318080",
+     "not": "İSİG'in 2025-2026 eğitim yılı çocuk işçi listesinde; yaşı haberlerde 17 ve 18 olarak geçiyor."
     }
    ]
   },
   {
    "yil": 2024,
+   "isigSayisi": 71,
    "kisiler": [
     {
      "ad": "Efe Baran Kazancı",
@@ -2336,6 +2350,7 @@
   },
   {
    "yil": 2023,
+   "isigSayisi": 54,
    "kisiler": [
     {
      "ad": "Ömer Çakar",
@@ -2773,6 +2788,7 @@
   },
   {
    "yil": 2022,
+   "isigSayisi": 62,
    "kisiler": [
     {
      "ad": "İsmi Bilinmiyor",
@@ -3199,6 +3215,7 @@
   },
   {
    "yil": 2021,
+   "isigSayisi": 62,
    "kisiler": [
     {
      "ad": "Süleyman Daşgın",
@@ -3674,6 +3691,7 @@
   },
   {
    "yil": 2020,
+   "isigSayisi": 67,
    "kisiler": [
     {
      "ad": "Devran Onay",
@@ -4089,6 +4107,7 @@
   },
   {
    "yil": 2019,
+   "isigSayisi": 67,
    "kisiler": [
     {
      "ad": "Fatih Çiftçi",
@@ -4446,6 +4465,7 @@
   },
   {
    "yil": 2018,
+   "isigSayisi": 67,
    "kisiler": [
     {
      "ad": "Devran Tunahan Kösçü",
@@ -4783,6 +4803,7 @@
   },
   {
    "yil": 2017,
+   "isigSayisi": 60,
    "kisiler": [
     {
      "ad": "Faruk Türkoğlu",
@@ -5028,6 +5049,7 @@
   },
   {
    "yil": 2016,
+   "isigSayisi": 56,
    "kisiler": [
     {
      "ad": "İbrahim İşcan",
