@@ -16,6 +16,7 @@
   const DEFAULT_BATCH = 20;
   const PRELOAD_MARGIN = "1200px 0px";
   const SEARCH_DELAY_MS = 150;
+  const ARROW = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>';
 
   /** Türkçe büyük/küçük harf ve aksan farkını yok sayan arama anahtarı. */
   function normalize(text) {
@@ -39,11 +40,35 @@
     return `
       <div class="feed-controls" id="feed-controls">
         <input class="search" type="search" placeholder="${MG.esc(searchLabel)}" aria-label="${MG.esc(searchLabel)}">
-        <div class="filters" role="group" aria-label="Süzgeç">${chips}</div>
+        <div class="filters-wrap">
+          <button class="filters__arrow filters__arrow--prev" type="button" aria-label="Süzgeçleri sola kaydır" hidden>${ARROW}</button>
+          <div class="filters" role="group" aria-label="Süzgeç">${chips}</div>
+          <button class="filters__arrow filters__arrow--next" type="button" aria-label="Süzgeçleri sağa kaydır" hidden>${ARROW}</button>
+        </div>
       </div>
       <p class="count visually-hidden" aria-live="polite"></p>
       <div class="feed-list"></div>
       <div class="feed-sentinel" aria-hidden="true"></div>`;
+  }
+
+  /** Çip satırı taşınca kenarlarda kaydırma okları; fareyle ve dokunarak kaydırmayı kolaylaştırır.
+      Ok yalnızca o yönde gizli çip varsa görünür. */
+  function scrollArrows(wrap) {
+    const row = wrap.querySelector(".filters");
+    const prev = wrap.querySelector(".filters__arrow--prev");
+    const next = wrap.querySelector(".filters__arrow--next");
+    const update = () => {
+      const max = row.scrollWidth - row.clientWidth;
+      prev.hidden = row.scrollLeft <= 2;
+      next.hidden = row.scrollLeft >= max - 2;
+    };
+    const step = (dir) => row.scrollBy({ left: dir * row.clientWidth * 0.7, behavior: "smooth" });
+    prev.addEventListener("click", () => step(-1));
+    next.addEventListener("click", () => step(1));
+    row.addEventListener("scroll", update, { passive: true });
+    // Dar ekranda panel kapalıyken satırın genişliği 0; açılınca ölçü değişir ve oklar yenilenir.
+    new ResizeObserver(update).observe(row);
+    update();
   }
 
   function feed(opts) {
@@ -56,6 +81,7 @@
     const list = mount.querySelector(".feed-list");
     const count = mount.querySelector(".count");
     const sentinel = mount.querySelector(".feed-sentinel");
+    scrollArrows(mount.querySelector(".filters-wrap"));
 
     const sectionItems = (key) => view.visible.filter((i) => opts.sectionOf(i) === key);
 
