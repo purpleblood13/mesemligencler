@@ -1,0 +1,54 @@
+# Akış: MESEM'li Gençler Instagram hesabının yeni gönderilerini saat başı siteye ekler.
+# Neden Actions: senkron önce Oracle VM'inde çalışacaktı ama orada hiç kurulmadı; diğer veri botları
+# gibi burada çalışınca kimsenin sunucusuna bağlı kalmaz. Ayrıntı: scripts/insta/README.md
+name: Akış (Instagram senkronu)
+
+on:
+  schedule:
+    - cron: "41 * * * *"  # saat başı (kayıplar :17'de; aynı anda js/data.js yazmasınlar)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Yalnızca yeni gönderileri listele, hiçbir şey yazma"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  actions: write
+
+# Bütün veri botları js/data.js'i yeniden yazar; aynı anda çalışıp birbirinin push'unu bozmasınlar.
+concurrency:
+  group: veri-botlari
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Araçlar (ffmpeg, Pillow, yt-dlp)
+        run: |
+          command -v ffmpeg >/dev/null || { sudo apt-get update -q && sudo apt-get install -y -q ffmpeg; }
+          python3 -m pip install --quiet pillow yt-dlp
+
+      - name: Yeni gönderiler (deneme)
+        if: ${{ inputs.dry_run }}
+        run: python3 scripts/insta/sync_latest.py --dry-run
+
+      - name: Yeni gönderileri ekle ve main'e gönder
+        id: sync
+        if: ${{ !inputs.dry_run }}
+        run: |
+          set -o pipefail
+          python3 scripts/insta/sync_latest.py | tee "$RUNNER_TEMP/sync.log"
+          if grep -q "^push tamam" "$RUNNER_TEMP/sync.log"; then echo "pushed=1" >> "$GITHUB_OUTPUT"; fi
+
+      # GITHUB_TOKEN ile yapılan push pages.yml'i tetiklemez; yayın elle başlatılır.
+      - name: Yayınla
+        if: steps.sync.outputs.pushed == '1'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml --ref main
