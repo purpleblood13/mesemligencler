@@ -53,7 +53,9 @@ jobs:
           set -o pipefail
           # Kodlar yalnızca harf, rakam, - ve _ içerir; başka karakter varsa reddet.
           case "$REFETCH" in *[!A-Za-z0-9_\ -]*) echo "geçersiz kod: $REFETCH"; exit 1 ;; esac
-          python3 scripts/insta/sync_latest.py ${REFETCH:+--refetch $REFETCH} | tee "$RUNNER_TEMP/sync.log"
+          # Takipçi sayısı günde bir (09:41 İstanbul) ya da elle çalıştırınca yenilenir.
+          profile=; if [ "$(date -u +%H)" = 06 ] || [ "${{ github.event_name }}" = workflow_dispatch ]; then profile=--profile; fi
+          python3 scripts/insta/sync_latest.py $profile ${REFETCH:+--refetch $REFETCH} | tee "$RUNNER_TEMP/sync.log"
           if grep -q "^push tamam" "$RUNNER_TEMP/sync.log"; then echo "pushed=1" >> "$GITHUB_OUTPUT"; fi
 
       # GITHUB_TOKEN ile yapılan push pages.yml'i tetiklemez; yayın elle başlatılır.

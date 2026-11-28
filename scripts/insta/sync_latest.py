@@ -15,6 +15,7 @@ Kullanım:
     python3 scripts/insta/sync_latest.py --dry-run    # yeni gönderileri listele, hiçbir şey yazma
     python3 scripts/insta/sync_latest.py --no-push    # yerelde üret ve commit et, push'lama
     python3 scripts/insta/sync_latest.py --refetch KOD1 KOD2
+    python3 scripts/insta/sync_latest.py --profile    # yeni gönderi olmasa da takipçi sayısını yenile
 
 Çıkış kodu 0 = başarılı (yeni gönderi olmasa da), 1 = hata.
 """
@@ -162,14 +163,14 @@ def write_data(data):
     Path(tmp.name).replace(DATA)
 
 
-def commit_and_push(records, push):
+def commit_and_push(records, push, title="chore(data): sync new instagram posts"):
     git("add", *COMMIT_PATHS)
     if git("diff", "--cached", "--quiet", check=False).returncode == 0:
         print("değişiklik yok.", flush=True)
         return
     body = "\n".join(f"- {r['code']} ({r['tarih']})" for r in records)
     git("-c", f"user.name={BOT_NAME}", "-c", f"user.email={BOT_EMAIL}",
-        "commit", "-q", "-m", "chore(data): sync new instagram posts", "-m", body)
+        "commit", "-q", "-m", title, *(["-m", body] if body else []))
     if not push:
         print("push atlandı (--no-push).", flush=True)
         return
@@ -185,7 +186,16 @@ def dry_run(codes):
         time.sleep(EMBED_DELAY_SEC)
 
 
-def run(is_dry, push, refetch):
+def fresh_counts():
+    """Takipçi ve gönderi sayısı; okunamazsa boş (gönderi senkronu yine çalışır)."""
+    try:
+        return ie.profile_counts()
+    except ie.InstaError as e:
+        print(f"  ! profil sayıları okunamadı: {e}", flush=True)
+        return {}
+
+
+def run(is_dry, push, refetch, refresh_profile=False):
     if push and not is_dry:
         sync_with_remote()
     elif not is_dry:
@@ -199,8 +209,18 @@ def run(is_dry, push, refetch):
         # her saat medyasını boşuna indirmemek için baştan atla. --refetch ile istenen hariç.
         oldest = min(taken_from_code(p["code"]) for p in data["gonderiler"])
         codes = [c for c in codes if c in refetch or taken_from_code(c) >= oldest]
+    # Sayılar her saat değişir; her saat commit olmasın diye yalnızca yeni gönderi gelince ya da
+    # --profile ile (iş akışında günde bir) yenilenir.
+    counts = fresh_counts() if (codes or refresh_profile) else {}
+    changed = {k: v for k, v in counts.items() if data["profil"].get(k) != v}
+    if counts:
+        print(f"profil: {counts}" + ("" if changed else " (değişmemiş)"), flush=True)
     if not codes:
         print("yeni gönderi yok.", flush=True)
+        if changed and not is_dry:
+            write_data({**data, "profil": {**data["profil"], **changed}})
+            subprocess.run([sys.executable, str(BUILD_DATA)], check=True)
+            commit_and_push([], push, "chore(data): refresh instagram profile counts")
         return
     if is_dry:
         dry_run(codes)
@@ -220,7 +240,7 @@ def run(is_dry, push, refetch):
 
     records = [r for r, _ in sorted(built, key=lambda b: b[1], reverse=True)]
     added = sum(1 for r in records if r["code"] not in known)
-    profil = {**data["profil"], "gonderiSayisi": data["profil"]["gonderiSayisi"] + added}
+    profil = {**data["profil"], "gonderiSayisi": data["profil"]["gonderiSayisi"] + added, **counts}
     write_data({**data, "profil": profil, "gonderiler": prune(merge(data["gonderiler"], records))})
     subprocess.run([sys.executable, str(BUILD_DATA)], check=True)
     if fm.failed:
@@ -233,14 +253,15 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--no-push", action="store_true")
     ap.add_argument("--refetch", nargs="*", default=[])
+    ap.add_argument("--profile", action="store_true", help="yeni gönderi olmasa da takipçi/gönderi sayısını yenile")
     args = ap.parse_args()
     try:
         try:
-            run(args.dry_run, not args.no_push, args.refetch)
+            run(args.dry_run, not args.no_push, args.refetch, args.profile)
         except PushRejected as e:
             # Bir kez, güncel main üzerinde baştan dene (run başta klonu main'e eşitler).
             print(f"  ! {e} Yeniden deneniyor.", flush=True)
-            run(args.dry_run, not args.no_push, args.refetch)
+            run(args.dry_run, not args.no_push, args.refetch, args.profile)
     except (SyncError, ie.InstaError, subprocess.CalledProcessError) as e:
         print(f"HATA: {e}", file=sys.stderr)
         return 1
