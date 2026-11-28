@@ -1,14 +1,14 @@
 """Mesemli Gençler: Instagram artımlı senkron (oturumsuz, tarayıcısız).
 
-Neden: akış elle `collect.py` + `fetch_media.py` ile yenileniyordu. Bu betik Oracle VM'inde
-saatlik çalışır (Genç Hayat'ın düzeneğiyle aynı) ve yalnızca yeni gönderileri ekler.
+Neden: akış elle `collect.py` + `fetch_media.py` ile yenileniyordu. Bu betik GitHub Actions'ta
+saat başı çalışır (.github/workflows/insta.yml) ve yalnızca yeni gönderileri ekler.
 
 Kaynak: `insta_embed.py` (public embed sayfaları; giriş, şifre, çerez gerekmez). Datacenter
 IP'sinden profil HTML'i boş gelir; keşif yalnızca embed ızgarasından yapılır (son 6 gönderi).
 Eski bir gönderiyi yenilemek için `--refetch KOD`.
 
 Akış: depoyu güncelle → yeni kodları bul → medyayı indir, WebP/H.264'e çevir →
-data/instagram.json → js/data.js → commit → push. Push, Pages iş akışını tetikler.
+data/instagram.json → js/data.js → commit → push. Yayını iş akışı başlatır.
 
 Kullanım:
     python3 scripts/insta/sync_latest.py              # senkronla, commit et, push'la

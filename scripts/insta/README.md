@@ -9,13 +9,13 @@ Akış sayfasının verisi: `data/instagram.json` (kayıtlar) ve `assets/insta/`
 
 ## Otomatik senkron: `sync_latest.py`
 
-Oracle VM'inde saatlik çalışır (Emek Gençliği botunun ve Genç Hayat senkronunun makinesi). Yalnızca **yeni** gönderileri ekler:
+GitHub Actions'ta saat başı çalışır (`.github/workflows/insta.yml`, her saatin 41. dakikası). Yalnızca **yeni** gönderileri ekler:
 
 1. Klonu uzaktaki `main`'e eşitler (`fetch` + `reset --hard`); önceki çalıştırmadan kalan hiçbir şey taşınmaz.
 2. Profil embed ızgarasından son 6 gönderinin kodunu okur, arşivde olmayanları bulur.
 3. Her yeni gönderinin medyasını indirir, WebP/H.264'e çevirir.
 4. `data/instagram.json` ve `js/data.js` (`build_data.py`) güncellenir. Akışta yalnızca en yeni 12 gönderi kalır; düşen gönderinin medyası silinir.
-5. `chore(data): sync new instagram posts` commit'i `main`'e push edilir. Push, `pages.yml` iş akışını tetikler ve site kendiliğinden yenilenir. Bu sırada `main`'e başka bir commit geldiyse push reddedilir; bot güncel `main` üzerinde işi bir kez baştan yapar.
+5. `chore(data): sync new instagram posts` commit'i `main`'e push edilir, ardından iş akışı Pages yayınını başlatır (GITHUB_TOKEN'la yapılan push `pages.yml`'i kendiliğinden tetiklemez). Bu sırada `main`'e başka bir commit geldiyse push reddedilir; bot güncel `main` üzerinde işi bir kez baştan yapar.
 
 ```
 python3 scripts/insta/sync_latest.py --dry-run         # yeni gönderileri listele, hiçbir şey yazma
@@ -23,7 +23,13 @@ python3 scripts/insta/sync_latest.py --no-push         # yerelde üret ve commit
 python3 scripts/insta/sync_latest.py --refetch KOD     # bir gönderiyi baştan çek (beğeni sayısı, kapak vb.)
 ```
 
-### VM kurulumu (bir kez, `ubuntu@VM`)
+Elle çalıştırmak için: GitHub'da Actions → "Akış (Instagram senkronu)" → Run workflow. "dry_run" işaretlenirse yalnızca yeni gönderileri listeler.
+
+### Başka bir makinede çalıştırmak (isteğe bağlı)
+
+Başta senkronun Oracle VM'inde çalışması planlanmıştı; orada kurulmadığı için Actions'a taşındı. Instagram GitHub'ın IP'lerini engellerse aynı betik bir VM'de aşağıdaki adımlarla çalıştırılabilir. İkisi aynı anda çalışmamalı: VM kurulursa `insta.yml`'deki `schedule` kaldırılır.
+
+#### VM kurulumu (bir kez, `ubuntu@VM`)
 
 1. Paketler: `sudo apt install -y ffmpeg python3-venv git`
 2. Yalnızca bu iş için bir deploy anahtarı üret:
@@ -55,8 +61,8 @@ Log: `journalctl --user -u mesemli-insta-sync`. Betikler klondan çalışır; g�
 
 ### Bilinmesi gerekenler
 
-- **`main` kuralı:** `CLAUDE.md` "kimse `main`'e doğrudan pushlamaz" der. Bu bot, kayıplar botuyla birlikte iki istisnadan biridir, çünkü saatlik PR açıp onaylatmak mümkün değil. `main` için PR zorunlu kılan ruleset eklenirse deploy anahtarı ruleset'in **bypass listesine** eklenmelidir, yoksa push reddedilir. Bot kimliği `mesemli-sync` (noreply adresi), commit'lerden kolayca ayırt edilir.
-- **VM sınırı:** Datacenter IP'sinden profil HTML'i boş gelir, keşif yalnızca ızgaradaki son 6 gönderiden yapılır. Bir saatte 6'dan fazla gönderi atılmazsa kayıp olmaz. Arada kalan olursa `--refetch KOD` ile (Mac'ten ya da VM'den) eklenir.
+- **`main` kuralı:** `CLAUDE.md` "kimse `main`'e doğrudan pushlamaz" der. Bu bot, diğer veri botlarıyla birlikte bu kuralın istisnasıdır, çünkü saatlik PR açıp onaylatmak mümkün değil. `main` için PR zorunlu kılan ruleset eklenirse GitHub Actions ruleset'in **bypass listesine** eklenmelidir, yoksa push reddedilir. Bot kimliği `mesemli-sync` (noreply adresi), commit'lerden kolayca ayırt edilir.
+- **Sunucu sınırı:** Datacenter IP'sinden (Actions da öyle) profil HTML'i boş gelir, keşif yalnızca ızgaradaki son 6 gönderiden yapılır. Bir saatte 6'dan fazla gönderi atılmazsa kayıp olmaz. Arada kalan olursa `--refetch KOD` ile (Mac'ten ya da VM'den) eklenir.
 - **Reels videosu:** Embed bazı Reels'lerde video adresini vermez; `yt-dlp` çözemezse (giriş isterse) gönderi yalnızca kapakla yayına girer ve Akış'ta "Videoyu Instagram'da izle" düğmesi görünür. Sonradan Mac'ten `--refetch KOD` çalıştırılıp commit'lenirse video tamamlanır.
 - **Sayılar:** Beğeni ve yorum sayısı gönderi eklendiği anda yazılır, sonradan güncellenmez. Profildeki gönderi sayısı yeni gönderi başına 1 artar; takipçi sayısı yalnızca `fetch_media.py` ile yenilenir.
 - **Depolama:** Akış yalnızca en yeni 12 gönderiyi (`KEEP_POSTS`) gösterir, eskilerin medyası diskten silinir. Bu yüzden yayınlanan site küçük kalır. Silinen videolar git geçmişinde durur: hesap ayda ~20 video paylaşırsa geçmiş yılda birkaç yüz MB büyür. Sabitlenmiş eski bir gönderi, akıştaki en eskiden de eskiyse hiç indirilmez.
