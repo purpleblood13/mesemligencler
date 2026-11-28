@@ -27,11 +27,31 @@
 @media (prefers-reduced-motion: reduce) { .feed-controls.is-open { animation: none; } }
 .feed-controls .search { max-width: none; margin-bottom: .6rem; }
 .feed-controls .filters {
-  flex-wrap: nowrap; overflow-x: auto; margin: 0 -1rem; padding: 0 1rem .25rem;
+  flex-wrap: nowrap; overflow-x: auto; margin: 0; padding: 0 1rem .25rem;
   scrollbar-width: none; overscroll-behavior-x: contain;
 }
 .feed-controls .filters::-webkit-scrollbar { display: none; }
 .feed-controls .chip { flex: none; }
+
+/* Çip satırı taşınca kenarlardaki kaydırma okları (js/feed.js scrollArrows) */
+.filters-wrap { position: relative; margin: 0 -1rem; }
+.filters__arrow {
+  position: absolute; top: 0; z-index: 1; width: 3.5rem; height: 40px; padding: 0; border: 0; cursor: pointer;
+  display: flex; align-items: center; color: var(--ink);
+}
+.filters__arrow[hidden] { display: none; }
+.filters__arrow--prev { left: 0; justify-content: flex-start; background: linear-gradient(to right, var(--bg) 45%, transparent); }
+.filters__arrow--next { right: 0; justify-content: flex-end; background: linear-gradient(to left, var(--bg) 45%, transparent); }
+.filters__arrow svg {
+  width: 32px; height: 32px; padding: 7px; border-radius: 50%;
+  background: var(--surface-2); border: 1px solid var(--line-strong);
+  fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round;
+  transition: background-color .2s ease;
+}
+.filters__arrow--prev svg { transform: scaleX(-1); }
+.filters__arrow:hover svg { background: var(--surface); }
+.filters__arrow:focus-visible { outline: none; }
+.filters__arrow:focus-visible svg { outline: 2px solid var(--ink); outline-offset: 2px; }
 .feed-list { margin-top: 1.25rem; }
 
 /* ---------- Gün başlığı ---------- */
