@@ -113,6 +113,16 @@ def _codes_from_profile_embed():
     ]
 
 
+def profile_counts():
+    """Profil embed'indeki takipçi ve gönderi sayısı; datacenter IP'lerinden de geliyor.
+
+    Neden: profil HTML'i (fetch_media.profile_info) sunucudan giriş duvarına düşüyor; embed düşmüyor.
+    """
+    ctx = _extract_context(_get(PROFILE_EMBED_URL, DOCUMENT_HEADERS)).get("context") or {}
+    counts = {"takipci": ctx.get("followers_count"), "gonderiSayisi": ctx.get("posts_count")}
+    return {k: v for k, v in counts.items() if isinstance(v, int) and v > 0}
+
+
 def recent_shortcodes():
     """Son gönderilerin kısa kodlarını (yeniden eskiye) döndürür.
 
