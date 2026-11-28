@@ -1702,17 +1702,6 @@
      "olay": null,
      "mesem": false,
      "kaynakUrl": "Bilinmiyor"
-    },
-    {
-     "ad": "Mehmet Çelik",
-     "yas": "Bilinmiyor",
-     "il": null,
-     "tarih": "2025-01-01",
-     "isKolu": null,
-     "olay": null,
-     "mesem": false,
-     "kaynakUrl": "Bilinmiyor",
-     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
     }
    ]
   },
@@ -1737,8 +1726,7 @@
      "isKolu": "sanayi/atölye",
      "olay": "Atölyede üzerine platin levha devrilerek hayatını kaybetti",
      "mesem": true,
-     "kaynakUrl": "https://x.com/isigmeclisi/status/1859975934138626528",
-     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1859975934138626528"
     },
     {
      "ad": "Erol Can Yavuz",
@@ -1759,17 +1747,6 @@
      "olay": "Çalıştığı atölyede kalfası tarafından uğradığı işkence sonucu hayatını kaybetti",
      "mesem": true,
      "kaynakUrl": "https://www.evrensel.net/haber/593582/mesemde-iskenceyle-oldurulen-muhammed-kendirci-icin-sosyal-medyada-adalet-cagrisi"
-    },
-    {
-     "ad": "Yunus Emre Küçükuzun",
-     "yas": 17,
-     "il": "Konya",
-     "tarih": "2024-11-05",
-     "isKolu": "sanayi/atölye",
-     "olay": "Atölyede üzerine platin levha devrilerek hayatını kaybetti",
-     "mesem": true,
-     "kaynakUrl": "https://x.com/isigmeclisi/status/1859975934138626528",
-     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
     },
     {
      "ad": "Muammer Samet Karaoluk",
@@ -1870,8 +1847,7 @@
      "isKolu": "inşaat",
      "olay": "Trafik kazasında hayatını kaybetti",
      "mesem": false,
-     "kaynakUrl": "https://x.com/isigmeclisi/status/1872927819581608051",
-     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1872927819581608051"
     },
     {
      "ad": "Mert Aydın",
@@ -1881,8 +1857,7 @@
      "isKolu": null,
      "olay": "Beyin kanaması sonucu hayatını kaybetti",
      "mesem": false,
-     "kaynakUrl": "https://www.facebook.com/isigmeclisi/posts/mert-aydın16-yaşındaistanbul-sancaktepede-iki-aydır-çalıştığı-fırında-1430-sular/904913025159555/",
-     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+     "kaynakUrl": "https://www.facebook.com/isigmeclisi/posts/mert-aydın16-yaşındaistanbul-sancaktepede-iki-aydır-çalıştığı-fırında-1430-sular/904913025159555/"
     },
     {
      "ad": "Samet Demir",
@@ -1896,17 +1871,6 @@
      "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
     },
     {
-     "ad": "Mert Aydın",
-     "yas": 16,
-     "il": "İstanbul",
-     "tarih": "2024-11-26",
-     "isKolu": "hizmet",
-     "olay": "Beyin kanaması sonucu hayatını kaybetti",
-     "mesem": false,
-     "kaynakUrl": "https://x.com/isigmeclisi/status/1872335677398073546",
-     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
-    },
-    {
      "ad": "İlhan Yolcu",
      "yas": 15,
      "il": "Afyonkarahisar",
@@ -1915,27 +1879,6 @@
      "olay": "Yüksekten düşerek hayatını kaybetti",
      "mesem": false,
      "kaynakUrl": "https://www.evrensel.net/haber/534601/15-yasindaki-insaat-iscisi-cocuk-iskeleden-dusup-yasamini-yitirdi"
-    },
-    {
-     "ad": "Muratcan Ateş",
-     "yas": 17,
-     "il": "Elazığ",
-     "tarih": "2024-11-17",
-     "isKolu": "inşaat",
-     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
-     "mesem": false,
-     "kaynakUrl": "https://x.com/isigmeclisi/status/1858201661849608356"
-    },
-    {
-     "ad": "Yusuf Gözel",
-     "yas": 16,
-     "il": "Elazığ",
-     "tarih": "2024-11-17",
-     "isKolu": "inşaat",
-     "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
-     "mesem": false,
-     "kaynakUrl": "https://x.com/isigmeclisi/status/1858201661849608356",
-     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
     },
     {
      "ad": "Murat Ateş",
@@ -1955,8 +1898,7 @@
      "isKolu": "inşaat",
      "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
      "mesem": false,
-     "kaynakUrl": "https://www.evrensel.net/haber/534199/elazigda-teleskopik-yukleyicinin-devrilmesi-sonucu-2-cocuk-isci-hayatini-kaybetti",
-     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+     "kaynakUrl": "https://www.evrensel.net/haber/534199/elazigda-teleskopik-yukleyicinin-devrilmesi-sonucu-2-cocuk-isci-hayatini-kaybetti"
     },
     {
      "ad": "Tarık El Deyab",
@@ -1999,17 +1941,6 @@
      "kaynakUrl": "https://yeniyasamgazetesi9.com/karamanda-isci-servisi-devrildi-2-olu/"
     },
     {
-     "ad": "Selahattin Erol",
-     "yas": 17,
-     "il": "Antalya",
-     "tarih": "2024-10-02",
-     "isKolu": "tarım",
-     "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
-     "mesem": false,
-     "kaynakUrl": "https://www.antalyasokaklari.com/sokak/tarla-suren-cocuk-isci-yildirim-carpmasi-sonucu-hayatini-kaybetti.html",
-     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
-    },
-    {
      "ad": "Tamir D.",
      "yas": 16,
      "il": "Şanlıurfa",
@@ -2027,8 +1958,7 @@
      "isKolu": "tarım",
      "olay": "Yıldırım çarpması sonucu hayatını kaybetti",
      "mesem": false,
-     "kaynakUrl": "https://x.com/isigmeclisi/status/1841020941561663563",
-     "not": "Aynı ad-soyad kayıtta birden fazla geçiyor; mükerrer kayıt olabilir, kontrol edilmeli"
+     "kaynakUrl": "https://x.com/isigmeclisi/status/1841020941561663563"
     },
     {
      "ad": "Ögün Dinç",
@@ -2039,16 +1969,6 @@
      "olay": "Makine veya ağır bir nesnenin altında kalarak hayatını kaybetti",
      "mesem": false,
      "kaynakUrl": "https://www.tmmob.org.tr/icerik/mesem-ve-cocuk-isci-olumleri-hakkinda-tmmob-isci-sagligi-ve-guvenligi-calisma-grubu"
-    },
-    {
-     "ad": "Muammed C.",
-     "yas": 17,
-     "il": "İstanbul",
-     "tarih": "2024-09-21",
-     "isKolu": "sanayi/atölye",
-     "olay": "Yangın veya patlamada hayatını kaybetti",
-     "mesem": false,
-     "kaynakUrl": "https://www.evrensel.net/haber/528776/arnavutkoyde-is-cinayeti-17-yasindaki-multeci-cocuk-kereste-atolyesinde-cikan-yanginda-oldu"
     },
     {
      "ad": "Muhammed C.",
