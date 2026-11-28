@@ -23,7 +23,7 @@ python3 scripts/insta/sync_latest.py --no-push         # yerelde üret ve commit
 python3 scripts/insta/sync_latest.py --refetch KOD     # bir gönderiyi baştan çek (beğeni sayısı, kapak vb.)
 ```
 
-Elle çalıştırmak için: GitHub'da Actions → "Akış (Instagram senkronu)" → Run workflow. "dry_run" işaretlenirse yalnızca yeni gönderileri listeler.
+Elle çalıştırmak için: GitHub'da Actions → "Akış (Instagram senkronu)" → Run workflow. "dry_run" işaretlenirse yalnızca yeni gönderileri listeler. Izgaradaki son 6 gönderinin dışında kalanlar "refetch" alanına kodlarıyla yazılarak eklenir.
 
 ### Başka bir makinede çalıştırmak (isteğe bağlı)
 

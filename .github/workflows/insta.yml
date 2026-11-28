@@ -12,6 +12,10 @@ on:
         description: "Yalnızca yeni gönderileri listele, hiçbir şey yazma"
         type: boolean
         default: false
+      refetch:
+        description: "Izgarada olmayan ya da yenilenecek gönderi kodları (boşlukla ayrılmış)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -36,14 +40,20 @@ jobs:
 
       - name: Yeni gönderiler (deneme)
         if: ${{ inputs.dry_run }}
-        run: python3 scripts/insta/sync_latest.py --dry-run
+        env:
+          REFETCH: ${{ inputs.refetch }}
+        run: python3 scripts/insta/sync_latest.py --dry-run ${REFETCH:+--refetch $REFETCH}
 
       - name: Yeni gönderileri ekle ve main'e gönder
         id: sync
         if: ${{ !inputs.dry_run }}
+        env:
+          REFETCH: ${{ inputs.refetch }}
         run: |
           set -o pipefail
-          python3 scripts/insta/sync_latest.py | tee "$RUNNER_TEMP/sync.log"
+          # Kodlar yalnızca harf, rakam, - ve _ içerir; başka karakter varsa reddet.
+          case "$REFETCH" in *[!A-Za-z0-9_\ -]*) echo "geçersiz kod: $REFETCH"; exit 1 ;; esac
+          python3 scripts/insta/sync_latest.py ${REFETCH:+--refetch $REFETCH} | tee "$RUNNER_TEMP/sync.log"
           if grep -q "^push tamam" "$RUNNER_TEMP/sync.log"; then echo "pushed=1" >> "$GITHUB_OUTPUT"; fi
 
       # GITHUB_TOKEN ile yapılan push pages.yml'i tetiklemez; yayın elle başlatılır.
